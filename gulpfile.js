@@ -75,6 +75,11 @@ gulp.task('connect', function(){
 	});
 });
 
+gulp.task('copyfonts', function() {
+	gulp.src('src/fonts/**/*.{ttf,woff,eof,svg,otf}')
+	.pipe(gulp.dest(outputDir+'/fonts'));
+});
+
 gulp.task('watch', function(){
 	gulp.watch('src/js/**/*.js', ['scripts'])
 	gulp.watch('src/scss/**/*.{scss,sass}', ['compass'])
