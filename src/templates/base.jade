@@ -8,4 +8,10 @@ html(lang="es")
 		link(rel="stylesheet", href="css/general.css")		
 		script(src="js/vendor/modernizr.js")
 	body
-		block content
+		.general-wrapper
+			include ./partials/header.jade
+
+			.content
+				block content
+
+			include ./partials/footer.jade	
