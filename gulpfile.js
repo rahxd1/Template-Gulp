@@ -1,8 +1,10 @@
+'use strict';
+
 var gulp = require('gulp');
 
 var uglify = require('gulp-uglify');
 
-var sass = require('gulp-sass');
+var compass = require('gulp-compass');
 
 var imagemin = require('gulp-imagemin');
 
@@ -22,21 +24,29 @@ function errorlog(error){
 // Tasks
 
 gulp.task('scripts', function(){
-	gulp.src('src/js/*.js')
+	gulp.src('src/js/**/*.js')
 		.pipe(uglify())
 		.on('error', errorlog)
 		.pipe(gulp.dest(outputDir+'/js'))
 		.pipe(connect.reload());	
 });
 
-gulp.task('styles', function(){
-	gulp.src('src/scss/**/*.{scss,sass}')
-		.pipe(sass({
-			sytle: 'compressed'}
-		).on('error', sass.logError))
-		.pipe(prefix('last 2 versions'))
-		.pipe(gulp.dest(outputDir+'/css'))
-		.pipe(connect.reload());	
+gulp.task('compass', function() {
+  gulp.src('src/scss/**/*.{scss,sass}')
+    .pipe(compass({
+    	style: 'expanded',
+      	css: outputDir+'/css',
+      	sass: 'src/scss',
+      	require: ['susy',]
+    }))
+    .pipe(prefix('last 2 version', 'safari 5', 'ie 7', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
+    .on('error', function(error) {
+      // Would like to catch the error here 
+      console.log(error);
+      this.emit('end');
+    })
+    .pipe(gulp.dest(outputDir+'/css'))
+    .pipe(connect.reload());;
 });
 
 gulp.task('image', function(){
@@ -66,9 +76,9 @@ gulp.task('connect', function(){
 });
 
 gulp.task('watch', function(){
-	gulp.watch('src/js/*.js', ['scripts'])
-	gulp.watch('src/scss/**/*.{scss,sass}', ['styles'])
+	gulp.watch('src/js/**/*.js', ['scripts'])
+	gulp.watch('src/scss/**/*.{scss,sass}', ['compass'])
 	gulp.watch('src/templates/**/*.jade',['jade-watch'])
 });
 
-gulp.task('default', ['scripts', 'styles', 'jade-compile' ,'watch', 'connect']);
+gulp.task('default', ['scripts', 'compass', 'jade-compile' ,'watch', 'connect']);
