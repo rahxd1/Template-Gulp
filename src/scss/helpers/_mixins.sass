@@ -5,4 +5,9 @@
 		src: url("#{$font-path}/#{$font-file}.otf")
 		font-style: $style
 		font-weight: $weight
-  
+
+=make-grid($num-cols: 12, $col-size: em-calc(60), $col-gap: em-calc(20), $screen-size: em-calc(960))
+	@for $x from 1 through $num-cols 
+		$width: percentage( ( ( $col-size * $x ) + ( ( $x - 1 ) * $col-gap ) ) / $screen-size)
+		.col-#{$x} 
+			width: $width

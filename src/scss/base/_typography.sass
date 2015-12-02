@@ -2,24 +2,35 @@
 +font-face("ProximaNovaRegular", "ProximaNova-Regular")
 +font-face("ProximaNovaLight", "ProximaNova-Light")
 
+body
+	font:
+		family: $font-family-base
+		font-size: em-calc(16)
+	color: $font-color-base	
+
 h1
 	font:
-		family: ProximaNovaRegular
+		family: "ProximaNovaRegular"
 		size: em-calc(40)
-	@extend %text-uppeercase	
+	@extend %text-uppeercase
+	//letter-spacing: em-calc(1)
 
 h2
 	font:
-		family: ProximaNovaLight
+		family: $font-family-base
 		size: em-calc(36)
-	@extend %text-uppeercase	
+	@extend %text-uppeercase
+	@extend %font-color-ligh-blue
+	letter-spacing: em-calc(1.2)
+	margin: 0 0 em-calc(18) 0	
 
 h3
 	font:
-		family: ProximaNovaLight
+		family: $font-family-base
 		size: em-calc(20)
+	@extend %text-uppeercase	
+	@extend %font-color-ligh-blue
+	margin: em-calc(16) 0
 
 p
-	font:
-		family: ProximaNovaLight
-		size: em-calc(16)			
+	line-height: 1.4	
