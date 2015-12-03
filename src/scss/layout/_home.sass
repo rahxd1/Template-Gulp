@@ -51,7 +51,8 @@
 			@include show(medium-up)
 
 		@include bp(small)
-			text-align: left	
+			text-align: left
+			margin-bottom: em-calc(10)	
 
 	.row-flex
 		@extend %flex-wrap-nowrap
@@ -105,7 +106,24 @@
 
 		@include bp(max, em-calc(959))		
 			&:not(:last-of-type)
-				margin-bottom: em-calc(40)						
+				margin-bottom: em-calc(40)
+
+.known-experience
+	article
+		width: em-calc(460)
+		min-width: em-calc(300)
+		@extend %text-align-left
+
+		p
+			margin-top: em-calc(15)
+
+		@include bp(max, em-calc(959))
+			&:not(:last-of-type)
+				margin-bottom: em-calc(40)	
+
+.video-alberta
+	width: 100%
+	height: em-calc(260)
 
 article.working-studying
 	@extend %text-align-left
