@@ -4,6 +4,9 @@
 .container
 	@include container($container_960_layout)
 
+.row
+	@include full
+
 .row-flex
 	@include full
 	@extend %display-flex
@@ -16,4 +19,7 @@
 	border-bottom: em-calc(1) solid $super-ligh-gray	
 
 .border-bottom-grey
-	border-bottom: em-calc(1) solid $super-ligh-gray	
+	border-bottom: em-calc(1) solid $super-ligh-gray
+
+.full-width-blue
+	background-color: $ligh-blue
