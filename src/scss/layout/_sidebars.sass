@@ -1,8 +1,5 @@
 .general-wrapper
-	min-width: em-calc(320)
-
-.full-width-blue
-	background-color: $ligh-blue	
+	min-width: em-calc(320)	
 
 .container
 	@include container($container_960_layout)
@@ -10,3 +7,13 @@
 .row-flex
 	@include full
 	@extend %display-flex
+	@extend %flex-direction-row
+	@extend %flex-wrap-wrap
+	@extend %justify-content-center
+
+.border-top-bottom-grey
+	border-top: em-calc(1) solid $super-ligh-gray
+	border-bottom: em-calc(1) solid $super-ligh-gray	
+
+.border-bottom-grey
+	border-bottom: em-calc(1) solid $super-ligh-gray	

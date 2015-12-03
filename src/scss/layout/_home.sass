@@ -1,3 +1,44 @@
+.why-alberta
+	.row-flex
+		@extend %flex-wrap-nowrap
+
+		@include bp(small)
+			-webkit-flex-wrap: wrap
+			-moz-flex-wrap: wrap
+			-ms-flex-wrap: wrap
+			flex-wrap: wrap
+
+			article.col-4
+				width: 100%
+
+				&:not(:first-of-type)
+					margin-top: em-calc(10)
+
+				&:not(:last-of-type)
+					margin-bottom: em-calc(10)						
+
+.full-width-blue
+	background-color: $ligh-blue
+
+	@include bp(max, em-calc(959))
+		.col-6
+			width: 100%
+
+		article
+			order: 2
+
+		figure
+			order: 1
+
+		h2
+			margin-top: em-calc(15)	!important
+
+	@include bp(small)
+
+		img
+			width: 100%
+			min-width: em-calc(320)		
+
 article.working-studying
 	@extend %text-align-left
 	color: #fff
@@ -16,4 +57,7 @@ article.studies
 		text-transform: none
 		margin: 0
 	p
-		margin: em-calc(15) 0			
+		margin: em-calc(15) 0
+
+a
+	color: $ligh-blue				

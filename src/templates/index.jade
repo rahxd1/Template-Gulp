@@ -2,49 +2,59 @@ extends ./base.jade
 
 block content
 	section.full-container
-	section
+	section.why-alberta
 		.container
 			h2 ¿Por qué Alberta?
-			article
-				h3 	Abundancia de recursos
-				p Alberta tiene una gran abundancia de recursos, agua dulce, la reserva petrolera más grande de Norteamérica, así como también de gas natural.
-			article
-				h3 No impuestos	provinciales
-				p En Alberta no pagas impuestos provinciales, obteniendo ahorros diarios en todos los gastos que incurras durante tu estadía en la provincia Alberta.
-			article
-				h3 Mejores ingresos
-				p Los habitantes de Alberta gozan de mejores ingresos, una de las tasas de desempleo más bajas y más oportunidades laborales para egresados.
-	section
+			.row-flex
+				article.col-4
+					figure
+						img(src='http://ximg.es/155x150/0383a0/fff.jpg', alt='Abundancia de recursos', height="155" width="150")
+					h3 	Abundancia de recursos
+					p Alberta tiene una gran abundancia de recursos, agua dulce, la reserva petrolera más grande de Norteamérica, así como también de gas natural.
+				article.col-4
+					figure
+						img(src='http://ximg.es/155x150/0383a0/fff.jpg', alt='No impuestos	provinciales', height="155" width="150")
+					h3 No impuestos	provinciales
+					p En Alberta no pagas impuestos provinciales, obteniendo ahorros diarios en todos los gastos que incurras durante tu estadía en la provincia Alberta.
+				article.col-4
+					figure
+						img(src='http://ximg.es/155x150/0383a0/fff.jpg', alt= 'Mejores ingresos', height="155" width="150")
+					h3 Mejores ingresos
+					p Los habitantes de Alberta gozan de mejores ingresos, una de las tasas de desempleo más bajas y más oportunidades laborales para egresados.
+	section.full-width-blue
 		.container
-			article
-				h3 Trabaja mientras estudias y quédate cuanto te gradués
-				p Como un estudiante internacional inscrito tiempo completo en un programa de estudios superiores, estás automáticamente autorizado a trabajar hasta 20 horas por semana durante tu periodo de clases y tiemplo completo en vacaciones. Dependiendo el programa que estudies, podrías tener la oportunidad de realizar prácticas profesionales.
-				p Cuando te gradúes de una institución de educación superior en Alberta, eres elegible para quedarte a trabajar en Alberta tiempo completo hasta por tres años, durante los cuales podrías solicitar la residencia permanente en Canadá.
-			figure
-				img(src='http://ximg.es/460x460/00afdb/fff.jpg')
+			.row-flex
+				article.col-6.working-studying
+					h2 Trabaja mientras estudias y quédate cuanto te gradués
+					p Como un estudiante internacional inscrito tiempo completo en un programa de estudios superiores, estás automáticamente autorizado a trabajar hasta 20 horas por semana durante tu periodo de clases y tiemplo completo en vacaciones. Dependiendo el programa que estudies, podrías tener la oportunidad de realizar prácticas profesionales.
+					p Cuando te gradúes de una institución de educación superior en Alberta, eres elegible para quedarte a trabajar en Alberta tiempo completo hasta por tres años, durante los cuales podrías solicitar la residencia permanente en Canadá.
+				figure.col-6 
+					img(src='http://ximg.es/460x460/0383a0/fff.jpg', alt= 'Trabaja mientras estudias')
 	section
 		.container
 			h3 Instituciones de educación superior en Alberta
-		.map-wrapper
+		.map-wrapper.border-top-bottom-grey
 			p Aqui estará el mapa
-	section
+	section.border-bottom-grey
 		.container
-			.row
-				article
-					h3 Estudios de inglés en Alberta
+			.row-flex
+				article.col-6.studies
+					h2 Estudios de inglés en Alberta
 					p La mayoría de las instituciones de educación superior en Alberta ofrecen programas de inglés que ayudan a mejorar las habilidades y dominio del idioma.
 					a(href='javascript:void(0)') más información
-						span Flecha
-				figure
-					img(src='http://ximg.es/460x260/00afdb/fff.jpg')
-			.row
-				figure
-					img(src='http://ximg.es/460x260/00afdb/fff.jpg')
-				article
-					h3 Estudios de inglés en Alberta
-					p La mayoría de las instituciones de educación superior en Alberta ofrecen programas de inglés que ayudan a mejorar las habilidades y dominio del idioma.
+						span &nbsp;&gt;
+				figure.col-6
+					img(src='http://ximg.es/460x260/0383a0/fff.jpg', alt= 'Estudios de inglés en Alberta')
+	section
+		.container					
+			.row-flex
+				figure.col-6
+					img(src='http://ximg.es/460x260/0383a0/fff.jpg', alt= 'rimaria, secundaria y preparatoria en Alberta')
+				article.col-6.studies
+					h2 Primaria, secundaria y preparatoria en Alberta
+					p Si eres mayor de edad y te interesa cursar un idioma, un verano, un semestre o un año académico; puedes estudiar en nuestros distritos escolares.
 					a(href='javascript:void(0)') más información
-						span Flecha
+						span &nbsp;&gt;
 	section
 		.container
 			h3 Sesiones informativas
@@ -62,12 +72,13 @@ block content
 	section
 		.container
 			h3 Conoce la experiencia
-			article
-				video
-				p Cristopher en MacEwan University Edmonton, Alberta
-			article
-				video
-				p Cristopher compartiendo su experiencia después de estudiar en Edmonton, Alberta
+			.row-flex
+				article
+					video
+					p Cristopher en MacEwan University Edmonton, Alberta
+				article
+					video
+					p Cristopher compartiendo su experiencia después de estudiar en Edmonton, Alberta
 	section
 		.container
 			include ./partials/contact-form.jade								
