@@ -1,0 +1,71 @@
+
+#footer
+	background-color: $strong-gray
+	color: #fff
+	border-bottom: em-calc(6) solid $ligh-blue
+
+	.container
+		padding: em-calc(40) 0
+
+	h4
+		text-transform: none
+
+	a, a:link, a:visited
+		text-decoration: none
+		color: #fff
+
+	.text-16
+		font-size: em-calc(18)
+
+	.footer-logo
+		margin-bottom: em-calc(40)
+
+		@include bp(max, em-calc(959))
+			width: em-calc(150)			
+
+	.footer-menu
+		@include show(medium-up)
+
+		margin: 0 em-calc(10)
+		h4
+			font-size: em-calc(16)
+			margin-bottom: 	em-calc(30)
+
+		ul > li 
+			margin-bottom: em-calc(10)
+
+			&:before
+				content: "-"
+				position: relative
+
+			> a:hover
+				@extend %font-color-ligh-blue
+						
+	address
+		margin: 0 em-calc(10) 
+		h4
+			font-size: em-calc(18)
+			margin-bottom: 	em-calc(20)
+		p
+			font-size: em-calc(14)
+			line-height: 1.8
+
+			&:not(:first-of-type)
+				margin-top: em-calc(15)
+
+			&:not(:last-of-type)
+				margin-bottom: em-calc(15)
+
+		.social-links
+			@include show(small)		
+
+	.row-flex
+		@include bp(medium-up)
+			-webkit-flex-wrap: wrap
+			-moz-flex-wrap: wrap
+			-ms-flex-wrap: wrap
+			flex-wrap: wrap
+
+		@include bp(xsmall)
+			.footer-logo, address
+				width: 100%	

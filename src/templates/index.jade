@@ -2,7 +2,7 @@ extends ./base.jade
 
 block content
 	section.full-container
-	section.why-alberta
+	section#why-alberta.why-alberta
 		.container
 			h2 ¿Por qué Alberta?
 			.row-flex
@@ -51,13 +51,13 @@ block content
 			h2.title-small-down Primaria, secundaria y preparatoria en Alberta
 			.row-flex
 				figure.col-6
-					img(src='http://ximg.es/460x260/0383a0/fff.jpg', alt= 'rimaria, secundaria y preparatoria en Alberta')
+					img(src='http://ximg.es/460x260/0383a0/fff.jpg', alt= 'Primaria, secundaria y preparatoria en Alberta')
 				article.col-6.studies
 					h2.title-small-up Primaria, secundaria y preparatoria en Alberta
 					p Si eres mayor de edad y te interesa cursar un idioma, un verano, un semestre o un año académico; puedes estudiar en nuestros distritos escolares.
 					a(href='javascript:void(0)') más información
 						span &nbsp;&gt;
-	section.full-width-blue.section-briefings
+	section#briefings.full-width-blue.section-briefings
 		.container
 			header.row
 				h2 Sesiones informativas
@@ -92,5 +92,4 @@ block content
 					p Cristopher compartiendo su experiencia después de estudiar en Edmonton, Alberta
 	section
 		.container
-			include ./partials/contact-form.jade								
-							
+			include ./partials/contact-form.jade
