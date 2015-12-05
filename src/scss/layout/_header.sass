@@ -1,0 +1,48 @@
+#header
+	@include full
+	padding-top: em-calc(30)
+	padding-bottom: em-calc(10)
+	position: fixed
+	+transition((all .5s))
+
+	.row-flex
+		padding: 0 em-calc(10)
+		@extend %justify-content-space-between
+
+	&.white-header
+		background-color: rgba(#fff, .9)
+		border-bottom: $super-ligh-gray solid em-calc(1)
+		
+		+transition((background-color .5s))
+
+		.header-menu > a
+			color: $strong-gray
+			+transition((color .5s))
+
+			&:hover
+				color: $ligh-blue
+
+.header-menu
+	@extend %display-flex
+	@extend %flex-direction-row
+	@extend %flex-wrap-wrap
+	@extend %justify-content-flex-end
+
+	padding-top: em-calc(20) 
+
+	a
+		@extend %text-uppeercase
+		+transition((color .5s))
+		color: #fff
+		font:
+			family: "ProximaNovaRegular"
+			size: em-calc(14)
+
+		&:hover
+			color: $ligh-blue
+
+		&:not(:first-of-type)
+			margin-left: em-calc(10)
+
+		&:not(:last-of-type)
+			margin-right: em-calc(10)		

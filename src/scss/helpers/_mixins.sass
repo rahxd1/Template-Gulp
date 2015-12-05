@@ -11,3 +11,17 @@
 		$width: percentage( ( ( $col-size * $x ) + ( ( $x - 1 ) * $col-gap ) ) / $screen-size)
 		.col-#{$x} 
 			width: $width
+
+=transition($transition)
+	-webkit-transition: $transition
+	-moz-transition: $transition
+	-ms-transition: $transition
+	-o-transition: $transition
+	transition: $transition
+
+=transition-transform($transition)
+	-webkit-transition: -webkit-transform $transition
+	-moz-transition: -moz-transform $transition
+	-ms-transition: -o-transform $transition
+	-o-transition: -o-transform $transition
+	transition: transform $transition
