@@ -10,6 +10,24 @@
 .icon-menu.icon-close
 	background-image: url($icon-path + "menu_cerrar_icono.png") !important
 
+.icon-fb
+	background-image: url($icon-path + "icono_facebook.png")
+	background-repeat: no-repeat
+	background-size: 7px 14px
+	position: relative
+	width: 7px
+	height: 14px
+	display: inline-block
+
+.icon-yt
+	background-image: url($icon-path + "icono_youtube_blanco.png")
+	background-repeat: no-repeat
+	background-size: 21px 15px
+	position: relative
+	width: 21px
+	height: 15px
+	display: inline-block	
+
 .menu-bar
 	padding: 0 em-calc(10)
 	z-index: 1000
@@ -35,24 +53,6 @@
 		+transition((background-color .5s))
 
 .social-links
-
-	.icon-fb
-		background-image: url($icon-path + "icono_facebook.png")
-		background-repeat: no-repeat
-		background-size: 7px 14px
-		position: relative
-		width: 7px
-		height: 14px
-		display: inline-block
-
-	.icon-yt
-		background-image: url($icon-path + "icono_youtube_blanco.png")
-		background-repeat: no-repeat
-		background-size: 21px 15px
-		position: relative
-		width: 21px
-		height: 15px
-		display: inline-block
 
 	+bp(max, em-calc(919))
 		.icon-fb
