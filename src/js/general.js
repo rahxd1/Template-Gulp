@@ -82,7 +82,7 @@ $(document).ready(function() {
 			}else {
 				count=1
 				$('.header-menu').animate({
-					top: '-100%'
+					top: '-200%'
 				},500);
 				$(header).removeClass('mobile-white-header');
 				$(icon_menu).removeClass('icon-close')

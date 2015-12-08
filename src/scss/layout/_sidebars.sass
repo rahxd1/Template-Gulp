@@ -24,12 +24,21 @@
 .full-width-blue
 	background-color: $ligh-blue
 
+.content-480-up
+	+show(small-up)
+
+.content-480-down
+	+show(xsmall)	
+
 .section-hero
 	padding: 0
 	
 	.filled
 		position: relative
 		width: 100%	
+
+	p		
+		padding: 0 em-calc(10)	
 	
 	header
 		width: 100%
@@ -44,12 +53,21 @@
 		p	
 			font-size: em-calc(20)
 
+	.content-480-down
+		p
+			text-align: left
+			margin-top: em-calc(20)	
+
 	.fullsize-image > div
 		background-position: center center
 		background-repeat: no-repeat
 		background-size: cover
 		height: 100%
 		width: 100%
+
+	+bp(xsmall)
+		border-bottom: em-calc(2) solid $super-ligh-gray
+		padding-bottom: em-calc(20)
 			
 
 .fullsize-filter
@@ -59,4 +77,4 @@
 	background-color: rgba(#000, .6) 
 	background-size: cover
 	opacity: .6
-	z-index: 50
+	z-index: 50	
