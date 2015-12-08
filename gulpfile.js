@@ -88,6 +88,11 @@ gulp.task('copyfonts', function() {
 	.pipe(gulp.dest(outputDir+'/fonts'));
 });
 
+gulp.task('copyimgs', function() {
+	gulp.src('src/imgs/**/*.{png,jpg}')
+	.pipe(gulp.dest(outputDir+'/imgs'));
+});
+
 gulp.task('watch', function(){
 	browserSync.init({
 		server: outputDir

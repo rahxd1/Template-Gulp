@@ -1,9 +1,12 @@
 header#header
 	.container
 		.row-flex
-			.logo
-				a(href='/')
-					img(alt='Alberta' src='http://ximg.es/150x32/0383a0/fff.jpg')
+			.menu-bar
+				a.logo(href='/')
+					img.negative-logo(alt='Alberta' src='./imgs/icons/logo_alberta_negativo.png')
+					img.positive-logo(alt='Alberta' src='./imgs/icons/logo_alberta_positivo.png')
+				a.btn-menu(href='javascript:void(0)')
+					span.icon-menu
 			nav.header-menu
 				a(href='#why-alberta') ¿Por qué Alberta?
 				a(href='#briefings') Sesiones informativas

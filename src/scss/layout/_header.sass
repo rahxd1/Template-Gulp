@@ -1,13 +1,64 @@
+.icon-menu
+	background-image: url($icon-path + "menu_icono_blanco.png")
+	background-repeat: no-repeat
+	background-size: 45px 35px
+	position: relative
+	width: 45px
+	height: 35px
+	display: inline-block
+
+.icon-menu.icon-close
+	background-image: url($icon-path + "menu_cerrar_icono.png") !important
+
+.menu-bar
+	padding: 0 em-calc(10)
+	z-index: 1000
+
+	.btn-menu
+		display: none
+
+	.logo
+		img
+			height: em-calc(52)	
+
+	+bp(max, em-calc(919))
+
+		.logo, .btn-menu
+			display: inline-block
+
+		.btn-menu
+			float: right	
+
+.mobile-white-header
+	+bp(max, em-calc(919))
+		background-color: rgba(#fff, .9)
+		+transition((background-color .5s))
+
 #header
-	@include full
+	+full
 	padding-top: em-calc(30)
 	padding-bottom: em-calc(10)
 	position: fixed
-	+transition((all .5s))
+	z-index: 100
 
 	.row-flex
 		padding: 0 em-calc(10)
 		@extend %justify-content-space-between
+
+		+bp(max, em-calc(919))
+			padding: 0
+			flex-direction: column
+			justify-content: center
+
+	.positive-logo
+		display: none
+
+	&.mobile-white-header
+		.positive-logo
+			display: block
+			
+		.negative-logo
+			display: none		
 
 	&.white-header
 		background-color: rgba(#fff, .9)
@@ -22,6 +73,15 @@
 			&:hover
 				color: $ligh-blue
 
+		.icon-menu		
+			background-image: url($icon-path + "menu_icono_azul.png")
+
+		.negative-logo
+			display: none
+
+		.positive-logo
+			display: block	
+
 .header-menu
 	@extend %display-flex
 	@extend %flex-direction-row
@@ -33,6 +93,7 @@
 	a
 		@extend %text-uppeercase
 		+transition((color .5s))
+		text-align: center
 		color: #fff
 		font:
 			family: "ProximaNovaRegular"
@@ -45,4 +106,24 @@
 			margin-left: em-calc(10)
 
 		&:not(:last-of-type)
-			margin-right: em-calc(10)		
+			margin-right: em-calc(10)
+
+	+bp(max, em-calc(919))
+		overflow: scroll
+		flex-direction: column
+		justify-content: center
+		top: -100%
+		position: fixed
+		width: 100%
+		background-color: rgba(#fff, .9)
+		padding: 0
+
+		> a
+			color: $strong-gray
+			margin: 0 !important
+			padding: em-calc(12) 0
+			border-bottom: $super-ligh-gray solid em-calc(2)
+
+			&:first-of-type
+				border-top: $super-ligh-gray solid em-calc(2)
+
