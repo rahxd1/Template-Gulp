@@ -33,10 +33,33 @@ $(document).ready(function() {
 		resizeContainerVideo();
 	});
 
-	if($('.filled').length != 0){
+	if($('.filled').length > 0){
 		resizeContainerVideo()
 	};
 
+	var fullsize_video = $('.fullsize-video');
+
+	if(fullsize_video.length > 0 && $('html.video').length > 0){
+		var video = $(fullsize_video).find('video')
+
+		if(video.length > 0){
+			if(video.get(0).canPlayType){
+				playVideo = function(){
+					video.get(0).play();
+					$('.fullsize-image').hide();
+				};
+
+				if(video.get(0).readyState >= video.get(0).HAVE_FUTURE_DATA){
+					playVideo();
+				}else{
+					video.get(0).addEventListener('canplay', function(){
+						return playVideo();
+					}, false);
+				};
+			};
+		};
+
+	};
 	
 	var display_menu= function(){
 

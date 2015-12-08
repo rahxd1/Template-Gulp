@@ -34,6 +34,54 @@
 		background-color: rgba(#fff, .9)
 		+transition((background-color .5s))
 
+.social-links
+
+	.icon-fb
+		background-image: url($icon-path + "icono_facebook.png")
+		background-repeat: no-repeat
+		background-size: 7px 14px
+		position: relative
+		width: 7px
+		height: 14px
+		display: inline-block
+
+	.icon-yt
+		background-image: url($icon-path + "icono_youtube_blanco.png")
+		background-repeat: no-repeat
+		background-size: 21px 15px
+		position: relative
+		width: 21px
+		height: 15px
+		display: inline-block
+
+	+bp(max, em-calc(919))
+		.icon-fb
+			background-image: url($icon-path + "icono_facebook_azul.png")
+		.icon-yt
+			background-image: url($icon-path + "icono_youtube_rojo.png")
+
+		a
+			margin: 0 !important
+			display: inline-block
+			position: relative
+			width: 50%
+			padding: em-calc(20) 0
+
+			&:first-of-type
+				border-right: $super-ligh-gray solid em-calc(2)
+
+	+bp(min, em-calc(920))
+		margin-left: em-calc(15)
+
+		a
+			&:first-of-type
+				margin: 0 em-calc(12) !important
+
+			&:last-of-type
+				margin-left: em-calc(12) !important
+
+	
+
 #header
 	+full
 	padding-top: em-calc(30)
@@ -80,7 +128,13 @@
 			display: none
 
 		.positive-logo
-			display: block	
+			display: block
+
+		.social-links
+			.icon-fb
+				background-image: url($icon-path + "icono_facebook_azul.png")
+			.icon-yt
+				background-image: url($icon-path + "icono_youtube_rojo.png")		
 
 .header-menu
 	@extend %display-flex
@@ -121,8 +175,12 @@
 		> a
 			color: $strong-gray
 			margin: 0 !important
-			padding: em-calc(12) 0
+			padding: em-calc(20) 0
 			border-bottom: $super-ligh-gray solid em-calc(2)
+
+			&:hover
+				color: #fff !important
+				background-color: $ligh-blue !important
 
 			&:first-of-type
 				border-top: $super-ligh-gray solid em-calc(2)
