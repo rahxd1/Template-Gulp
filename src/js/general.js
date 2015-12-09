@@ -90,5 +90,19 @@ $(document).ready(function() {
 		});
 	};
 
+	$('.fancybox-video').fancybox({
+		maxWidth	: 856,
+		maxHeight	: 480,
+		helpers		:  {
+        	//overlay : null
+    	}
+		//fitToView	: false,
+		//autoSize	: false,
+		//closeClick	: false,
+		//openEffect	: 'none',
+		//closeEffect	: 'none'
+	});
+
+
 	display_menu();
 });
