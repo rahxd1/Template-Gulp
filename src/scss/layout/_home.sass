@@ -119,11 +119,33 @@
 
 		@include bp(max, em-calc(959))
 			&:not(:last-of-type)
-				margin-bottom: em-calc(40)	
+				margin-bottom: em-calc(40)
 
-.video-alberta
-	width: 100%
-	height: em-calc(260)
+		img
+			width: 100%
+
+	.block-video
+		position: relative
+
+		&:hover
+			.button-video
+				background-color: rgba($ligh-blue, .6)
+				+transition(all 0.35s ease 0s)
+
+	.background-video
+		position: relative
+
+	.button-video
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+
+		.fancybox-video
+			left: 40%
+			position: relative
+			top: 40%	
 
 article.working-studying
 	@extend %text-align-left
