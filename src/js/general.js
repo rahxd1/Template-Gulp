@@ -159,4 +159,8 @@ $(document).ready(function() {
 	});
 
 	display_menu();
+
+	if($('.semi-filled').length > 0){
+		$('.semi-filled').imagefill();
+	}
 });

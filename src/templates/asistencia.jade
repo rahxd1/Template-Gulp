@@ -1,0 +1,25 @@
+extends ./base.jade
+
+block content
+	section.section-hero.section-confirmation
+		.semi-filled
+			.fullsize-filter
+			header
+				.container
+					h1 Confirma tu asistencia
+			.fullsize-image.semi-filled
+				div(style="background-image: url(../imgs/hero_confirmacion.jpg)")
+			.row
+				.date
+					h4 Noviembre 18	
+	section.section-briefings.section-session
+		.container
+			.row
+				article.session
+					p.title-session Sesión informativa en línea
+					p.date-session Martes 18 de Noviembre
+						br
+						span 8:00 pm
+	section.full-width-ligh-gray
+		.container
+			include ./partials/contact-form.jade
