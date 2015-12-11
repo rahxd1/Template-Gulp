@@ -56,9 +56,9 @@ form.contact-form
 			float: right
 
 		+bp(xsmall)
-			.checkbox
-				display: inline-block
-				width: 100%					
+		
+			display: inline-block
+			width: 100%
 
 	.form-group
 		position: relative
@@ -102,4 +102,6 @@ form.contact-form
 		&.error
 			border: em-calc(1) solid $red
 
-		
+			&:focus, &:active
+				border: em-calc(1) solid $red
+				box-shadow: 0 em-calc(1)  em-calc(1)  rgba(0, 0, 0, 0.075) inset, 0 0 em-calc(4)  rgba($red, 0.5)

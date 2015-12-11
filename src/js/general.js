@@ -103,6 +103,60 @@ $(document).ready(function() {
 		//closeEffect	: 'none'
 	});
 
+	var validateEmail = function(email) {
+		var re = /^([\w-]+(?:\.[\w-]+)*)@((?:[\w-]+\.)*\w[\w-]{0,66})\.([a-z]{2,6}(?:\.[a-z]{2})?)$/i;
+		return re.test(email);
+	};
+
+	
+	$('#email').focusout(function(){
+		if (!validateEmail($(this).val())){
+			$(this).addClass('error');
+      		$(this).siblings('span.error').show()
+			$(this).val('');
+		}
+	});
+
+	$('form.contact-form').bind('submit', function(e){
+		var form = $(e.target).closest('form'),
+			inputSelector = ['input[type=email]', 'input[type=text]',].join(', '),
+			inputs = form.find('.required').find(inputSelector);
+
+		$('.form-control').removeClass('error');
+
+		inputs.each(function(i, el) {
+    		var input = $(el);
+    		if (input.val() === '') {
+      			input.addClass('error');
+      			input.siblings('span.error').show()
+      			e.preventDefault(); 
+    		}else {
+    			input.siblings('span.error').hide()
+    		}
+  		});
+	});
+
+	var inputSelector = ['input[type=email]', 'input[type=text]', 'textarea'].join(', ');
+
+	$('form.contact-form').find(inputSelector).each(function(i, el){
+		var input = $(el);
+
+		input.focus(function(){
+			$(this).siblings('label.label').addClass('active');
+		});
+
+		input.blur(function(){
+			if ($(this).val() <= 0){
+				$(this).siblings('label.label').removeClass('active');
+			}	
+		});
+	});
+
+	$('form.contact-form').on('submit', function(){
+		if($('.form-control.error').length !== 0){
+			return false;
+		}
+	});
 
 	display_menu();
 });
