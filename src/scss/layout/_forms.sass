@@ -1,4 +1,4 @@
-form
+form.contact-form
 	margin: 0 auto
 	max-width: em-calc(480)
 	min-width: em-calc(320)
@@ -6,6 +6,12 @@ form
 
 	.form-group-submit
 		position: relative
+		margin-top: em-calc(20)
+
+		span
+			font:
+				family: 'ProximaNovaRegular'
+				size: em-calc(14)
 
 		.checkbox
 			display: inline-block
@@ -14,15 +20,16 @@ form
 
 			label
 				position: relative
-				//display: inline-block
-				//width: 70%
-				//text-align: left
-				//float: left
-				//padding-left: em-calc(10)
-				//text-indent: em-calc(-15)
+				display: block
+				padding-left: em-calc(40)
+				text-indent: em-calc(-1)
+				text-align: left
 
 			input[type="checkbox"]:not(old)
-				opacity: 0	
+				opacity: 0
+				position: absolute
+				height: 0
+				width: 0
 
 			input[type='checkbox']:not(old) + span::after
 				background-image: url($icon-path+'radial_inactive.png')
@@ -32,20 +39,26 @@ form
 				content: ''
 				display: block
 				position: absolute
-				height: em-calc(30)
-				width: em-calc(30)
-				left: 0
-				top: 0
+				height: em-calc(31)
+				width: em-calc(31)
+				left: em-calc(-45)
+				top: em-calc(-35)
 				position: relative
 				overflow: hidden
-				margin-right: em-calc(15)
 				vertical-align: bottom
+				cursor: pointer
 
 			input[type='checkbox']:checked:not(old) + span::after
 				background-image: url($icon-path+'radial_active.png')
 
 		.button	
 			display: inline-block
+			float: right
+
+		+bp(xsmall)
+			.checkbox
+				display: inline-block
+				width: 100%					
 
 	.form-group
 		position: relative
