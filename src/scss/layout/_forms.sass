@@ -51,14 +51,12 @@ form.contact-form
 			input[type='checkbox']:checked:not(old) + span::after
 				background-image: url($icon-path+'radial_active.png')
 
+			+bp(xsmall)
+				display: inline-block
+				width: 100%
 		.button	
 			display: inline-block
-			float: right
-
-		+bp(xsmall)
-		
-			display: inline-block
-			width: 100%
+			float: right		
 
 	.form-group
 		position: relative

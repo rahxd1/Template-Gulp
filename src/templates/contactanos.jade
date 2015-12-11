@@ -1,4 +1,19 @@
 extends ./base.jade
 
+extends ./base.jade
+
 block content
-	h1 Contactanos
+	section.section-hero
+		.semi-filled
+			.fullsize-filter
+			header
+				.container
+					h1 ¿En qué podemos ayudarte?
+					p.content-480-up Vive la experiencia estudiando en Alberta
+			.fullsize-image.semi-filled
+				div(style="background-image: url(../imgs/hero_contacto.jpg)")
+		.container.content-480-down
+			p Vive la experiencia estudiando en Alberta			
+	section.full-width-ligh-gray.section-padding-top-20
+		.container
+			include ./partials/contact-form.jade				
