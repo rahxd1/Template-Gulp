@@ -1,0 +1,46 @@
+.section-faqs
+	.row-flex
+		+bp(max, em-calc(960))
+			-webkit-flex-wrap: wrap
+			-moz-flex-wrap: wrap
+			-ms-flex-wrap: wrap
+			flex-wrap: wrap
+
+	article.col-4
+		width: em-calc(300)
+		margin-bottom: em-calc(20)
+		border: em-calc(1.5) solid $super-ligh-gray
+		border-radius: em-calc(5)
+
+		figure
+			margin: 0
+			position: relative
+
+		.block-faq	
+			position: relative
+
+		.faq-hover
+			position: absolute
+			top: 0
+			left: 0
+			width: 100%
+			height: 100%
+
+		span
+			text-align: left
+			display: block
+			font-family: "ProximaNovaRegular"
+			text-transform: uppercase
+			padding: em-calc(20) em-calc(0) em-calc(15) em-calc(30)
+			color: $strong-gray
+
+		a
+			position: relative
+
+		&:hover
+			.faq-hover
+				background-color: rgba($ligh-blue, .6)
+				+transition(all 0.35s ease 0s)
+
+			span
+				color: $ligh-blue
