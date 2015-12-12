@@ -1,0 +1,178 @@
+.why-alberta
+	.row-flex
+		@extend %flex-wrap-nowrap
+
+		+bp(max, em-calc(900))
+			-webkit-flex-wrap: wrap
+			-moz-flex-wrap: wrap
+			-ms-flex-wrap: wrap
+			flex-wrap: wrap
+
+			article.col-4
+				width: 100%
+
+				&:not(:first-of-type)
+					margin-top: em-calc(10)
+
+				&:not(:last-of-type)
+					margin-bottom: em-calc(10)
+
+		p
+			padding: 0 em-calc(12)									
+
+.section-working-studying
+
+	@include bp(max, em-calc(959))
+		.col-6
+			width: 100%
+
+		article
+			order: 2
+
+		figure
+			order: 1
+
+		h2
+			margin-top: em-calc(15)	!important
+
+	@include bp(small)
+
+		img
+			width: 100%
+			min-width: em-calc(320)
+
+.section-studies
+	h2
+		text-transform: none
+		margin: 0
+
+		&.title-small-down
+			padding: 0 10px
+			@include show(small)
+
+		&.title-small-up
+			@include show(medium-up)
+
+		@include bp(small)
+			text-align: left
+			margin-bottom: em-calc(10)	
+
+	.row-flex
+		@extend %flex-wrap-nowrap
+		img
+			width: 100%
+
+		@include bp(small)
+			-webkit-flex-wrap: wrap
+			-moz-flex-wrap: wrap
+			-ms-flex-wrap: wrap
+			flex-wrap: wrap
+
+			.col-6
+				width: 100%
+
+	&.border-bottom-grey
+		@include bp(small)
+			article
+				order: 2
+			figure
+				order: 1																		
+.section-briefings
+	header
+		margin-bottom: em-calc(40)
+
+		h2
+			@extend %text-color-white
+			margin: 0 0 em-calc(5) 0
+		p
+			@extend %text-color-white
+			padding: 0 em-calc(12)
+
+	h4
+		background-color: $strong-gray
+		padding: em-calc(12) 0
+		@extend %text-color-white
+
+	article
+		width: em-calc(460)
+		min-width: em-calc(300)
+		background-color: #fff
+		padding-bottom: em-calc(20)
+
+		.title-session
+			@extend %font-color-ligh-blue
+			font-size: 	em-calc(24)
+			margin: em-calc(8) 0
+
+		.date-session
+			margin-bottom: em-calc(20)
+			span	
+				font:
+					family: "ProximaNovaSemiBold"
+					size: em-calc(24)
+
+		@include bp(max, em-calc(959))		
+			&:not(:last-of-type)
+				margin-bottom: em-calc(40)
+
+	.button
+		width: em-calc(260)		
+
+.known-experience
+	article
+		width: em-calc(460)
+		min-width: em-calc(300)
+		@extend %text-align-left
+
+		p
+			margin-top: em-calc(15)
+
+		@include bp(max, em-calc(959))
+			&:not(:last-of-type)
+				margin-bottom: em-calc(40)
+
+		img
+			width: 100%
+
+	.block-video
+		position: relative
+
+		&:hover
+			.button-video
+				background-color: rgba($ligh-blue, .6)
+				+transition(all 0.35s ease 0s)
+
+	.background-video
+		position: relative
+
+	.button-video
+		position: absolute
+		top: 0
+		left: 0
+		width: 100%
+		height: 100%
+
+		.fancybox-video
+			left: 40%
+			position: absolute
+			top: 40%	
+
+article.working-studying
+	@extend %text-align-left
+	color: #fff
+
+	h2
+		@extend %text-color-white
+		margin: 0
+
+	p
+		margin: em-calc(15) 0
+
+article.studies
+	@extend %text-align-left
+
+	p
+		margin: em-calc(15) 0
+
+a
+	color: $ligh-blue				

@@ -1,0 +1,32 @@
+
+@include border-box-sizing
+
++make-grid()
+
+article
+	margin: 0 em-calc(10)
+
+section
+	padding: em-calc(80) 0
+	text-align: center
+
+	+bp(xsmall)
+		padding: em-calc(40) 0
+
+figure
+	margin: 0 em-calc(10)
+
+img
+	//width: 100%
+
+a			
+	text-decoration: none
+
+input[type="submit"], input[type="reset"], input[type="button"]
+	+user-select(none)
+	-webkit-appearance: none
+	white-space: nowrap	
+	
+//$susy: (columns: 12, container: em-calc(960), global-box-sizing: border-box, debug: (image: show))
+$container_960_layout: (columns: 12, container: em-calc(960), gutters: 0, gutter-position: inside-static, global-box-sizing: border-box, debug: (image: hide) )
+

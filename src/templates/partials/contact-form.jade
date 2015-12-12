@@ -1,0 +1,23 @@
+.row
+	form.contact-form
+		.form-group.required
+			input#nombre.form-control(type='text')
+			label.label(for="nombre") Nombre
+			span.error *campo obligatorio
+		.form-group.required
+			input#email.form-control(type='email')
+			label.label(for="email") email
+			span.error *campo obligatorio
+		.form-group
+			input#ciudad.form-control(type='text')
+			label.label(for="ciudad") Ciudad
+		.form-group		
+			textarea#comentario.form-control(rows=4)
+			label.label(for='comentario') ¿Qué te interesa estudiar en Alberta?
+		.form-group-submit
+			.checkbox			
+				label
+					input#privacidad(type='checkbox', name='privacidad', value='true')
+					span Quiero recibir noticias y eventos para estudiar en Alberta.&nbsp;
+						a(title='Aviso de privacidad', href='', target='_blank') Aviso de privacidad
+			input.button.button-blue(type='submit', value='Enviar')

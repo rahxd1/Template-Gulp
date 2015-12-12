@@ -1,0 +1,105 @@
+.icon-phone
+	background-image: url($icon-path + "icono_cel.png")
+	background-repeat: no-repeat
+	background-size: 11px 17px
+	position: relative
+	width: 11px
+	height: 17px
+	display: inline-block
+	margin-right: em-calc(10)
+	top: em-calc(4)
+
+.icon-mail
+	background-image: url($icon-path + "icono_mail.png")
+	background-repeat: no-repeat
+	background-size: 13px 10px
+	position: relative
+	width: 13px
+	height: 10px
+	display: inline-block
+	margin-right: em-calc(10)
+
+#footer
+	background-color: $strong-gray
+	color: #fff
+	border-bottom: em-calc(6) solid $ligh-blue
+
+	.container
+		padding: em-calc(40) 0
+
+	h4
+		text-transform: none
+
+	a, a:link, a:visited
+		text-decoration: none
+		color: #fff
+
+	.text-16
+		font-size: em-calc(18)
+
+	.footer-logo
+		margin-bottom: em-calc(40)
+
+		@include bp(max, em-calc(959))
+			width: em-calc(150)			
+
+	.footer-menu
+		@include show(medium-up)
+
+		margin: 0 em-calc(10)
+		h4
+			font-size: em-calc(16)
+			margin-bottom: 	em-calc(30)
+
+		ul > li 
+			margin-bottom: em-calc(10)
+
+			&:before
+				content: "-"
+				position: relative
+
+			> a:hover
+				@extend %font-color-ligh-blue
+
+	.footer-social-links
+		margin-top: em-calc(15)
+
+		.icon-fb
+			background-size: 9px 19px
+			width: 9px
+			height: 19px
+			margin-right: em-calc(10)
+		.icon-yt
+			background-size: 28px 20px
+			width: 28px
+			height: 20px
+			margin-left: em-calc(10)			
+						
+	address
+		margin: 0 em-calc(10) 
+		h4
+			font-size: em-calc(18)
+			margin-bottom: 	em-calc(20)
+		p
+			font-size: em-calc(14)
+			line-height: 1.8
+
+			&:not(:first-of-type)
+				margin-top: em-calc(15)
+
+			&:not(:last-of-type)
+				margin-bottom: em-calc(15)
+
+		.footer-social-links
+			@include show(small)		
+
+	.row-flex
+		@include bp(medium-up)
+			-webkit-flex-wrap: wrap
+			-moz-flex-wrap: wrap
+			-ms-flex-wrap: wrap
+			flex-wrap: wrap
+
+		@include bp(xsmall)
+			.footer-logo, address
+				width: 100%	

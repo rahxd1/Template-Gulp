@@ -8,4 +8,13 @@ html(lang="es")
 		link(rel="stylesheet", href="css/general.css")		
 		script(src="js/vendor/modernizr.js")
 	body
-		block content
+		.general-wrapper
+			include ./partials/header.jade
+			main.content
+				block content
+			include ./partials/footer.jade
+		script(src="js/vendor/jquery-2.1.4.min.js")
+		script(src="js/vendor/jquery.waypoints.min.js")
+		script(src="js/vendor/jquery-imagefill.js")
+		script(src="js/vendor/jquery.fancybox.js")
+		script(src="js/general.js")

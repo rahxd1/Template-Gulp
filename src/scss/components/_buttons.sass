@@ -1,0 +1,40 @@
+
+.play-button 
+	height: em-calc(40)
+	width: em-calc(56)  
+	background-color: rgba(#fff, 0.4)
+	border-radius: em-calc(12)
+	position: relative
+	display: block
+
+	&:hover 
+		background-color: rgba(#fff, 0.8)
+
+
+	&:after 
+		content: ""
+		display: block
+		position: absolute
+		top: 10.5px
+		left: 24px
+		margin: 0 auto
+		border-style: solid
+		border-width: 9.5px 0 9.5px 17px
+		border-color: transparent transparent transparent rgba($strong-gray, .4)
+
+.button
+	text-align: center
+	vertical-align: middle
+	text-transform: uppercase
+	padding: em-calc(18) em-calc(20)
+	border-radius: em-calc(3)
+	outline: 0
+	border: none
+	cursor: pointer
+	font:
+		family: 'ProximaNovaRegular'
+		size: em-calc(16)
+
+.button-blue
+	background-color: $ligh-blue
+	color: #fff

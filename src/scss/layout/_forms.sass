@@ -1,0 +1,107 @@
+form.contact-form
+	margin: 0 auto
+	max-width: em-calc(480)
+	min-width: em-calc(320)
+	padding: 0 em-calc(10)
+
+	.form-group-submit
+		position: relative
+		margin-top: em-calc(20)
+
+		span
+			font:
+				family: 'ProximaNovaRegular'
+				size: em-calc(14)
+
+		.checkbox
+			display: inline-block
+			width: 70%
+			float: left
+
+			label
+				position: relative
+				display: block
+				padding-left: em-calc(40)
+				text-indent: em-calc(-1)
+				text-align: left
+
+			input[type="checkbox"]:not(old)
+				opacity: 0
+				position: absolute
+				height: 0
+				width: 0
+
+			input[type='checkbox']:not(old) + span::after
+				background-image: url($icon-path+'radial_inactive.png')
+				background-repeat: no-repeat
+				background-size: em-calc(30) em-calc(30)
+				background-position: 0 0
+				content: ''
+				display: block
+				position: absolute
+				height: em-calc(31)
+				width: em-calc(31)
+				left: em-calc(-45)
+				top: em-calc(-35)
+				position: relative
+				overflow: hidden
+				vertical-align: bottom
+				cursor: pointer
+
+			input[type='checkbox']:checked:not(old) + span::after
+				background-image: url($icon-path+'radial_active.png')
+
+		.button	
+			display: inline-block
+			float: right
+
+		+bp(xsmall)
+		
+			display: inline-block
+			width: 100%
+
+	.form-group
+		position: relative
+		margin-bottom: em-calc(10)
+
+		.label
+			position: absolute
+			left: 0
+			top: em-calc(16)
+			margin-left: em-calc(15)
+
+			&.active
+				display: none
+
+		span
+			display: none
+
+			&.error
+				color: $red
+				position: absolute
+				right: 0
+				top: em-calc(16)
+				margin-right: em-calc(30)	
+
+	.form-control
+		width: 100%
+		border: em-calc(1) solid $super-ligh-gray
+		border-radius: em-calc(4)
+		font:
+			family: 'ProximaNovaLight'
+			size: em-calc(16)
+		padding: em-calc(12) em-calc(15)
+		box-shadow: none
+		display: block
+		vertical-align: middle
+
+		&:focus, &:active
+			border: em-calc(1) solid $ligh-blue
+			box-shadow: 0 em-calc(1)  em-calc(1)  rgba(0, 0, 0, 0.075) inset, 0 0 em-calc(4)  rgba($ligh-blue, 0.5)
+
+		&.error
+			border: em-calc(1) solid $red
+
+			&:focus, &:active
+				border: em-calc(1) solid $red
+				box-shadow: 0 em-calc(1)  em-calc(1)  rgba(0, 0, 0, 0.075) inset, 0 0 em-calc(4)  rgba($red, 0.5)

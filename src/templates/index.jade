@@ -1,4 +1,121 @@
 extends ./base.jade
 
 block content
-	h1 Index
+	section.section-hero
+		.filled
+			.fullsize-filter
+			header
+				.container
+					h1 Estudia en Alberta
+					p.content-480-up Jóvenes de todo el mundo deciden estudiar en Alberta por su espectacular belleza natural, medio ambiente agradable, diversidad cultural, comunidades alegres y un sólido sistema de educación superior e innovación.
+			.fullsize-video
+				video(loop)
+					source(src='http://bpichilinguecondohotel.com/static/video/b-pichilingue.mp4', type='video/mp4')
+					source(src='http://bpichilinguecondohotel.com/static/video/b-pichilingue.webm', type='video/webm')
+			.fullsize-image.filled
+				div(style="background-image: url(../imgs/hero_home.jpg)")
+		.container.content-480-down
+			p Jóvenes de todo el mundo deciden estudiar en Alberta por su espectacular belleza natural, medio ambiente agradable, diversidad cultural, comunidades alegres y un sólido sistema de educación superior e innovación.
+	section#why-alberta.why-alberta
+		.container
+			h2 ¿Por qué Alberta?
+			.row-flex
+				article.col-4
+					figure
+						img(src='imgs/porque1.png', alt='Abundancia de recursos', height="250" width="250")
+					h3 	Abundancia de recursos
+					p Alberta tiene una gran abundancia de recursos, agua dulce, la reserva petrolera más grande de Norteamérica, así como también de gas natural.
+				article.col-4
+					figure
+						img(src='imgs/porque2.png', alt='No impuestos	provinciales', height="250" width="250")
+					h3 No impuestos	provinciales
+					p En Alberta no pagas impuestos provinciales, obteniendo ahorros diarios en todos los gastos que incurras durante tu estadía en la provincia Alberta.
+				article.col-4
+					figure
+						img(src='imgs/porque3.png', alt= 'Mejores ingresos', height="250" width="250")
+					h3 Mejores ingresos
+					p Los habitantes de Alberta gozan de mejores ingresos, una de las tasas de desempleo más bajas y más oportunidades laborales para egresados.
+	section.full-width-blue.section-working-studying
+		.container
+			.row-flex
+				article.col-6.working-studying
+					h2 Trabaja mientras estudias y quédate cuanto te gradués
+					p Como un estudiante internacional inscrito tiempo completo en un programa de estudios superiores, estás automáticamente autorizado a trabajar hasta 20 horas por semana durante tu periodo de clases y tiemplo completo en vacaciones. Dependiendo el programa que estudies, podrías tener la oportunidad de realizar prácticas profesionales.
+					p Cuando te gradúes de una institución de educación superior en Alberta, eres elegible para quedarte a trabajar en Alberta tiempo completo hasta por tres años, durante los cuales podrías solicitar la residencia permanente en Canadá.
+				figure.col-6 
+					img(src='imgs/trabajayestudia.jpg', alt= 'Trabaja mientras estudias')
+	section
+		.container
+			h2 Instituciones de educación superior en Alberta
+		.map-wrapper.border-top-bottom-grey
+			p Aqui estará el mapa
+	section.section-studies.border-bottom-grey
+		.container
+			h2.title-small-down Estudios de inglés en Alberta
+			.row-flex
+				article.col-6.studies
+					h2.title-small-up Estudios de inglés en Alberta
+					p La mayoría de las instituciones de educación superior en Alberta ofrecen programas de inglés que ayudan a mejorar las habilidades y dominio del idioma.
+					a(href='javascript:void(0)') más información
+						span &nbsp;&gt;
+				figure.col-6
+					img(src='imgs/estudios_ingles.png', alt= 'Estudios de inglés en Alberta')
+	section.section-studies
+		.container
+			h2.title-small-down Primaria, secundaria y preparatoria en Alberta
+			.row-flex
+				figure.col-6
+					img(src='imgs/primariaysecundaria.png', alt= 'Primaria, secundaria y preparatoria en Alberta')
+				article.col-6.studies
+					h2.title-small-up Primaria, secundaria y preparatoria en Alberta
+					p Si eres mayor de edad y te interesa cursar un idioma, un verano, un semestre o un año académico; puedes estudiar en nuestros distritos escolares.
+					a(href='javascript:void(0)') más información
+						span &nbsp;&gt;
+	section#briefings.full-width-blue.section-briefings
+		.container
+			header.row
+				h2 Sesiones informativas
+				p Atiende a una sesión informativa sobre la oportunidad de estudiar en Alberta
+			.row-flex
+				article.col-6
+					h4 Noviembre 18
+					p.title-session Sesión informativa
+					p.date-session Martes 18 de Noviembre
+						br
+						span 8:00 pm
+					form
+						input.button.button-blue(type='submit', value='Confirmar asistencia')
+				article.col-6
+					h4 Diciembre 18
+					p.title-session Sesión informativa
+					p.date-session Martes 18 de Noviembre
+						br
+						span 8:00 pm
+					form
+						input.button.button-blue(type='submit', value='Confirmar asistencia')
+	section.known-experience
+		.container
+			header.row
+				h2 Conoce la experiencia
+			.row-flex
+				article.col-6
+					.block-video
+						.background-video
+							img(src='http://ximg.es/460x260/cc3b16/fff.jpg', alt= 'Video 1') 
+						.button-video
+							a.fancybox-video(class='fancybox.iframe', href="http://www.youtube.com/embed/Q8TXgCzxEnw?autoplay=1&rel=0")
+								span.play-button
+					p Cristopher en MacEwan University Edmonton, Alberta
+				article.col-6
+					.block-video
+						.background-video
+							img(src='http://ximg.es/460x260/cc3b16/fff.jpg', alt= 'Video 2')  
+						.button-video
+							a.fancybox-video(class='fancybox.iframe', href="http://www.youtube.com/embed/Q8TXgCzxEnw?autoplay=1&rel=0")
+								span.play-button
+					p Cristopher compartiendo su experiencia después de estudiar en Edmonton, Alberta
+	section.full-width-ligh-gray.border-top-grey
+		.container
+			header.row
+				h2 ¿En qué podemos ayudarte?
+			include ./partials/contact-form.jade

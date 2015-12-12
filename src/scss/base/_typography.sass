@@ -1,0 +1,51 @@
+
++font-face("ProximaNovaRegular", "ProximaNova-Regular")
++font-face("ProximaNovaLight", "ProximaNova-Light")
++font-face("ProximaNovaSemiBold", "ProximaNova-Semibold")
+
+body
+	font:
+		family: $font-family-base
+		size: em-calc(16)
+	color: $font-color-base	
+
+h1
+	font:
+		family: "ProximaNovaRegular"
+		size: em-calc(40)
+	@extend %text-uppeercase
+	letter-spacing: em-calc(1)
+	+bp(xsmall)
+		padding: 0 em-calc(20)
+
+h2
+	font:
+		family: $font-family-base
+		size: em-calc(36)
+	@extend %text-uppeercase
+	@extend %font-color-ligh-blue
+	letter-spacing: em-calc(1.2)
+	margin: 0 0 em-calc(18) 0
+
+	+bp(xsmall)
+		font-size: em-calc(20)
+
+h3
+	font:
+		family: $font-family-base
+		size: em-calc(20)
+	@extend %text-uppeercase	
+	@extend %font-color-ligh-blue
+	margin: em-calc(16) 0
+
+h4
+	font:
+		family: "ProximaNovaSemiBold"
+		size: em-calc(24)
+	@extend %text-uppeercase	
+
+p
+	line-height: 1.4
+
+.text-bold
+	font-family: "ProximaNovaSemiBold"			

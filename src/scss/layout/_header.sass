@@ -1,0 +1,187 @@
+.icon-menu
+	background-image: url($icon-path + "menu_icono_blanco.png")
+	background-repeat: no-repeat
+	background-size: 45px 35px
+	position: relative
+	width: 45px
+	height: 35px
+	display: inline-block
+
+.icon-menu.icon-close
+	background-image: url($icon-path + "menu_cerrar_icono.png") !important
+
+.icon-fb
+	background-image: url($icon-path + "icono_facebook.png")
+	background-repeat: no-repeat
+	background-size: 7px 14px
+	position: relative
+	width: 7px
+	height: 14px
+	display: inline-block
+
+.icon-yt
+	background-image: url($icon-path + "icono_youtube_blanco.png")
+	background-repeat: no-repeat
+	background-size: 21px 15px
+	position: relative
+	width: 21px
+	height: 15px
+	display: inline-block	
+
+.menu-bar
+	padding: 0 em-calc(10)
+	z-index: 1000
+
+	.btn-menu
+		display: none
+
+	.logo
+		img
+			height: em-calc(52)	
+
+	+bp(max, em-calc(919))
+
+		.logo, .btn-menu
+			display: inline-block
+
+		.btn-menu
+			float: right	
+
+.mobile-white-header
+	+bp(max, em-calc(919))
+		background-color: rgba(#fff, .9)
+		+transition((background-color .5s))
+
+.social-links
+
+	+bp(max, em-calc(919))
+		.icon-fb
+			background-image: url($icon-path + "icono_facebook_azul.png")
+		.icon-yt
+			background-image: url($icon-path + "icono_youtube_rojo.png")
+
+		a
+			margin: 0 !important
+			display: inline-block
+			position: relative
+			width: 50%
+			padding: em-calc(20) 0
+
+			&:first-of-type
+				border-right: $super-ligh-gray solid em-calc(2)
+
+	+bp(min, em-calc(920))
+		margin-left: em-calc(15)
+
+		a
+			&:first-of-type
+				margin: 0 em-calc(12) !important
+
+			&:last-of-type
+				margin-left: em-calc(12) !important
+
+	
+
+#header
+	+full
+	padding-top: em-calc(30)
+	padding-bottom: em-calc(10)
+	position: fixed
+	z-index: 100
+
+	.row-flex
+		padding: 0 em-calc(10)
+		@extend %justify-content-space-between
+
+		+bp(max, em-calc(919))
+			padding: 0
+			flex-direction: column
+			justify-content: center
+
+	.positive-logo
+		display: none
+
+	&.mobile-white-header
+		.positive-logo
+			display: block
+			
+		.negative-logo
+			display: none		
+
+	&.white-header
+		background-color: rgba(#fff, .9)
+		border-bottom: $super-ligh-gray solid em-calc(1)
+		
+		+transition((background-color .5s))
+
+		.header-menu > a
+			color: $strong-gray
+			+transition((color .5s))
+
+			&:hover
+				color: $ligh-blue
+
+		.icon-menu		
+			background-image: url($icon-path + "menu_icono_azul.png")
+
+		.negative-logo
+			display: none
+
+		.positive-logo
+			display: block
+
+		.social-links
+			.icon-fb
+				background-image: url($icon-path + "icono_facebook_azul.png")
+			.icon-yt
+				background-image: url($icon-path + "icono_youtube_rojo.png")		
+
+.header-menu
+	@extend %display-flex
+	@extend %flex-direction-row
+	@extend %flex-wrap-wrap
+	@extend %justify-content-flex-end
+
+	padding-top: em-calc(20) 
+
+	a
+		@extend %text-uppeercase
+		+transition((color .5s))
+		text-align: center
+		color: #fff
+		font:
+			family: "ProximaNovaRegular"
+			size: em-calc(14)
+
+		&:hover
+			color: $ligh-blue
+
+		&:not(:first-of-type)
+			margin-left: em-calc(10)
+
+		&:not(:last-of-type)
+			margin-right: em-calc(10)
+
+	+bp(max, em-calc(919))
+		overflow: scroll
+		flex-direction: column
+		justify-content: center
+		top: -200%
+		position: fixed
+		width: 100%
+		background-color: rgba(#fff, .9)
+		padding: 0
+
+		> a
+			color: $strong-gray
+			margin: 0 !important
+			padding: em-calc(20) 0
+			border-bottom: $super-ligh-gray solid em-calc(2)
+
+			&:hover
+				color: #fff !important
+				background-color: $ligh-blue !important
+
+			&:first-of-type
+				border-top: $super-ligh-gray solid em-calc(2)
+
