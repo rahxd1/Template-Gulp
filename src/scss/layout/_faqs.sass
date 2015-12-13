@@ -19,6 +19,10 @@
 		.block-faq	
 			position: relative
 
+			img
+				display: block
+				width: 100%
+
 		.faq-hover
 			position: absolute
 			top: 0
@@ -37,10 +41,17 @@
 		a
 			position: relative
 
+		i.fa
+			color: $super-ligh-gray
+			float: right
+			margin-right: em-calc(15)
+
 		&:hover
+			box-shadow: 0 em-calc(1) em-calc(8) 0 rgba($super-ligh-gray, .6)
+
 			.faq-hover
 				background-color: rgba($ligh-blue, .6)
 				+transition(all 0.35s ease 0s)
 
-			span
+			span, i.fa
 				color: $ligh-blue
