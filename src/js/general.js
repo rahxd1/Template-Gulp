@@ -162,5 +162,47 @@ $(document).ready(function() {
 
 	if($('.semi-filled').length > 0){
 		$('.semi-filled').imagefill();
-	}
+	};
+
+	if($('.tab-faq').length > 0){
+		/*$('.tab-faq').each(function(i, el) {
+			$(el).accordion({
+				header: '> div.faq-wrapper > h4',
+				collapsible: true,
+				//heightStyle: 'fill',
+				activate: function(event, ui){
+					console.log(event);
+					console.log(ui);
+				}
+			});
+		});*/
+		$('.tab-faq').accordion({
+			header: '> div.faq-wrapper > h5',
+			collapsible: true,
+			heightStyle: 'content',
+			icons: {
+				'header': 'fa fa-chevron-down fa-lg',
+				'activeHeader': 'fa fa-chevron-up fa-lg'
+			}
+		});
+	};
+
+	if($('.tabs').length > 0){
+		$('.tabs').tabs();
+	};
+
+	/*if($('.tabs a').length > 0){
+		var links = $('.tabs a');
+		var tabs = $('.tabs .tab-faq');
+
+		$(tabs).hide();
+
+		$.each(links, function(i, el){
+			$(el).click(function(){
+				$(tabs).hide();
+				$(tabs[i]).show();
+				console.log(i);
+			});
+		});
+	};*/
 });
