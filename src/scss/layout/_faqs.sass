@@ -5,6 +5,10 @@
 			-moz-flex-wrap: wrap
 			-ms-flex-wrap: wrap
 			flex-wrap: wrap
+	.fa
+		color: $super-ligh-gray
+		float: right
+		margin-right: em-calc(15)		
 
 	article.col-4
 		width: em-calc(300)
@@ -41,11 +45,6 @@
 		a
 			position: relative
 
-		i.fa
-			color: $super-ligh-gray
-			float: right
-			margin-right: em-calc(15)
-
 		&:hover
 			box-shadow: 0 em-calc(1) em-calc(8) 0 rgba($super-ligh-gray, .6)
 
@@ -55,3 +54,47 @@
 
 			span, i.fa
 				color: $ligh-blue
+
+	.tabs-wrapper
+		aside
+			text-align: left
+		nav
+			text-transform: uppercase
+			border: em-calc(1.5) solid $super-ligh-gray
+			border-radius: em-calc(5)
+
+			ul
+				> li					
+					> a
+						padding: em-calc(10) 0
+						padding-left: em-calc(20)
+						display: block
+						color: $strong-gray
+
+					&.ui-state-active, &.ui-state-hover
+						background-color: $ligh-gray
+						
+						&, a
+							color: $ligh-blue
+
+						.fa
+							color: $ligh-blue
+
+					&:not(:last-of-type)
+						border-bottom: em-calc(1) solid $super-ligh-gray
+
+	.tab-faq
+
+		.faq-wrapper
+			border-bottom: $super-ligh-gray solid em-calc(1)
+			text-align: left
+			padding: em-calc(20) 0
+			
+			&:first-of-type
+				border-top: $super-ligh-gray solid em-calc(1)
+
+	.ui-accordion-header-active
+		margin-bottom: em-calc(15)
+	
+		&, .fa
+			color: $ligh-blue

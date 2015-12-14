@@ -44,7 +44,8 @@ gulp.task('compass', function() {
     	style: 'expanded',
       	css: outputDir+'/css',
       	sass: 'src/scss',
-      	require: ['susy',]
+      	font: 'fonts',
+      	require: ['susy']
     }))
     .pipe(prefix('last 2 version', 'safari 5', 'ie 7', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     /*.on('error', function(error) {
