@@ -15,7 +15,7 @@
 	.fa
 		color: $super-ligh-gray
 		float: right
-		margin-right: em-calc(15)		
+		margin: 0 em-calc(15)		
 
 	article.col-4
 		width: em-calc(300)
@@ -65,6 +65,9 @@
 	.tabs-wrapper
 		aside
 			text-align: left
+
+			p
+				margin-bottom: em-calc(20)
 			
 		nav
 			text-transform: uppercase
@@ -99,7 +102,16 @@
 			padding: em-calc(20) 0
 			
 			&:first-of-type
-				border-top: $super-ligh-gray solid em-calc(1)					
+				border-top: $super-ligh-gray solid em-calc(1)
+
+			ol, ul
+				li:not(:last-of-type)
+					margin-bottom:  em-calc(10)
+			ol
+				list-style-type: lower-alpha
+
+				li
+					margin-left:  em-calc(20)		
 
 	article.row-flex
 		padding: 0 em-calc(10)

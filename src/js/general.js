@@ -179,6 +179,7 @@ $(document).ready(function() {
 		$('.tab-faq').accordion({
 			header: '> div.faq-wrapper > h5',
 			collapsible: true,
+			heightStyle: 'content',
 			icons: {
 				'header': 'fa fa-chevron-down fa-lg',
 				'activeHeader': 'fa fa-chevron-up fa-lg'
