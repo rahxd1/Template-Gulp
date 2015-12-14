@@ -177,7 +177,7 @@ $(document).ready(function() {
 			});
 		});*/
 		$('.tab-faq').accordion({
-			header: '> div.faq-wrapper > h4',
+			header: '> div.faq-wrapper > h5',
 			collapsible: true,
 			icons: {
 				'header': 'fa fa-chevron-down fa-lg',

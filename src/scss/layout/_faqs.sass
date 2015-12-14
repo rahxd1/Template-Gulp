@@ -1,4 +1,11 @@
+.section-hero-faqs
+	+bp(xsmall)
+		border-bottom: 0
+
 .section-faqs
+	+bp(xsmall)
+		padding: em-calc(20) 0
+
 	.row-flex
 		+bp(max, em-calc(960))
 			-webkit-flex-wrap: wrap
@@ -58,16 +65,17 @@
 	.tabs-wrapper
 		aside
 			text-align: left
+			
 		nav
 			text-transform: uppercase
 			border: em-calc(1.5) solid $super-ligh-gray
 			border-radius: em-calc(5)
+			margin-bottom: em-calc(20)
 
 			ul
 				> li					
 					> a
-						padding: em-calc(10) 0
-						padding-left: em-calc(20)
+						padding: em-calc(18) 0 em-calc(15) em-calc(20)
 						display: block
 						color: $strong-gray
 
@@ -91,10 +99,34 @@
 			padding: em-calc(20) 0
 			
 			&:first-of-type
-				border-top: $super-ligh-gray solid em-calc(1)
+				border-top: $super-ligh-gray solid em-calc(1)					
+
+	article.row-flex
+		padding: 0 em-calc(10)
+		@extend %flex-direction-column
+
+		+bp(small)
+			aside
+				order: 2
+			nav 	
+				margin-top: em-calc(40)
+
+		+bp(min, em-calc(960))
+			flex-direction: row
+			padding: 0
+
+			aside, main
+				margin: 0 em-calc(10)
+
+			aside
+				width: 31.25%
+			main
+				width: 64.58333%	
 
 	.ui-accordion-header-active
 		margin-bottom: em-calc(15)
 	
 		&, .fa
-			color: $ligh-blue
+			color: $ligh-blue			
+			
+				
