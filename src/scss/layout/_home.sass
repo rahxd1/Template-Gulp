@@ -105,18 +105,25 @@
 			margin: em-calc(8) 0
 
 		.date-session
-			margin-bottom: em-calc(20)
-			span	
-				font:
-					family: "ProximaNovaSemiBold"
-					size: em-calc(24)
+			margin-bottom: em-calc(5)
+
+		span	
+			font:
+				family: "ProximaNovaSemiBold"
+				size: em-calc(24)
+			display: block	
+			margin-bottom: em-calc(15)	
 
 		@include bp(max, em-calc(959))		
 			&:not(:last-of-type)
 				margin-bottom: em-calc(40)
 
 	.button
-		width: em-calc(260)		
+		width: em-calc(260)
+
+	.no-briefings
+		color: #fff
+		display: none		
 
 .known-experience
 	article
