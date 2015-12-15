@@ -165,17 +165,7 @@ $(document).ready(function() {
 	};
 
 	if($('.tab-faq').length > 0){
-		/*$('.tab-faq').each(function(i, el) {
-			$(el).accordion({
-				header: '> div.faq-wrapper > h4',
-				collapsible: true,
-				//heightStyle: 'fill',
-				activate: function(event, ui){
-					console.log(event);
-					console.log(ui);
-				}
-			});
-		});*/
+
 		$('.tab-faq').accordion({
 			header: '> div.faq-wrapper > h5',
 			collapsible: true,
@@ -191,18 +181,43 @@ $(document).ready(function() {
 		$('.tabs').tabs();
 	};
 
-	/*if($('.tabs a').length > 0){
-		var links = $('.tabs a');
-		var tabs = $('.tabs .tab-faq');
+	var appendPre = function(event, i) {
+		var article = $('#briefings article')[i];
+		var date_start = event.start.dateTime
 
-		$(tabs).hide();
+		$(article).find('h4').text(moment(date_start).locale('es').format('MMMM D'));
+		$(article).find('.date-session').text(moment(date_start).locale('es').format('dddd, D MMMM'));
+		$(article).find('span').text(moment(date_start).locale('es').format('h:mm A'));
+		$(article).find('.title-session').text(event.summary);
+	};
 
-		$.each(links, function(i, el){
-			$(el).click(function(){
-				$(tabs).hide();
-				$(tabs[i]).show();
-				console.log(i);
-			});
-		});
-	};*/
+	var CLIENT_ID = 'masfusion.com_ofv9265ptel5qos53g94l81cc4%40group.calendar.google.com';
+	var API_KEY = 'AIzaSyAMt0isNUcgJnjslrmsYRXHgdPnkHC58uA';
+	var options = {
+		'showDeleted': false,
+		'singleEvents': true,
+		'maxResults': 2,
+		'orderBy': 'updated',
+		'key': API_KEY
+	};
+
+	var url = 'https://www.googleapis.com/calendar/v3/calendars/'+CLIENT_ID+'/events';
+
+	
+	if($('#briefings').length > 0){
+		$.get(url ,options)
+			.done(function(data){
+				var events = data.items;
+
+				if (events.length > 0) {
+			      for (i = 0; i < events.length; i++) {
+			        var event = events[i];
+			        appendPre(event, i)
+			      }
+			    } else {
+			      $('.no-briefings').show();
+			      $('#briefings article').hide();
+			    }
+	  		});
+	};	
 });
