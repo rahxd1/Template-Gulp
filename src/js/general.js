@@ -183,12 +183,16 @@ $(document).ready(function() {
 
 	var appendPre = function(event, i) {
 		var article = $('#briefings article')[i];
-		var date_start = event.start.dateTime
+		var date_start = event.start.dateTime;
+		var time = moment(date_start).locale('es').format('h:mm A');
 
 		$(article).find('h4').text(moment(date_start).locale('es').format('MMMM D'));
 		$(article).find('.date-session').text(moment(date_start).locale('es').format('dddd, D MMMM'));
-		$(article).find('span').text(moment(date_start).locale('es').format('h:mm A'));
+		$(article).find('span').text(time);
 		$(article).find('.title-session').text(event.summary);
+
+		$(article).find("input[name='session']").val(event.summary);
+		$(article).find("input[name='date-time']").val(date_start);
 	};
 
 	var CLIENT_ID = 'masfusion.com_ofv9265ptel5qos53g94l81cc4%40group.calendar.google.com';
@@ -219,5 +223,36 @@ $(document).ready(function() {
 			      $('#briefings article').hide();
 			    }
 	  		});
-	};	
+	};
+
+	if (window.location.href.match(/asistencia.html/)) {
+		var getUrlParameter = function getUrlParameter(sParam) {
+    		var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+        	sURLVariables = sPageURL.split('&'),
+        	sParameterName,
+        	i;
+
+		    for (i = 0; i < sURLVariables.length; i++) {
+		        sParameterName = sURLVariables[i].split('=');
+		        if (sParameterName[0] === sParam) {
+		            return sParameterName[1] === undefined ? true : sParameterName[1];
+		        }
+		    }
+		};
+
+		var session = $('article.session');
+		var form = $('.contact-form');
+		var date_start = getUrlParameter('date-time');
+		var time = moment(date_start).locale('es').format('h:mm A');
+		var summary = getUrlParameter('session').replace(/[+]/g, ' ');
+
+		$('.date h4').text(moment(date_start).locale('es').format('MMMM D'));
+		$(session).find('.title-session').text(summary);
+		$(session).find('.date-session').text(moment(date_start).locale('es').format('dddd, D MMMM'));
+		$(session).find('span').text(time);
+
+		$(form).find("input[name='session']").val(summary);
+		$(form).find("input[name='date']").val(moment(date_start).locale('es').format('LL'));
+		$(form).find("input[name='time']").val(time);
+	};
 });

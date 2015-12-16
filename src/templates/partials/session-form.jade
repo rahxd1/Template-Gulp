@@ -1,5 +1,8 @@
 .row
 	form.contact-form(action="send-message.php", method="post")
+		input(type='hidden', name='session', value='')
+		input(type='hidden', name='date', value='')
+		input(type='hidden', name='time', value='')
 		.form-group.required
 			input#nombre.form-control(type='text')
 			label.label(for="nombre") Nombre
