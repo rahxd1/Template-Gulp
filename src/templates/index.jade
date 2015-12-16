@@ -83,14 +83,18 @@ block content
 					p.title-session S
 					p.date-session M
 					span 8
-					form
+					form(action="asistencia.html", method="get")
+						input(type='hidden', name='session', value='')
+						input(type='hidden', name='date-time', value='')
 						input.button.button-blue(type='submit', value='Confirmar asistencia')
 				article.col-6
 					h4 D
 					p.title-session S
 					p.date-session M
 					span 8
-					form
+					form(action="asistencia.html", method="get")
+						input(type='hidden', name='session', value='')
+						input(type='hidden', name='date-time', value='')
 						input.button.button-blue(type='submit', value='Confirmar asistencia')
 	section.known-experience
 		.container
