@@ -182,4 +182,39 @@ article.studies
 		margin: em-calc(15) 0
 
 a
-	color: $ligh-blue				
+	color: $ligh-blue
+
+.academic-offerings
+	.row-mobile
+		display: block
+
+		+bp(min, em-calc(960))
+			display: none
+
+	.p-mobile
+		display: none
+
+		+bp(min, em-calc(960))
+			display: block
+	
+	.school-wrapper
+		background-color: $ligh-gray
+		box-shadow: 0 em-calc(2) em-calc(3) 0 rgba($strong-gray, 0.5)
+		padding: em-calc(10) em-calc(20) 0 em-calc(10)
+		height: em-calc(270)
+		border-radius: em-calc(4)
+		overflow: scroll					
+
+	.results-schools
+		margin: 0 auto
+		max-width: em-calc(480)
+		min-width: em-calc(320)
+		padding: 0 em-calc(10)
+
+		.school
+			position: relative
+			display: block
+			background-color: #fff
+			box-shadow: 0 em-calc(1) em-calc(4) 0 rgba(#010202, 0.2)
+			margin-bottom: em-calc(10)
+
