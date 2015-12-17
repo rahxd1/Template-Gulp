@@ -202,6 +202,7 @@ a
 
 			> a
 				color: $font-color-base
+				font-family: 'ProximaNovaRegular'
 
 				&:after
 					content: ""
@@ -216,6 +217,7 @@ a
 				
 				&.active
 					color: $ligh-blue
+					font-family: 'ProximaNovaSemiBold'
 
 					&:after
 						width: 100%
@@ -224,21 +226,34 @@ a
 			&:hover		
 				> a
 					color: $ligh-blue
+					font-family: 'ProximaNovaSemiBold'
 					
 					&:after
 						width: 100%
 						left: 0
 
+.map
+	background: rgba(0, 0, 0, 0) url("/imgs/mapa.png") no-repeat center center
+	height: em-calc(612)
+	position: absolute
+	width: 100%
+	display: none
+
+	+bp(min, em-calc(960))
+		display: block
+
 .academic-offerings
 	&.full-width-ligh-gray
 		+bp(min, em-calc(960))
 			background-color: #fff
+			padding-bottom: 0
 
-	#mobile-offering-type, #mobile-offering-specialty
+	#mobile-offering-type, #mobile-offering-specialty, #offering-specialty
 		@extend %font-color-ligh-blue
 		text-transform: uppercase
+		font-family: 'ProximaNovaSemiBold'
 
-	#mobile-offering-city
+	#mobile-offering-city, #offering-city
 		font-family: "ProximaNovaSemiBold"	
 
 	p
@@ -279,7 +294,59 @@ a
 			box-shadow: 0 em-calc(1) em-calc(4) 0 rgba(#010202, 0.2)
 			margin-bottom: em-calc(10)
 
+			+bp(min, em-calc(960))
+				display: flex
+				align-items: center
+
+				.p-mobile
+					margin: 0 0 0 em-calc(10)
+
+					span
+						&:first-of-type
+							font-family: "ProximaNovaSemiBold"
+							color: $ligh-blue
+						&:last-of-type
+							font-size: em-calc(14)
+							color: $font-color-base
+				img
+					margin: 0 em-calc(10)	
+
 .map-wrapper
+	height: em-calc(615)
+
+	+bp(max, em-calc(959))
+		height: auto
+
 	&.border-top-bottom-grey
 		+bp(max, em-calc(959))
 			border: 0
+
+	#offering-type
+		text-align: left
+		margin-bottom: em-calc(5)		
+
+	.container
+		position: relative		
+
+	.column-map, .column-results
+		width: 50%
+
+	.column-map
+		display: none
+
+		+bp(min, em-calc(960))
+			display: block
+
+	.column-results
+		margin-top: em-calc(40)
+		float: right
+
+		+bp(max, em-calc(959))
+			float: none
+			width: auto
+
+		.contact-form
+			display: none
+
+			+bp(min, em-calc(960))
+				display: block				
