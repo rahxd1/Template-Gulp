@@ -184,7 +184,28 @@ article.studies
 a
 	color: $ligh-blue
 
+#nav-offering
+	display: none
+
+	+bp(min, em-calc(960))
+		display: block
+
 .academic-offerings
+	&.full-width-ligh-gray
+		+bp(min, em-calc(960))
+			background-color: #fff
+
+	#mobile-offering-type, #mobile-offering-specialty
+		@extend %font-color-ligh-blue
+		text-transform: uppercase
+
+	#mobile-offering-city
+		font-family: "ProximaNovaSemiBold"	
+
+	p
+		text-align: left
+		margin-bottom: em-calc(10)
+
 	.row-mobile
 		display: block
 
@@ -203,7 +224,8 @@ a
 		padding: em-calc(10) em-calc(20) 0 em-calc(10)
 		height: em-calc(270)
 		border-radius: em-calc(4)
-		overflow: scroll					
+		overflow-x: hidden
+		overflow-y: scroll					
 
 	.results-schools
 		margin: 0 auto
@@ -218,3 +240,7 @@ a
 			box-shadow: 0 em-calc(1) em-calc(4) 0 rgba(#010202, 0.2)
 			margin-bottom: em-calc(10)
 
+.map-wrapper
+	&.border-top-bottom-grey
+		+bp(max, em-calc(959))
+			border: 0

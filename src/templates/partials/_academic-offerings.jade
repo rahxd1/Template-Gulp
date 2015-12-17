@@ -2,8 +2,8 @@
 	header
 		h2 Instituciones de educación superior en Alberta
 	.row.row-mobile
-		p Encuentra la universidad perfecta para tus estudios en Alberta
 		.contact-form
+			p Encuentra la universidad perfecta para tus estudios en Alberta
 			.form-group
 				.select-wrapper
 					i.fa.fa-chevron-down.fa-lg
@@ -14,6 +14,8 @@
 						option(value='bachelor') Bachelor's Degree
 						option(value='master') Master's Degree
 						option(value='doctoral') Doctoral Degree
+			p#mobile-offering-type
+			p#mobile-offering-summary
 			.form-group
 				.select-wrapper
 					i.fa.fa-chevron-down.fa-lg
@@ -24,7 +26,13 @@
 					i.fa.fa-chevron-down.fa-lg
 					select.form-control
 						option(value='') Elige la especialidad
-	nav
+			p
+				| Universidades en&nbsp;
+				span#mobile-offering-city
+				| &nbsp;cuentan con la especialidad:
+			p#mobile-offering-specialty
+								
+	nav#nav-offering
 		ul
 			li
 				a(href="#tab-1") Cerfificate
@@ -55,4 +63,10 @@
 				img(src='http://ximg.es/100x60/cc3b16/fff.jpg', alt= '')
 				p.p-mobile
 					span Concordia Univerity
-					span International											
+					span International
+			a.school(href='')
+				img(src='http://ximg.es/100x60/cc3b16/fff.jpg', alt= '')
+				p.p-mobile
+					span Concordia Univerity
+					span International
+											
