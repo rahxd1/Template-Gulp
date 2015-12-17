@@ -255,4 +255,17 @@ $(document).ready(function() {
 		$(form).find("input[name='date']").val(moment(date_start).locale('es').format('LL'));
 		$(form).find("input[name='time']").val(time);
 	};
+
+	if($('#nav-offering').length > 0)){
+		var links = $('#nav-offering > ul > li > a');
+		$(links).removeClass('active');
+		$(links).first().addClass('active');
+
+		$.each(links, function(i, el){
+			$(el).click(function(){
+				$(links).removeClass('active');
+				$(this).addClass('active');
+			});
+		});
+	}
 });

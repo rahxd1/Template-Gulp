@@ -35,18 +35,31 @@
 	nav#nav-offering
 		ul
 			li
-				a(href="#tab-1") Cerfificate
+				a(href="javascript:void(0)") Certificate
 			li
-				a(href="#tab-2") Diploma
+				a(href="javascript:void(0)") Diploma
 			li
-				a(href="#tab-3") Applied Degree
+				a(href="javascript:void(0)") Applied Degree
 			li
-				a(href="#tab-4") Bachelor's Degree
+				a(href="javascript:void(0)") Bachelor's Degree
 			li
-				a(href="#tab-5") Master's Degree
+				a(href="javascript:void(0)") Master's Degree
 			li
-				a(href="#tab-6") Doctoral Degree
+				a(href="javascript:void(0)") Doctoral Degree
 .map-wrapper.border-top-bottom-grey
+	.contact-form
+		p#offering-type
+		p#offering-summary
+		.form-group
+			.select-wrapper
+				i.fa.fa-chevron-down.fa-lg
+				select.form-control
+					option(value='') Elige la especialidad
+		p
+			| Universidades en&nbsp;
+			span#offering-city
+			| &nbsp;cuentan con la especialidad:
+		p#offering-specialty			
 	.results-schools
 		.school-wrapper
 			a.school(href='')

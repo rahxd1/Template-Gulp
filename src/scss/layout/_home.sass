@@ -186,9 +186,48 @@ a
 
 #nav-offering
 	display: none
+	text-transform: uppercase
 
 	+bp(min, em-calc(960))
 		display: block
+
+	> ul
+		display: flex 
+		justify-content: center
+		height: em-calc(40)
+
+		> li
+			position: relative
+			margin: 0 em-calc(10)
+
+			> a
+				color: $font-color-base
+
+				&:after
+					content: ""
+					display: block
+					position: absolute
+					height: em-calc(5)
+					background-color: $ligh-blue
+					bottom: 0
+					left: 50%
+					width: 0%
+					+transition(all .25s ease-in-out)
+				
+				&.active
+					color: $ligh-blue
+
+					&:after
+						width: 100%
+						left: 0
+
+			&:hover		
+				> a
+					color: $ligh-blue
+					
+					&:after
+						width: 100%
+						left: 0
 
 .academic-offerings
 	&.full-width-ligh-gray
