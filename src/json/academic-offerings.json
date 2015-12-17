@@ -1,35 +1,55 @@
 {  
-   "certificate":[  
-      {
-      	"copy": "Consta de 1 año de estudio aplicado para emplearse en ocupaciones específicas."  
-		"Athabasca":[
-			{"English as a Second Language": ["3", "4"]},  
-			{"Business and Administration Studies": ["3", "4"]}
-		]
+  "certificate": {
+    "name": "Certificate",
+    "copy": "Consta de 1 año de estudio aplicado para emplearse en ocupaciones específicas.",
+    "cities": {
+      "Athabasca": {
+        "English as a Second Language 0": [
+          {"name": "Ambrose University 1", "web": "Ambrose University 1", "logo": "Ambrose University"},
+          {"name": "Ambrose University 2" , "web": "Ambrose University 2", "logo": "Ambrose University"}
+        ],
+        "Agriculture and Related Technology 0": [
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        ]
       },
-      {  
-		"Calgary":[  
-			{"English as a Second Language": ["3", "4"]},  
-			{"Business and Administration Studies": ["3", "4"]}
-		]
-      }
-   ],
-   "diploma":[  
-   	{  
-   		"copy": "Consta de 2 años de estudio aplicado para emplearse en áreas particulares."
-		"Athabasca":[
-			{"English as a Second Language": ["3", "4"]},  
-			{"Business and Administration Studies": ["3", "4"]}
-		]
-      },
-      {  
-        "Calgary":[  
-        	{"English as a Second Language": ["3", "4"]},  
-         	{"Business and Administration Studies": ["3", "4"]}
+      "Calgary": {
+        "English as a Second Language 1": [
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        ],
+        "Agriculture and Related Technology 1": [
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
         ]
       }
+    }
 
-   ],
-   "applied":[
-   ]
+  },
+  "diploma": {
+    "name": "Diploma",
+    "copy": "Consta de 2 años de estudio aplicado para emplearse en áreas particulares.",
+    "cities": {
+      "Edmonton": {
+        "English as a Second Language 3": [
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        ],
+        "Agriculture and Related Technology 3": [
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        ]
+      },
+      "Olds": {
+        "English as a Second Language 4": [
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        ],
+        "Agriculture and Related Technology 4": [
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
+          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        ]
+      }
+    }
+  }
 }
