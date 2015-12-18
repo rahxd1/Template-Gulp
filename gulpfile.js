@@ -29,12 +29,11 @@ function errorlog(error){
 
 gulp.task('scripts', function(){
 	gulp.src('src/js/**/*.js')
-		.pipe(plumber({errorHandler:errorlog}))
+		/*.pipe(plumber({errorHandler:errorlog}))
 		.pipe(uglify())
-		//.on('error', errorlog)
 		.pipe(gulp.dest(outputDir+'/js'))
-		//.pipe(connect.reload());
-		.pipe(browserSync.reload({stream:true}));	
+		.pipe(browserSync.reload({stream:true}));*/
+		.pipe(gulp.dest(outputDir+'/js'));	
 });
 
 gulp.task('compass', function() {
@@ -93,6 +92,11 @@ gulp.task('copyimgs', function() {
 	gulp.src('src/imgs/**/*.{png,jpg}')
 	.pipe(gulp.dest(outputDir+'/imgs'));
 });
+
+gulp.task('copyjson', function() {
+	gulp.src('src/json/**/*.json')
+	.pipe(gulp.dest(outputDir+'/json'));
+})
 
 gulp.task('watch', function(){
 	browserSync.init({
