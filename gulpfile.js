@@ -95,7 +95,12 @@ gulp.task('copyimgs', function() {
 gulp.task('copyjson', function() {
 	gulp.src('src/json/**/*.json')
 	.pipe(gulp.dest(outputDir+'/json'));
-})
+});
+
+gulp.task('copyvideos', function() {
+	gulp.src('src/videos/**/*.{mp4,webm}')
+	.pipe(gulp.dest(outputDir+'/videos'));
+});
 
 gulp.task('watch', function(){
 	browserSync.init({
