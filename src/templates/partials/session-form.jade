@@ -4,18 +4,18 @@
 		input(type='hidden', name='date', value='')
 		input(type='hidden', name='time', value='')
 		.form-group.required
-			input#nombre.form-control(type='text')
+			input#nombre.form-control(type='text', name='nombre')
 			label.label(for="nombre") Nombre
 			span.error *campo obligatorio
 		.form-group.required
-			input#email.form-control(type='email')
+			input#email.form-control(type='email', name='email')
 			label.label(for="email") email
 			span.error *campo obligatorio
 		.form-group
-			input#ciudad.form-control(type='text')
+			input#ciudad.form-control(type='text', name='ciudad')
 			label.label(for="ciudad") Ciudad
 		.form-group		
-			textarea#comentario.form-control(rows=4)
+			textarea#comentario.form-control(rows=4, name='comentario')
 			label.label(for='comentario') ¿Qué te interesa estudiar en Alberta?
 		.form-group-submit
 			.checkbox			
