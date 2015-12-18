@@ -28,7 +28,11 @@ if(isset($_POST['submit'])){
     $html.= '</tbody></table>';
 
     $headers = "From:" . $from;
-    
-    mail($to, $subject, $html, $headers);
+
+    if (mail($to, $subject, $html, $headers)){
+        header('location: confirmacion-exitosa.html');
+    }else{
+        header('location: confirmacion-fallida.html');
+    }
 }
 ?>
