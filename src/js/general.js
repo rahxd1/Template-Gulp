@@ -256,6 +256,7 @@ $(document).ready(function() {
 
 		$.each(links, function(i, el){
 			$(el).click(function(){
+				debugger;
 				$(links).removeClass('active');
 				$(this).addClass('active');
 			});
@@ -338,5 +339,17 @@ $(document).ready(function() {
 			});
 		}
 	});
+
+	if($('.column-map a').length > 0){
+		var links = $('.column-map a');
+		$(links).removeClass('active');
+
+		$.each(links, function(i, el){
+			$(el).click(function(){
+				$(links).removeClass('active');
+				$(this).addClass('active');
+			});
+		});
+	};
 
 });
