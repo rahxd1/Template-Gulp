@@ -93,6 +93,16 @@ $(document).ready(function() {
 	$('.fancybox-video').fancybox({
 		maxWidth	: 856,
 		maxHeight	: 480,
+		helpers : {
+			overlay : {
+				css : {
+					'background' : 'rgba(#000, 0.75)'
+				}
+			}
+		},
+		tpl: {
+        	closeBtn: '<a class="fancybox-item fancybox-close" href="javascript:;"><span>CERRAR</span></a>'
+    	}
 	});
 
 	var validateEmail = function(email) {

@@ -90,3 +90,36 @@
 	opacity: .6
 	z-index: 50	
 
+.fancybox-overlay
+	background: none//url('fancybox_overlay.png')
+
+	&.fancybox-overlay-fixed
+		background-color: rgba(#000, .75)
+
+	.fancybox-opened
+		.fancybox-skin
+			box-shadow: none
+			background: none
+#fancybox-loading, .fancybox-close, .fancybox-prev span, .fancybox-next span 
+	background-image: url($icon-path + 'fancybox_sprite.png')
+
+#fancybox-loading div
+	width: em-calc(44)
+	height: em-calc(44)
+	background: url($icon-path + 'fancybox_loading.gif') center center no-repeat
+
+.fancybox-close
+	background-image: url($icon-path + 'close_video_icono.png')
+	background-repeat: no-repeat
+	background-size: em-calc(10)
+	height: em-calc(10)
+	width: em-calc(10)
+	right: em-calc(20)
+	top: em-calc(-20)
+
+	span
+		color: #fff
+		position: relative
+		left: em-calc(-70)
+		top: em-calc(-3)
+		display: inline-block
