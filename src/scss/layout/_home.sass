@@ -286,6 +286,7 @@ a
 		max-width: em-calc(480)
 		min-width: em-calc(320)
 		padding: 0 em-calc(10)
+		display: none
 
 		.school
 			position: relative
@@ -309,7 +310,10 @@ a
 							font-size: em-calc(14)
 							color: $font-color-base
 				img
-					margin: 0 em-calc(10)	
+					margin: em-calc(10)
+
+	.text-hide, .mobile-text-hide		
+		display: none				
 
 .map-wrapper
 	height: em-calc(615)
@@ -341,6 +345,7 @@ a
 
 		a
 			position: absolute
+			display: none
 
 			.icon-city
 				position: absolute
@@ -351,9 +356,11 @@ a
 			&.active
 				.icon-city
 					background-image: url($icon-path + "puntero_activo.png")
-					background-size: em-calc(18.6) em-calc(30.6)
-					width: em-calc(18.6)
-					height: em-calc(30.6)	
+					background-size: em-calc(32) em-calc(51)
+					width: em-calc(32)
+					height: em-calc(51)
+					top: em-calc(-25)
+					left: em-calc(-10)
 
 			span
 				font:
@@ -364,63 +371,63 @@ a
 				top: em-calc(30)
 				left: -40%
 
-			&[data-shool='fort_mcmurray']
+			&[data-city='fort_mcmurray']
 				top: em-calc(150)
 				right: em-calc(60)
 
-			&[data-shool='grouard']
+			&[data-city='grouard']
 				top: em-calc(180)
 				left: em-calc(200)
 
-			&[data-shool='grande_prairie']
+			&[data-city='grande_prairie']
 				top: em-calc(240)
 				left: em-calc(115)
 
-			&[data-shool='athabasca']
+			&[data-city='athabasca']
 				top: em-calc(260)
 				right: em-calc(155)
 
-			&[data-shool='lac_la_biche']
+			&[data-city='lac_la_biche']
 				top: em-calc(240)
 				right: em-calc(90)
 
-			&[data-shool='edmonton']
+			&[data-city='edmonton']
 				top: em-calc(330)
 				right: em-calc(200)
 
-			&[data-shool='vermillion']
+			&[data-city='vermillion']
 				top: em-calc(315)
 				right: em-calc(140)
 
-			&[data-shool='lloydminster']
+			&[data-city='lloydminster']
 				top: em-calc(330)
 				right: em-calc(60)
 
-			&[data-shool='lacombe']
+			&[data-city='lacombe']
 				bottom: em-calc(205)
 				right: em-calc(220)
 
-			&[data-shool='red_deer']
+			&[data-city='red_deer']
 				bottom: em-calc(185)
 				right: em-calc(180)
 
-			&[data-shool='olds']	
+			&[data-city='olds']	
 				bottom: em-calc(155)
 				left: em-calc(195)
 
-			&[data-shool='banff']
+			&[data-city='banff']
 				bottom: em-calc(110)
 				left: em-calc(200)
 
-			&[data-shool='calgary']
+			&[data-city='calgary']
 				bottom:	em-calc(100)
 				right: em-calc(190)
 
-			&[data-shool='medicine_hat']
+			&[data-city='medicine_hat']
 				bottom:	em-calc(80)
 				right: em-calc(90)
 
-			&[data-shool='lethbridge']
+			&[data-city='lethbridge']
 				bottom:	em-calc(50)
 				right: em-calc(170)
 
@@ -436,7 +443,4 @@ a
 			display: none
 
 			+bp(min, em-calc(960))
-				display: block		
-	
-
-		
+				display: block

@@ -248,22 +248,112 @@ $(document).ready(function() {
 		$(form).find("input[name='time']").val(time);
 	};
 
+	var display_cities = function(element){
+		var key = $(element).data('offering');
 
-	if($('#nav-offering').length > 0){
-		var links = $('#nav-offering > ul > li > a');
-		$(links).removeClass('active');
-		$(links).first().addClass('active');
+		var select_specialty = $('#select-specialty');
+		var school_wrapper = $('.school-wrapper');
 
-		$.each(links, function(i, el){
-			$(el).click(function(){
-				debugger;
-				$(links).removeClass('active');
-				$(this).addClass('active');
+		select_specialty.empty();
+		select_specialty.append("<option value=''>Elige la especialidad</option>");
+
+		school_wrapper.empty();
+
+		$('.results-schools').hide();
+
+		$.getJSON("json/academic-offerings.json", function(data){
+			var vals_cities = data[key].cities;
+			var cities = Object.keys(vals_cities);
+
+			var spans = $('.column-map a > span');
+			spans.parent().hide();
+
+			$.each(spans, function(index, span){
+				
+				if ($.inArray($(span).text(), cities) > -1){
+					$(span).parent().show();
+				};
+			});
+
+			$('#offering-type').text(data[key].name);
+			$('#offering-summary').text(data[key].copy);
+			$('.text-hide').hide();
+		});	
+	};
+
+	var display_specialties = function(element){
+		var key_city = $(element).children('span').text();
+		var key_offering = $('#nav-offering > ul > li > a.active').data('offering');
+		var select_specialty = $('#select-specialty');
+		var school_wrapper = $('.school-wrapper');
+
+		select_specialty.empty();
+		select_specialty.append("<option value=''>Elige la especialidad</option>");
+
+		school_wrapper.empty();
+
+		$.getJSON("json/academic-offerings.json", function(data){	
+			var val_specialties = data[key_offering].cities[key_city];
+			var specialties = Object.keys(val_specialties);
+
+			$.each(specialties, function(index, value){
+				var i = value.replace(/ /g, '_');
+				select_specialty.append("<option value=" + i  + ">" + value + "</option>");
 			});
 		});
 	};
 
-	$('#select-offering').change(function(){
+	var display_schools = function(element){
+		var key_offering = $('#nav-offering > ul > li > a.active').data('offering');
+		var key_city = $('.column-map a.active').children('span').text();
+		var key_specialty = $(element).val().replace(/_/g, ' ');
+
+		var school_wrapper = $('.school-wrapper');
+		school_wrapper.empty();
+		$('.results-schools').show();
+
+		if(key_specialty !== '') {
+			$.getJSON("json/academic-offerings.json", function(data){
+				var val_schools = data[key_offering].cities[key_city][key_specialty];
+
+				$.each(val_schools, function(index, value){
+	
+					var img = $('<img>', {src: value.logo})
+					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
+
+					var a = $('<a>', {class: 'school', href: value.web});
+
+					a.append(img);
+					a.append(p);
+
+					school_wrapper.append(a);
+				});
+
+				$('.text-hide').show();
+				$('#offering-city').text(key_city);
+				$('#offering-specialty').text(key_specialty);
+			});
+		};
+	};
+
+
+	if($('#nav-offering').length > 0){
+		var nav_links = $('#nav-offering > ul > li > a');
+		$(nav_links).removeClass('active');
+		$(nav_links).first().addClass('active');
+
+		$.each(nav_links, function(i, el){
+			$(el).click(function(){
+				$(nav_links).removeClass('active');
+				$(this).addClass('active');
+				display_cities(this);
+			});
+		});
+
+		$(nav_links).eq(0).trigger('click');
+	};
+
+	$('#mobile-select-offering').change(function(){
 		var dropdown = $(this);
 		var key = dropdown.val();
 
@@ -272,10 +362,19 @@ $(document).ready(function() {
 				var vals = data[key];
 				var cities = Object.keys(vals.cities);
 
-				var select_city = $('#select-city');
+				var select_city = $('#mobile-select-city');
+				var select_specialty = $('#mobile-select-specialty');
+				var school_wrapper = $('.school-wrapper');
 
 				select_city.empty();
 				select_city.append("<option value=''>Elige la ciudad que te interesa</option>");
+
+				select_specialty.empty();
+				select_specialty.append("<option value=''>Elige la especialidad</option>");
+
+				school_wrapper.empty();
+
+				$('.results-schools').hide();
 
 				$.each(cities, function(index, value){
 					select_city.append("<option value=" + value + ">" + value + "</option>");
@@ -283,12 +382,13 @@ $(document).ready(function() {
 
 				$('#mobile-offering-type').text(vals.name);
 				$('#mobile-offering-summary').text(vals.copy);
+				$('.mobile-text-hide').hide();
 			});
 		}
 	});
 
-	$('#select-city').change(function(){
-		var key_offering = $('#select-offering').val();
+	$('#mobile-select-city').change(function(){
+		var key_offering = $('#mobile-select-offering').val();
 		var dropdown_city = $(this);
 		var key_city = dropdown_city.val();
 
@@ -297,22 +397,29 @@ $(document).ready(function() {
 				var val_specialties = data[key_offering].cities[key_city];
 				var specialties = Object.keys(val_specialties);
 			
-				var select_specialty = $('#select-specialty');
+				var select_specialty = $('#mobile-select-specialty');
 
 				select_specialty.empty();
 				select_specialty.append("<option value=''>Elige la especialidad</option>");
+
+				var school_wrapper = $('.school-wrapper');
+				school_wrapper.empty();
+
+				$('.results-schools').hide();
 
 				$.each(specialties, function(index, value){
 					var i = value.replace(/ /g, '_');
 					select_specialty.append("<option value=" + i  + ">" + value + "</option>");
 				});
+				$('#mobile-offering-city').text(key_city);
+				$('.mobile-text-hide').hide();
 			});
 		}
 	});
 
-	$('#select-specialty').change(function(){
-		var key_offering = $('#select-offering').val();
-		var key_city = $('#select-city').val();
+	$('#mobile-select-specialty').change(function(){
+		var key_offering = $('#mobile-select-offering').val();
+		var key_city = $('#mobile-select-city').val();
 		var dropdown_specialty = $(this);
 		var key_specialty = dropdown_specialty.val().replace(/_/g, ' ');		
 
@@ -335,19 +442,29 @@ $(document).ready(function() {
 
 					school_wrapper.append(a);
 				});
+				$('.mobile-text-hide').show();
+				$('#mobile-offering-city').text(key_city);
+				$('#mobile-offering-specialty').text(key_specialty);
 
+				$('.results-schools').show();
 			});
 		}
 	});
 
-	if($('.column-map a').length > 0){
-		var links = $('.column-map a');
-		$(links).removeClass('active');
 
-		$.each(links, function(i, el){
+	$('#select-specialty').change(function(){
+		display_schools(this);
+	});
+
+	if($('.column-map a').length > 0){
+		var cities_links = $('.column-map a');
+		$(cities_links).removeClass('active');
+
+		$.each(cities_links, function(i, el){
 			$(el).click(function(){
-				$(links).removeClass('active');
+				$(cities_links).removeClass('active');
 				$(this).addClass('active');
+				display_specialties(el);
 			});
 		});
 	};

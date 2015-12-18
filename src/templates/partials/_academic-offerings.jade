@@ -7,7 +7,7 @@
 			.form-group
 				.select-wrapper
 					i.fa.fa-chevron-down.fa-lg
-					select#select-offering.form-control.uppercase
+					select#mobile-select-offering.form-control.uppercase
 						option(value='') Selecciona
 						option(value='certificate') Certificate
 						option(value='diploma') Diploma
@@ -20,80 +20,80 @@
 			.form-group
 				.select-wrapper
 					i.fa.fa-chevron-down.fa-lg
-					select#select-city.form-control
+					select#mobile-select-city.form-control
 						option(value='') Elige la ciudad que te interesa
 			.form-group
 				.select-wrapper
 					i.fa.fa-chevron-down.fa-lg
-					select#select-specialty.form-control
+					select#mobile-select-specialty.form-control
 						option(value='') Elige la especialidad
-			p
+			p.mobile-text-hide
 				| Universidades en&nbsp;
 				span#mobile-offering-city
-				| &nbsp;cuentan con la especialidad:
-			p#mobile-offering-specialty
+				| &nbsp;que cuentan con la especialidad:
+			p#mobile-offering-specialty.mobile-text-hide
 								
 	nav#nav-offering
 		ul
 			li
-				a(href="javascript:void(0)") Certificate
+				a(href="javascript:void(0)", data-offering= 'certificate') Certificate
 			li
-				a(href="javascript:void(0)") Diploma
+				a(href="javascript:void(0)", data-offering= 'diploma') Diploma
 			li
-				a(href="javascript:void(0)") Applied Degree
+				a(href="javascript:void(0)", data-offering= 'applied') Applied Degree
 			li
-				a(href="javascript:void(0)") Bachelor's Degree
+				a(href="javascript:void(0)", data-offering= 'bachelor') Bachelor's Degree
 			li
-				a(href="javascript:void(0)") Master's Degree
+				a(href="javascript:void(0)", data-offering= 'master') Master's Degree
 			li
-				a(href="javascript:void(0)") Doctoral Degree
+				a(href="javascript:void(0)", data-offering= 'doctoral') Doctoral Degree
 .map-wrapper.border-top-bottom-grey
 	.map
 	.container
 		.column-map
-			a(data-shool='fort_mcmurray', href="javascript:void(0)")
+			a(data-city='fort_mcmurray', href="javascript:void(0)")
 				.icon-city
 				span Fort McMurray
-			a(data-shool='grouard', href="javascript:void(0)")
+			a(data-city='grouard', href="javascript:void(0)")
 				.icon-city
 				span Grouard
-			a(data-shool='grande_prairie', href="javascript:void(0)")
+			a(data-city='grande_prairie', href="javascript:void(0)")
 				.icon-city
 				span Grande Prairie
-			a(data-shool='athabasca', href="javascript:void(0)")
+			a(data-city='athabasca', href="javascript:void(0)")
 				.icon-city
 				span Athabasca
-			a(data-shool='lac_la_biche', href="javascript:void(0)")
+			a(data-city='lac_la_biche', href="javascript:void(0)")
 				.icon-city
 				span Lac La Biche
-			a(data-shool='edmonton', href="javascript:void(0)")
+			a(data-city='edmonton', href="javascript:void(0)")
 				.icon-city
 				span Edmonton
-			a(data-shool='vermillion', href="javascript:void(0)")
+			a(data-city='vermillion', href="javascript:void(0)")
 				.icon-city
 				span Vermillion
-			a(data-shool='lloydminster', href="javascript:void(0)")
+			a(data-city='lloydminster', href="javascript:void(0)")
 				.icon-city
 				span Lloydminster
-			a(data-shool='lacombe', href="javascript:void(0)")
+			a(data-city='lacombe', href="javascript:void(0)")
 				.icon-city
 				span Lacombe
-			a(data-shool='red_deer', href="javascript:void(0)")
+			a(data-city='red_deer', href="javascript:void(0)")
 				.icon-city
 				span Red Deer
-			a(data-shool='olds', href="javascript:void(0)")
+			a(data-city='olds', href="javascript:void(0)")
 				.icon-city
 				span Olds
-			a(data-shool='banff', href="javascript:void(0)")
+			a(data-city='banff', href="javascript:void(0)")
 				.icon-city
 				span Banff
-			a(data-shool='calgary', href="javascript:void(0)")
+			a(data-city='calgary', href="javascript:void(0)")
 				.icon-city
 				span Calgary
-			a(data-shool='medicine_hat', href="javascript:void(0)")
+			a(data-city='medicine_hat', href="javascript:void(0)")
 				.icon-city
 				span Medicine Hat
-			a(data-shool='lethbridge', href="javascript:void(0)")
+			a(data-city='lethbridge', href="javascript:void(0)")
 				.icon-city
 				span Lethbridge	
 		.column-results
@@ -103,13 +103,13 @@
 				.form-group
 					.select-wrapper
 						i.fa.fa-chevron-down.fa-lg
-						select.form-control
+						select#select-specialty.form-control
 							option(value='') Elige la especialidad
-				p
+				p.text-hide
 					| Universidades en&nbsp;
 					span#offering-city
-					| &nbsp;cuentan con la especialidad:
-				p#offering-specialty			
+					| &nbsp; que cuentan con la especialidad:
+				p#offering-specialty.text-hide		
 			.results-schools
 				.school-wrapper
 											
