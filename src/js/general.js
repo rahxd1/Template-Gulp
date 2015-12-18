@@ -93,14 +93,6 @@ $(document).ready(function() {
 	$('.fancybox-video').fancybox({
 		maxWidth	: 856,
 		maxHeight	: 480,
-		helpers		:  {
-        	//overlay : null
-    	}
-		//fitToView	: false,
-		//autoSize	: false,
-		//closeClick	: false,
-		//openEffect	: 'none',
-		//closeEffect	: 'none'
 	});
 
 	var validateEmail = function(email) {
@@ -112,7 +104,7 @@ $(document).ready(function() {
 	$('#email').focusout(function(){
 		if (!validateEmail($(this).val())){
 			$(this).addClass('error');
-      		$(this).siblings('span.error').show()
+			$(this).siblings('span.error').show()
 			$(this).val('');
 		}
 	});
@@ -125,15 +117,15 @@ $(document).ready(function() {
 		$('.form-control').removeClass('error');
 
 		inputs.each(function(i, el) {
-    		var input = $(el);
-    		if (input.val() === '') {
-      			input.addClass('error');
-      			input.siblings('span.error').show()
-      			e.preventDefault(); 
-    		}else {
-    			input.siblings('span.error').hide()
-    		}
-  		});
+			var input = $(el);
+			if (input.val() === '') {
+				input.addClass('error');
+				input.siblings('span.error').show()
+				e.preventDefault(); 
+			}else {
+				input.siblings('span.error').hide()
+			}
+		});
 	});
 
 	var inputSelector = ['input[type=email]', 'input[type=text]', 'textarea'].join(', ');
@@ -214,30 +206,30 @@ $(document).ready(function() {
 				var events = data.items;
 
 				if (events.length > 0) {
-			      for (i = 0; i < events.length; i++) {
-			        var event = events[i];
-			        appendPre(event, i)
-			      }
-			    } else {
-			      $('.no-briefings').show();
-			      $('#briefings article').hide();
-			    }
-	  		});
+					for (i = 0; i < events.length; i++) {
+						var event = events[i];
+						appendPre(event, i)
+					}
+				} else {
+					$('.no-briefings').show();
+					$('#briefings article').hide();
+				}
+		});
 	};
 
 	if (window.location.href.match(/asistencia.html/)) {
 		var getUrlParameter = function getUrlParameter(sParam) {
-    		var sPageURL = decodeURIComponent(window.location.search.substring(1)),
-        	sURLVariables = sPageURL.split('&'),
-        	sParameterName,
-        	i;
+			var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+			sURLVariables = sPageURL.split('&'),
+			sParameterName,
+			i;
 
-		    for (i = 0; i < sURLVariables.length; i++) {
-		        sParameterName = sURLVariables[i].split('=');
-		        if (sParameterName[0] === sParam) {
-		            return sParameterName[1] === undefined ? true : sParameterName[1];
-		        }
-		    }
+			for (i = 0; i < sURLVariables.length; i++) {
+				sParameterName = sURLVariables[i].split('=');
+				if (sParameterName[0] === sParam) {
+					return sParameterName[1] === undefined ? true : sParameterName[1];
+				}
+			}
 		};
 
 		var session = $('article.session');
@@ -255,4 +247,226 @@ $(document).ready(function() {
 		$(form).find("input[name='date']").val(moment(date_start).locale('es').format('LL'));
 		$(form).find("input[name='time']").val(time);
 	};
+
+	var display_cities = function(element){
+		var key = $(element).data('offering');
+
+		var select_specialty = $('#select-specialty');
+		var school_wrapper = $('.school-wrapper');
+
+		select_specialty.empty();
+		select_specialty.append("<option value=''>Elige la especialidad</option>");
+
+		school_wrapper.empty();
+
+		$('.results-schools').hide();
+
+		$.getJSON("json/academic-offerings.json", function(data){
+			var vals_cities = data[key].cities;
+			var cities = Object.keys(vals_cities);
+
+			var spans = $('.column-map a > span');
+			spans.parent().hide();
+
+			$.each(spans, function(index, span){
+				
+				if ($.inArray($(span).text(), cities) > -1){
+					$(span).parent().show();
+				};
+			});
+
+			$('#offering-type').text(data[key].name);
+			$('#offering-summary').text(data[key].copy);
+			$('.text-hide').hide();
+		});	
+	};
+
+	var display_specialties = function(element){
+		var key_city = $(element).children('span').text();
+		var key_offering = $('#nav-offering > ul > li > a.active').data('offering');
+		var select_specialty = $('#select-specialty');
+		var school_wrapper = $('.school-wrapper');
+
+		select_specialty.empty();
+		select_specialty.append("<option value=''>Elige la especialidad</option>");
+
+		school_wrapper.empty();
+
+		$.getJSON("json/academic-offerings.json", function(data){	
+			var val_specialties = data[key_offering].cities[key_city];
+			var specialties = Object.keys(val_specialties);
+
+			$.each(specialties, function(index, value){
+				var i = value.replace(/ /g, '_');
+				select_specialty.append("<option value=" + i  + ">" + value + "</option>");
+			});
+		});
+	};
+
+	var display_schools = function(element){
+		var key_offering = $('#nav-offering > ul > li > a.active').data('offering');
+		var key_city = $('.column-map a.active').children('span').text();
+		var key_specialty = $(element).val().replace(/_/g, ' ');
+
+		var school_wrapper = $('.school-wrapper');
+		school_wrapper.empty();
+		$('.results-schools').show();
+
+		if(key_specialty !== '') {
+			$.getJSON("json/academic-offerings.json", function(data){
+				var val_schools = data[key_offering].cities[key_city][key_specialty];
+
+				$.each(val_schools, function(index, value){
+	
+					var img = $('<img>', {src: value.logo})
+					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
+
+					var a = $('<a>', {class: 'school', href: value.web});
+
+					a.append(img);
+					a.append(p);
+
+					school_wrapper.append(a);
+				});
+
+				$('.text-hide').show();
+				$('#offering-city').text(key_city);
+				$('#offering-specialty').text(key_specialty);
+			});
+		};
+	};
+
+
+	if($('#nav-offering').length > 0){
+		var nav_links = $('#nav-offering > ul > li > a');
+		$(nav_links).removeClass('active');
+		$(nav_links).first().addClass('active');
+
+		$.each(nav_links, function(i, el){
+			$(el).click(function(){
+				$(nav_links).removeClass('active');
+				$(this).addClass('active');
+				display_cities(this);
+			});
+		});
+
+		$(nav_links).eq(0).trigger('click');
+	};
+
+	$('#mobile-select-offering').change(function(){
+		var dropdown = $(this);
+		var key = dropdown.val();
+
+		if(key !== '') {
+			$.getJSON("json/academic-offerings.json", function(data){	
+				var vals = data[key];
+				var cities = Object.keys(vals.cities);
+
+				var select_city = $('#mobile-select-city');
+				var select_specialty = $('#mobile-select-specialty');
+				var school_wrapper = $('.school-wrapper');
+
+				select_city.empty();
+				select_city.append("<option value=''>Elige la ciudad que te interesa</option>");
+
+				select_specialty.empty();
+				select_specialty.append("<option value=''>Elige la especialidad</option>");
+
+				school_wrapper.empty();
+
+				$('.results-schools').hide();
+
+				$.each(cities, function(index, value){
+					select_city.append("<option value=" + value + ">" + value + "</option>");
+				});
+
+				$('#mobile-offering-type').text(vals.name);
+				$('#mobile-offering-summary').text(vals.copy);
+				$('.mobile-text-hide').hide();
+			});
+		}
+	});
+
+	$('#mobile-select-city').change(function(){
+		var key_offering = $('#mobile-select-offering').val();
+		var dropdown_city = $(this);
+		var key_city = dropdown_city.val();
+
+		if(key_city !== '') {
+			$.getJSON("json/academic-offerings.json", function(data){	
+				var val_specialties = data[key_offering].cities[key_city];
+				var specialties = Object.keys(val_specialties);
+			
+				var select_specialty = $('#mobile-select-specialty');
+
+				select_specialty.empty();
+				select_specialty.append("<option value=''>Elige la especialidad</option>");
+
+				var school_wrapper = $('.school-wrapper');
+				school_wrapper.empty();
+
+				$('.results-schools').hide();
+
+				$.each(specialties, function(index, value){
+					var i = value.replace(/ /g, '_');
+					select_specialty.append("<option value=" + i  + ">" + value + "</option>");
+				});
+				$('#mobile-offering-city').text(key_city);
+				$('.mobile-text-hide').hide();
+			});
+		}
+	});
+
+	$('#mobile-select-specialty').change(function(){
+		var key_offering = $('#mobile-select-offering').val();
+		var key_city = $('#mobile-select-city').val();
+		var dropdown_specialty = $(this);
+		var key_specialty = dropdown_specialty.val().replace(/_/g, ' ');		
+
+		if(key_specialty !== '') {
+			$.getJSON("json/academic-offerings.json", function(data){
+				var val_schools = data[key_offering].cities[key_city][key_specialty];
+
+				var school_wrapper = $('.school-wrapper');
+				school_wrapper.empty();
+				
+				$.each(val_schools, function(index, value){
+	
+					var img = $('<img>', {src: value.logo})
+					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
+
+					var a = $('<a>', {class: 'school', href: value.web});
+
+					a.append(img);
+					a.append(p);
+
+					school_wrapper.append(a);
+				});
+				$('.mobile-text-hide').show();
+				$('#mobile-offering-city').text(key_city);
+				$('#mobile-offering-specialty').text(key_specialty);
+
+				$('.results-schools').show();
+			});
+		}
+	});
+
+
+	$('#select-specialty').change(function(){
+		display_schools(this);
+	});
+
+	if($('.column-map a').length > 0){
+		var cities_links = $('.column-map a');
+		$(cities_links).removeClass('active');
+
+		$.each(cities_links, function(i, el){
+			$(el).click(function(){
+				$(cities_links).removeClass('active');
+				$(this).addClass('active');
+				display_specialties(el);
+			});
+		});
+	};
+
 });

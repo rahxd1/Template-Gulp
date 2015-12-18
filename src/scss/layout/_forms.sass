@@ -1,4 +1,4 @@
-form.contact-form
+.contact-form
 	margin: 0 auto
 	max-width: em-calc(480)
 	min-width: em-calc(320)
@@ -103,3 +103,23 @@ form.contact-form
 			&:focus, &:active
 				border: em-calc(1) solid $red
 				box-shadow: 0 em-calc(1)  em-calc(1)  rgba(0, 0, 0, 0.075) inset, 0 0 em-calc(4)  rgba($red, 0.5)
+
+.select-wrapper
+	width: 100%
+	position: relative
+	vertical-align: middle
+
+	.fa
+		content: ""
+		pointer-events: none
+		position: absolute
+		right: em-calc(15)
+		top: em-calc(10)
+		color: $super-ligh-gray
+		z-index: 20
+
+	select
+		appearance: none
+		-webkit-appearance: none
+		-moz-appearance: none
+					

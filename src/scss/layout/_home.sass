@@ -182,4 +182,265 @@ article.studies
 		margin: em-calc(15) 0
 
 a
-	color: $ligh-blue				
+	color: $ligh-blue
+
+#nav-offering
+	display: none
+	text-transform: uppercase
+
+	+bp(min, em-calc(960))
+		display: block
+
+	> ul
+		display: flex 
+		justify-content: center
+		height: em-calc(40)
+
+		> li
+			position: relative
+			margin: 0 em-calc(10)
+
+			> a
+				color: $font-color-base
+				font-family: 'ProximaNovaRegular'
+
+				&:after
+					content: ""
+					display: block
+					position: absolute
+					height: em-calc(5)
+					background-color: $ligh-blue
+					bottom: 0
+					left: 50%
+					width: 0%
+					+transition(all .25s ease-in-out)
+				
+				&.active
+					color: $ligh-blue
+					font-family: 'ProximaNovaSemiBold'
+
+					&:after
+						width: 100%
+						left: 0
+
+			&:hover		
+				> a
+					color: $ligh-blue
+					font-family: 'ProximaNovaSemiBold'
+					
+					&:after
+						width: 100%
+						left: 0
+
+.map
+	background: rgba(0, 0, 0, 0) url("/imgs/mapa.png") no-repeat center center
+	height: em-calc(612)
+	position: absolute
+	width: 100%
+	display: none
+
+	+bp(min, em-calc(960))
+		display: block
+
+.academic-offerings
+	&.full-width-ligh-gray
+		+bp(min, em-calc(960))
+			background-color: #fff
+			padding-bottom: 0
+
+	#mobile-offering-type, #mobile-offering-specialty, #offering-specialty
+		@extend %font-color-ligh-blue
+		text-transform: uppercase
+		font-family: 'ProximaNovaSemiBold'
+
+	#mobile-offering-city, #offering-city
+		font-family: "ProximaNovaSemiBold"	
+
+	p
+		text-align: left
+		margin-bottom: em-calc(10)
+
+	.row-mobile
+		display: block
+
+		+bp(min, em-calc(960))
+			display: none
+
+	.p-mobile
+		display: none
+
+		+bp(min, em-calc(960))
+			display: block
+	
+	.school-wrapper
+		background-color: $ligh-gray
+		box-shadow: 0 em-calc(2) em-calc(3) 0 rgba($strong-gray, 0.5)
+		padding: em-calc(10) em-calc(20) 0 em-calc(10)
+		height: em-calc(270)
+		border-radius: em-calc(4)
+		overflow-x: hidden
+		overflow-y: scroll					
+
+	.results-schools
+		margin: 0 auto
+		max-width: em-calc(480)
+		min-width: em-calc(320)
+		padding: 0 em-calc(10)
+		display: none
+
+		.school
+			position: relative
+			display: block
+			background-color: #fff
+			box-shadow: 0 em-calc(1) em-calc(4) 0 rgba(#010202, 0.2)
+			margin-bottom: em-calc(10)
+
+			+bp(min, em-calc(960))
+				display: flex
+				align-items: center
+
+				.p-mobile
+					margin: 0 0 0 em-calc(10)
+
+					span
+						&:first-of-type
+							font-family: "ProximaNovaSemiBold"
+							color: $ligh-blue
+						&:last-of-type
+							font-size: em-calc(14)
+							color: $font-color-base
+				img
+					margin: em-calc(10)
+
+	.text-hide, .mobile-text-hide		
+		display: none				
+
+.map-wrapper
+	height: em-calc(615)
+
+	+bp(max, em-calc(959))
+		height: auto
+
+	&.border-top-bottom-grey
+		+bp(max, em-calc(959))
+			border: 0
+
+	#offering-type
+		text-align: left
+		margin-bottom: em-calc(5)		
+
+	.container
+		position: relative		
+
+	.column-map, .column-results
+		width: 50%
+
+	.column-map
+		display: none
+		height: em-calc(600)
+		position: relative
+
+		+bp(min, em-calc(960))
+			display: inline-block
+
+		a
+			position: absolute
+			display: none
+
+			.icon-city
+				position: absolute
+				background-image: url($icon-path + "puntero_inactivo.png")
+				background-repeat: no-repeat
+				width: em-calc(15)
+				height: em-calc(25)
+			&.active
+				.icon-city
+					background-image: url($icon-path + "puntero_activo.png")
+					background-size: em-calc(32) em-calc(51)
+					width: em-calc(32)
+					height: em-calc(51)
+					top: em-calc(-25)
+					left: em-calc(-10)
+
+			span
+				font:
+					family: "ProximaNovaRegular"
+					size: em-calc(14) 
+				color: $font-color-base
+				position: relative
+				top: em-calc(30)
+				left: -40%
+
+			&[data-city='fort_mcmurray']
+				top: em-calc(150)
+				right: em-calc(60)
+
+			&[data-city='grouard']
+				top: em-calc(180)
+				left: em-calc(200)
+
+			&[data-city='grande_prairie']
+				top: em-calc(240)
+				left: em-calc(115)
+
+			&[data-city='athabasca']
+				top: em-calc(260)
+				right: em-calc(155)
+
+			&[data-city='lac_la_biche']
+				top: em-calc(240)
+				right: em-calc(90)
+
+			&[data-city='edmonton']
+				top: em-calc(330)
+				right: em-calc(200)
+
+			&[data-city='vermillion']
+				top: em-calc(315)
+				right: em-calc(140)
+
+			&[data-city='lloydminster']
+				top: em-calc(330)
+				right: em-calc(60)
+
+			&[data-city='lacombe']
+				bottom: em-calc(205)
+				right: em-calc(220)
+
+			&[data-city='red_deer']
+				bottom: em-calc(185)
+				right: em-calc(180)
+
+			&[data-city='olds']	
+				bottom: em-calc(155)
+				left: em-calc(195)
+
+			&[data-city='banff']
+				bottom: em-calc(110)
+				left: em-calc(200)
+
+			&[data-city='calgary']
+				bottom:	em-calc(100)
+				right: em-calc(190)
+
+			&[data-city='medicine_hat']
+				bottom:	em-calc(80)
+				right: em-calc(90)
+
+			&[data-city='lethbridge']
+				bottom:	em-calc(50)
+				right: em-calc(170)
+
+	.column-results
+		margin-top: em-calc(40)
+		float: right
+
+		+bp(max, em-calc(959))
+			float: none
+			width: auto
+
+		.contact-form
+			display: none
+
+			+bp(min, em-calc(960))
+				display: block
