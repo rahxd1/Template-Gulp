@@ -29,11 +29,10 @@ function errorlog(error){
 
 gulp.task('scripts', function(){
 	gulp.src('src/js/**/*.js')
-		/*.pipe(plumber({errorHandler:errorlog}))
+		.pipe(plumber({errorHandler:errorlog}))
 		.pipe(uglify())
 		.pipe(gulp.dest(outputDir+'/js'))
-		.pipe(browserSync.reload({stream:true}));*/
-		.pipe(gulp.dest(outputDir+'/js'));	
+		.pipe(browserSync.reload({stream:true}));
 });
 
 gulp.task('compass', function() {
