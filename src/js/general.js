@@ -93,6 +93,16 @@ $(document).ready(function() {
 	$('.fancybox-video').fancybox({
 		maxWidth	: 856,
 		maxHeight	: 480,
+		helpers : {
+			overlay : {
+				css : {
+					'background' : 'rgba(#000, 0.75)'
+				}
+			}
+		},
+		tpl: {
+        	closeBtn: '<a class="fancybox-item fancybox-close" href="javascript:;"><span>CERRAR</span></a>'
+    	}
 	});
 
 	var validateEmail = function(email) {
@@ -187,8 +197,8 @@ $(document).ready(function() {
 		$(article).find("input[name='date-time']").val(date_start);
 	};
 
-	var CLIENT_ID = 'masfusion.com_ofv9265ptel5qos53g94l81cc4%40group.calendar.google.com';
-	var API_KEY = 'AIzaSyAMt0isNUcgJnjslrmsYRXHgdPnkHC58uA';
+	var CLIENT_ID = '6oq4se0o1t0v3fph89eniep6ls@group.calendar.google.com';
+	var API_KEY = 'AIzaSyAFuVaP5Q0xOYSSc2FWsVlYhwIk7mss5m8';
 	var options = {
 		'showDeleted': false,
 		'singleEvents': true,
