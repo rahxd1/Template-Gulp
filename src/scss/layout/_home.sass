@@ -21,6 +21,9 @@
 			padding: 0 em-calc(12)									
 
 .section-working-studying
+	
+	img
+		width: 100%
 
 	@include bp(max, em-calc(959))
 		.col-6
@@ -38,7 +41,6 @@
 	@include bp(small)
 
 		img
-			width: 100%
 			min-width: em-calc(320)
 
 .section-studies
@@ -234,7 +236,7 @@ a
 						left: 0
 
 .map
-	background: rgba(0, 0, 0, 0) url("/imgs/mapa.png") no-repeat center center
+	background: rgba(0, 0, 0, 0) url("../imgs/mapa.png") no-repeat center center
 	height: em-calc(612)
 	position: absolute
 	width: 100%
@@ -295,6 +297,11 @@ a
 			background-color: #fff
 			box-shadow: 0 em-calc(1) em-calc(4) 0 rgba(#010202, 0.2)
 			margin-bottom: em-calc(10)
+			padding: em-calc(15) 0
+
+			img
+				height: em-calc(40)
+				margin: 0 em-calc(10)
 
 			+bp(min, em-calc(960))
 				display: flex
@@ -302,6 +309,10 @@ a
 
 				.p-mobile
 					margin: 0 0 0 em-calc(10)
+					line-height: 1
+					width: em-calc(295)
+					overflow: hidden
+					white-space: nowrap
 
 					span
 						&:first-of-type
@@ -310,8 +321,6 @@ a
 						&:last-of-type
 							font-size: em-calc(14)
 							color: $font-color-base
-				img
-					margin: em-calc(10)
 
 	.text-hide, .mobile-text-hide		
 		display: none				

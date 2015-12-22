@@ -20,6 +20,8 @@ var browserSync = require('browser-sync');
 
 var plumber = require('gulp-plumber');
 
+var concat = require('gulp-concat');
+
 function errorlog(error){
 	console.error.bind(error);
 	this.emit('end');
@@ -28,10 +30,19 @@ function errorlog(error){
 // Tasks
 
 gulp.task('scripts', function(){
-	gulp.src('src/js/**/*.js')
+	gulp.src(['src/js/general.js','src/js/modernizr.js'])
 		.pipe(plumber({errorHandler:errorlog}))
 		.pipe(uglify())
 		.pipe(gulp.dest(outputDir+'/js'))
+		.pipe(browserSync.reload({stream:true}));
+});
+
+gulp.task('vendor-scripts', function(){
+	gulp.src('src/js/vendor/**/*.js')
+		.pipe(plumber({errorHandler:errorlog}))
+		.pipe(concat('all.js'))
+		.pipe(uglify())
+		.pipe(gulp.dest(outputDir+'/js/vendor'))
 		.pipe(browserSync.reload({stream:true}));
 });
 
@@ -39,7 +50,7 @@ gulp.task('compass', function() {
   gulp.src('src/scss/**/*.{scss,sass}')
   	.pipe(plumber({errorHandler:errorlog}))
     .pipe(compass({
-    	style: 'expanded',
+    	style: 'compressed',
       	css: outputDir+'/css',
       	sass: 'src/scss',
       	font: 'fonts',
@@ -66,7 +77,7 @@ gulp.task('jade-compile', function(){
 	return gulp.src('src/templates/**/*.jade')
 		.pipe(jade(
 			{
-				pretty:true
+				pretty:false
 			}
 		))
 		.pipe(gulp.dest(outputDir))
@@ -106,10 +117,10 @@ gulp.task('watch', function(){
 	browserSync.init({
 		server: outputDir
 	});
-	gulp.watch('src/js/**/*.js', ['scripts']);
+	gulp.watch('src/js/**/*.js', ['scripts','vendor-scripts']);
 	gulp.watch('src/scss/**/*.{scss,sass}', ['compass']);
 	gulp.watch('src/templates/**/*.jade',['jade-watch']).on('change', browserSync.reload);
 });
 
 //gulp.task('default', ['scripts', 'compass', 'jade-compile' ,'watch', 'connect']);
-gulp.task('default', ['scripts', 'compass', 'jade-compile' ,'watch']);
+gulp.task('default', ['scripts', 'vendor-scripts','compass', 'jade-compile' ,'watch']);
