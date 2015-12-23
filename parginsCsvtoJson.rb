@@ -62,8 +62,7 @@ csv.map do |row|
 	university = universities.find{|u|
 
 		u['name'] == row['University'].strip
-	}#{"name": row['University'], "web": "algo", "logo": "algo"}
-	#p row['University'].strip
+	}
 
 	(3..22).each { |n|
 		unless row[n].nil?
