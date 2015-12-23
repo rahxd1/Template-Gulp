@@ -274,12 +274,10 @@ $(document).ready(function() {
 		$.getJSON("json/academic-offerings.json", function(data){
 			var vals_cities = data[key].cities;
 			var cities = Object.keys(vals_cities);
-
 			var spans = $('.column-map a > span');
 			spans.parent().hide();
 
 			$.each(spans, function(index, span){
-				
 				if ($.inArray($(span).text(), cities) > -1){
 					$(span).parent().show();
 				};
@@ -331,7 +329,7 @@ $(document).ready(function() {
 					var img = $('<img>', {src: value.logo})
 					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
 
-					var a = $('<a>', {class: 'school', href: value.web});
+					var a = $('<a>', {class: 'school', href: 'http://'+value.web, target: '_blank'});
 
 					a.append(img);
 					a.append(p);
@@ -445,7 +443,7 @@ $(document).ready(function() {
 					var img = $('<img>', {src: value.logo})
 					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
 
-					var a = $('<a>', {class: 'school', href: value.web});
+					var a = $('<a>', {class: 'school', href: 'http://'+value.web, target: '_blank'});
 
 					a.append(img);
 					a.append(p);

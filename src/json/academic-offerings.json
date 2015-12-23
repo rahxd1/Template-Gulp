@@ -1,117 +1,5271 @@
-{  
+{
   "certificate": {
     "name": "Certificate",
     "copy": "Consta de 1 año de estudio aplicado para emplearse en ocupaciones específicas.",
     "cities": {
       "Athabasca": {
         "English as a Second Language": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
         "Business and Administration Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
         "Clerical and Administrative Support": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"} 
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
         "Communications, Journalism, and Related Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}        
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
         "Computer and Information Technology": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}        
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
         "Education and Library Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
         "Engineering, Architecture, and Related Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
         "General Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
         "Health Care, Medical Studies, and Technologies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
-        "Humanities and Languages": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
-        ],
-        "Mathematics": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
-        ],
-        "Sciences": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
-        ],
-        "Social Sciences, Law, and Interdisciplinary Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
-        ],
-        "Social, Community, and Protective Services": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+        "Physical Education and Recreation": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ]
       },
       "Calgary": {
-        "English as a Second Language 1": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "English as a Second Language": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
         ],
-        "Agriculture and Related Technology 1": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "Business and Administration Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ]
+      },
+      "Grande Prairie": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ]
+      },
+      "Fort McMurray": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ]
+      },
+      "Lloydminster": {
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ]
+      },
+      "Vermillion": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ]
+      },
+      "Lethbridge": {
+        "English as a Second Language": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
         ]
       },
       "Edmonton": {
-
-      },
-      "Fort McMurray": {
-
-      },
-      "Grande Prairie": {
-
-      },
-      "Lac La Biche": {
-
-      },
-      "Lethbridge": {
-
-      },
-      "Lloydminster": {
-
+        "English as a Second Language": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ]
       },
       "Medicine Hat": {
-
+        "English as a Second Language": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ]
+      },
+      "Grouard": {
+        "Business and Administration Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ]
       },
       "Olds": {
-
+        "Agriculture and Related Technology": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ]
+      },
+      "Lac La Biche": {
+        "Business and Administration Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ]
       },
       "Red Deer": {
-
-      },
-      "Vermillion": {
-        
+        "Agriculture and Related Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ]
       }
     }
-
   },
   "diploma": {
     "name": "Diploma",
     "copy": "Consta de 2 años de estudio aplicado para emplearse en áreas particulares.",
     "cities": {
-      "Edmonton": {
-        "English as a Second Language 3": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+      "Athabasca": {
+        "Business and Administration Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
         ],
-        "Agriculture and Related Technology 3": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "Clerical and Administrative Support": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ]
+      },
+      "Calgary": {
+        "Business and Administration Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Bow Valley College",
+            "web": "international.bowvalleycollege.ca",
+            "logo": "/imgs/icons/05_school_BowValley.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ]
+      },
+      "Grande Prairie": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Grande Prairie Regional College",
+            "web": "gprc.ab.ca",
+            "logo": "/imgs/icons/08_school_GPRC.jpg"
+          }
+        ]
+      },
+      "Fort McMurray": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Keyano College",
+            "web": "keyano.ca/FutureStudents/InternationalStudents",
+            "logo": "/imgs/icons/09_school_KEYANO.jpg"
+          }
+        ]
+      },
+      "Lloydminster": {
+      },
+      "Vermillion": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ]
+      },
+      "Lethbridge": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ]
+      },
+      "Edmonton": {
+        "Business and Administration Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "NorQuest College",
+            "web": "norquest.ca/international",
+            "logo": "/imgs/icons/16_school_NORQUEST.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ]
+      },
+      "Medicine Hat": {
+        "Business and Administration Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ]
+      },
+      "Grouard": {
+        "Business and Administration Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Northern Lakes College",
+            "web": "northernlakescollege.ca/student-services/international-students",
+            "logo": "/imgs/icons/17_school_NORTHERNLAKES.jpg"
+          }
         ]
       },
       "Olds": {
-        "English as a Second Language 4": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "Agriculture and Related Technology": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
         ],
-        "Agriculture and Related Technology 4": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "Business and Administration Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ]
+      },
+      "Lac La Biche": {
+        "Business and Administration Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Portage College",
+            "web": "portagecollege.ca",
+            "logo": "/imgs/icons/19_school_PORTAGEC.jpg"
+          }
+        ]
+      },
+      "Red Deer": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ]
+      }
+    }
+  },
+  "applied": {
+    "name": "Applied Degree",
+    "copy": "Consta de 3 años de estudio aplicado con práctica laboral en la industria.",
+    "cities": {
+      "Lloydminster": {
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ]
+      },
+      "Vermillion": {
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ]
+      },
+      "Lethbridge": {
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          }
+        ]
+      },
+      "Edmonton": {
+        "Business and Administration Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ]
+      },
+      "Medicine Hat": {
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ]
+      },
+      "Calgary": {
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ]
+      },
+      "Olds": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Olds College",
+            "web": "oldscollege.ca/international",
+            "logo": "/imgs/icons/18_school_OLDSCOLLEGE.jpg"
+          }
+        ]
+      },
+      "Red Deer": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Red Deer College",
+            "web": "rdc.ab.ca/future-students/international-students",
+            "logo": "/imgs/icons/20_school_RDC.jpg"
+          }
+        ]
+      }
+    }
+  },
+  "baccalaureate": {
+    "name": "Baccalaureate Degree",
+    "copy": "Consta de 4 años con enfoque académico dirigido al aprendizaje teórico.",
+    "cities": {
+      "Calgary": {
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Alberta College of Art & Design",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "/imgs/icons/01_school_ACAD.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Alberta College of Art & Design",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "/imgs/icons/01_school_ACAD.jpg"
+          },
+          {
+            "name": "Ambrose University",
+            "web": "ambrose.edu/enrolment/international-students",
+            "logo": "/imgs/icons/02_school_AMBROSE.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Alberta College of Art & Design",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "/imgs/icons/01_school_ACAD.jpg"
+          },
+          {
+            "name": "Ambrose University",
+            "web": "ambrose.edu/enrolment/international-students",
+            "logo": "/imgs/icons/02_school_AMBROSE.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "St. Mary's University",
+            "web": "stmu.ca/international-students",
+            "logo": "/imgs/icons/22_school_MARYSU.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Alberta College of Art & Design",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "/imgs/icons/01_school_ACAD.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Alberta College of Art & Design",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "/imgs/icons/01_school_ACAD.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Alberta College of Art & Design",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "/imgs/icons/01_school_ACAD.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "St. Mary's University",
+            "web": "stmu.ca/international-students",
+            "logo": "/imgs/icons/22_school_MARYSU.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Ambrose University",
+            "web": "ambrose.edu/enrolment/international-students",
+            "logo": "/imgs/icons/02_school_AMBROSE.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Ambrose University",
+            "web": "ambrose.edu/enrolment/international-students",
+            "logo": "/imgs/icons/02_school_AMBROSE.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "St. Mary's University",
+            "web": "stmu.ca/international-students",
+            "logo": "/imgs/icons/22_school_MARYSU.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Ambrose University",
+            "web": "ambrose.edu/enrolment/international-students",
+            "logo": "/imgs/icons/02_school_AMBROSE.jpg"
+          },
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "St. Mary's University",
+            "web": "stmu.ca/international-students",
+            "logo": "/imgs/icons/22_school_MARYSU.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Mount Royal University",
+            "web": "mtroyal.ca/InternationalStudents",
+            "logo": "/imgs/icons/12_school_MOUNTROYAL.jpg"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "St. Mary's University",
+            "web": "stmu.ca/international-students",
+            "logo": "/imgs/icons/22_school_MARYSU.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT)",
+            "web": "sait.ca/international",
+            "logo": "/imgs/icons/21_school_SAIT.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "St. Mary's University",
+            "web": "stmu.ca/international-students",
+            "logo": "/imgs/icons/22_school_MARYSU.jpg"
+          },
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ]
+      },
+      "Athabasca": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ]
+      },
+      "LaCombe": {
+        "Business and Administration Studies": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Burman University",
+            "web": "burmanu.ca/internationalstudents",
+            "logo": "/imgs/icons/06_school_BURMAN.jpg"
+          }
+        ]
+      },
+      "Edmonton": {
+        "Business and Administration Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "MacEwan University",
+            "web": "macewan.ca/international",
+            "logo": "/imgs/icons/14_school_MACEWAN.jpg"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "nait.ca/international",
+            "logo": "/imgs/icons/15_school_NAIT.jpg"
+          },
+          {
+            "name": "The King’s University",
+            "web": "kingsu.ca/international-students",
+            "logo": "/imgs/icons/09_school_KINGSUNI.jpg"
+          }
+        ]
+      },
+      "Vermillion": {
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ]
+      },
+      "Lethbridge": {
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lethbridge College",
+            "web": "lethbridgecollege.ca/international",
+            "logo": "/imgs/icons/11_school_LETBRIDGEC.jpg"
+          },
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ]
+      },
+      "Lloydminster": {
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College",
+            "web": "akelandcollege.ca/international",
+            "logo": "/imgs/icons/10_school_LAKELANDC.jpg"
+          }
+        ]
+      },
+      "Medicine Hat": {
+        "Business and Administration Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Medicine Hat College",
+            "web": "mhc.ab.ca/InternationalStudents.aspx",
+            "logo": "/imgs/icons/13_school_MEDICINEHAT.jpg"
+          }
+        ]
+      }
+    }
+  },
+  "master": {
+    "name": "Master's Degree",
+    "copy": "Consta de 2 años de estudios después de 4 años de estudios superiores previos.",
+    "cities": {
+      "Athabasca": {
+        "Business and Administration Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ]
+      },
+      "Edmonton": {
+        "Business and Administration Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "international.concordia.ab.ca",
+            "logo": "/imgs/icons/07_school_CONCORDIA.jpg"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ]
+      },
+      "Calgary": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ]
+      },
+      "Lethbridge": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ]
+      }
+    }
+  },
+  "doctoral": {
+    "name": "Doctoral Degree",
+    "copy": "Consta de 2-3 años de estudios después de la maestría.",
+    "cities": {
+      "Athabasca": {
+        "Business and Administration Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Athabasca University",
+            "web": "athabascau.ca/students/starter/prospectiveugrad/international.php",
+            "logo": "/imgs/icons/03_school_ATHABASCA.jpg"
+          }
+        ]
+      },
+      "Edmonton": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Alberta",
+            "web": "studyincanada.ualberta.ca",
+            "logo": "/imgs/icons/22_school_UALBERTA.jpg"
+          }
+        ]
+      },
+      "Calgary": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Calgary",
+            "web": "ucalgary.ca/uci",
+            "logo": "/imgs/icons/23_school_UCALGARY.jpg"
+          }
+        ]
+      },
+      "Lethbridge": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Health Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Lethbridge",
+            "web": "uleth.ca/international",
+            "logo": "/imgs/icons/24_school_ULETHBRIDGE.jpg"
+          }
         ]
       }
     }
