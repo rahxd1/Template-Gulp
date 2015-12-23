@@ -1,117 +1,6161 @@
-{  
+{
   "certificate": {
     "name": "Certificate",
     "copy": "Consta de 1 año de estudio aplicado para emplearse en ocupaciones específicas.",
     "cities": {
       "Athabasca": {
         "English as a Second Language": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
         "Business and Administration Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
         "Clerical and Administrative Support": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"} 
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
         "Communications, Journalism, and Related Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}        
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
         "Computer and Information Technology": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}        
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
         "Education and Library Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
         "Engineering, Architecture, and Related Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
         "General Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
-        "Health Care, Medical Studies, and Technologies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
-        "Humanities and Languages": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
-        ],
-        "Mathematics": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
-        ],
-        "Sciences": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
-        ],
-        "Social Sciences, Law, and Interdisciplinary Studies": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
-        ],
-        "Social, Community, and Protective Services": [
-          {"name": "Athabasca University", "web": "athabascau.ca/students/starter/prospectiveugrad/international.php", "logo": "/imgs/icons/03_school_ATHABASCA.jpg"}
+        "Physical Education and Recreation": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ]
       },
-      "Calgary": {
-        "English as a Second Language 1": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+      "Calgary ": {
+        "English as a Second Language": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
-        "Agriculture and Related Technology 1": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "Business and Administration Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Grande Prairie": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Fort McMurray ": {
+        "English as a Second Language": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lloydminster": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Vermillion ": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lethbridge ": {
+        "English as a Second Language": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
         ]
       },
       "Edmonton": {
-
+        "English as a Second Language": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
       },
-      "Fort McMurray": {
-
+      "Medicine Hat ": {
+        "English as a Second Language": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
       },
-      "Grande Prairie": {
-
-      },
-      "Lac La Biche": {
-
-      },
-      "Lethbridge": {
-
-      },
-      "Lloydminster": {
-
-      },
-      "Medicine Hat": {
-
+      "Grouard ": {
+        "Business and Administration Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
       },
       "Olds": {
-
+        "Agriculture and Related Technology": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
       },
-      "Red Deer": {
-
+      "Lac La Biche ": {
+        "English as a Second Language": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
       },
-      "Vermillion": {
-        
+      "Red Deer ": {
+        "English as a Second Language": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
       }
     }
-
   },
   "diploma": {
     "name": "Diploma",
     "copy": "Consta de 2 años de estudio aplicado para emplearse en áreas particulares.",
     "cities": {
-      "Edmonton": {
-        "English as a Second Language 3": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+      "Athabasca": {
+        "English as a Second Language": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
-        "Agriculture and Related Technology 3": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "Business and Administration Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Calgary ": {
+        "English as a Second Language": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Bow Valley College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Grande Prairie": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Grande Prairie Regional College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Fort McMurray ": {
+        "English as a Second Language": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Keyano College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lloydminster": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Vermillion ": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lethbridge ": {
+        "English as a Second Language": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Edmonton": {
+        "English as a Second Language": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "NorQuest College",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Medicine Hat ": {
+        "English as a Second Language": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Grouard ": {
+        "Business and Administration Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Northern Lakes College ",
+            "web": "algo",
+            "logo": "algo"
+          }
         ]
       },
       "Olds": {
-        "English as a Second Language 4": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "Agriculture and Related Technology": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
         ],
-        "Agriculture and Related Technology 4": [
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"},
-          {"name": "Ambrose University", "web": "Ambrose University", "logo": "Ambrose University"}
+        "Business and Administration Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lac La Biche ": {
+        "English as a Second Language": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Portage College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Red Deer ": {
+        "English as a Second Language": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      }
+    }
+  },
+  "applied": {
+    "name": "Applied Degree",
+    "copy": "Consta de 3 años de estudio aplicado con práctica laboral en la industria.",
+    "cities": {
+      "Lloydminster": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Vermillion ": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Lakeland College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lethbridge ": {
+        "English as a Second Language": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Lethbridge College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Edmonton": {
+        "English as a Second Language": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Medicine Hat ": {
+        "English as a Second Language": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Medicine Hat College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Calgary ": {
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Olds": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Olds College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Red Deer ": {
+        "English as a Second Language": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Red Deer College ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      }
+    }
+  },
+  "baccalaureate": {
+    "name": "Baccalaureate Degree",
+    "copy": "Consta de 4 años con enfoque académico dirigido al aprendizaje teórico.",
+    "cities": {
+      "Calgary ": {
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Alberta College of Art + Design ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Alberta College of Art + Design ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Ambrose University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Alberta College of Art + Design ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Ambrose University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "St Mary´s University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Alberta College of Art + Design ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Alberta College of Art + Design ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Alberta College of Art + Design ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "St Mary´s University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Ambrose University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Ambrose University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "St Mary´s University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Ambrose University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "St Mary´s University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "English as a Second Language": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Mount Royal University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "St Mary´s University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "Southern Alberta Institute of Technology (SAIT )",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "St Mary´s University ",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Athabasca": {
+        "Agriculture and Related Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "LaCombe ": {
+        "Business and Administration Studies": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Burman University ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Edmonton": {
+        "English as a Second Language": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Aviation and Related Technology": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "MacEwan University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "The King’s University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Northern Alberta Institute of Technology (NAIT)",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lethbridge ": {
+        "English as a Second Language": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      }
+    }
+  },
+  "master": {
+    "name": "Master's Degree",
+    "copy": "Consta de 2 años de estudios después de 4 años de estudios superiores previos.",
+    "cities": {
+      "Athabasca": {
+        "English as a Second Language": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Edmonton": {
+        "English as a Second Language": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Concordia University of Edmonton",
+            "web": "algo",
+            "logo": "algo"
+          },
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Calgary ": {
+        "English as a Second Language": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lethbridge ": {
+        "English as a Second Language": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      }
+    }
+  },
+  "doctoral": {
+    "name": "Doctoral Degree",
+    "copy": "Consta de 2-3 años de estudios después de la maestría.",
+    "cities": {
+      "Athabasca": {
+        "English as a Second Language": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "Athabasca University",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Edmonton": {
+        "English as a Second Language": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Alberta",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Calgary ": {
+        "English as a Second Language": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Clerical and Administrative Support": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Calgary ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ]
+      },
+      "Lethbridge ": {
+        "English as a Second Language": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Agriculture and Related Technology": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Business and Administration Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Communications, Journalism, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Computer and Information Technology": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Education and Library Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering, Architecture, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Engineering and Science Technologies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Environment, Forestry, and Related Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Fine Arts and Performing Arts": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "General Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "HCMSHealth Care, Medical Studies, and Technologies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Humanities and Languages": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Mathematics": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Personal, Home, and Food Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Physical Education and Recreation": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Religious Studies": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
+        ],
+        "Sciences": [
+          {
+            "name": "University of Lethbridge ",
+            "web": "algo",
+            "logo": "algo"
+          }
         ]
       }
     }
