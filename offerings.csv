@@ -5,10 +5,10 @@ applied,Lethbridge ,Lethbridge College ,X,X,,X,X,X,X,X,X,X,X,,X,X,,,X,X,,,,
 applied,Edmonton,MacEwan University,X,,X,X,X,X,X,X,X,X,,X,X,X,X,X,X,X,X,X,X,X
 applied,Medicine Hat ,Medicine Hat College ,X,X,,X,X,X,X,X,X,,X,X,X,X,,,X,X,,,,X
 applied,Calgary ,Mount Royal University ,,,,,,,,,,,,,,X,X,,X,X,,X,X,X
-applied,Edmonton,Northern Alberta Institute of Technology (NAIT),X,X,,X,X,X,X,,X,X,X,,,X,,,X,,,,X,
+applied,Edmonton,Northern Alberta Institute of Technology,X,X,,X,X,X,X,,X,X,X,,,X,,,X,,,,X,
 applied,Olds,Olds College ,,X,,X,X,,,,,,X,,X,X,X,X,X,X,X,X,X,X
 applied,Red Deer ,Red Deer College ,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,,X,X,,,X,X
-applied,Calgary ,Southern Alberta Institute of Technology (SAIT ),,,,,,,,,,,,,,X,X,X,,X,X,X,X,X
+applied,Calgary ,Southern Alberta Institute of Technology,,,,,,,,,,,,,,X,X,X,,X,X,X,X,X
 baccalaureate,Calgary ,Alberta College of Art + Design ,,,,,,X,,,,,,X,,X,X,X,,,,X,X,X
 baccalaureate,Calgary ,Ambrose University ,,,,X,,,,X,,,,X,X,X,,,,,,,,X
 baccalaureate,Athabasca,Athabasca University,,X,,,X,,X,,,,,,,X,X,X,X,X,,X,X,X
@@ -16,8 +16,8 @@ baccalaureate,LaCombe ,Burman University ,,,,X,,,,X,,,X,X,X,X,X,,X,X,,X,X,X
 baccalaureate,Edmonton,Concordia University of Edmonton,X,,,X,,,X,X,,,X,X,X,X,,,X,,,,,X
 baccalaureate,Edmonton,MacEwan University,X,,X,X,X,X,X,X,X,X,,X,X,X,,,X,,,X,X,X
 baccalaureate,Calgary ,Mount Royal University ,X,,X,X,X,X,X,X,,,X,X,X,X,,,X,,,X,X,X
-baccalaureate,Edmonton,Northern Alberta Institute of Technology (NAIT),X,X,,X,X,X,X,,X,X,X,,,X,X,X,,X,X,X,X,X
-baccalaureate,Calgary ,Southern Alberta Institute of Technology (SAIT ),X,,X,X,X,X,X,X,X,X,X,X,,,,,X,,,,,
+baccalaureate,Edmonton,Northern Alberta Institute of Technology,X,X,,X,X,X,X,,X,X,X,,,X,X,X,,X,X,X,X,X
+baccalaureate,Calgary ,Southern Alberta Institute of Technology,X,,X,X,X,X,X,X,X,X,X,X,,,,,X,,,,,
 baccalaureate,Calgary ,St Mary´s University ,,,,,,,,X,,,,,X,X,,,X,X,,X,X,X
 baccalaureate,Edmonton,The King’s University,,X,,X,,X,X,X,X,,X,X,,X,X,X,,,,X,X,X
 baccalaureate,Edmonton,University of Alberta,X,X,,X,,X,X,X,X,X,X,X,X,X,,,,,,,,X
@@ -34,12 +34,12 @@ certificate,Edmonton,MacEwan University,X,,X,X,X,X,X,X,X,X,,X,X,X,X,,X,X,,,X,X
 certificate,Medicine Hat ,Medicine Hat College ,X,X,,X,X,X,X,X,X,,X,X,X,X,X,X,,X,X,X,X,X
 certificate,Calgary ,Mount Royal University ,X,,X,X,X,X,X,X,,,X,X,X,X,,,X,X,,X,X,X
 certificate,Edmonton,NorQuest College,X,,,X,X,,,,X,,,,X,,,,X,,,,,
-certificate,Edmonton,Northern Alberta Institute of Technology (NAIT),X,X,,X,X,X,X,,X,X,X,,,X,X,X,,X,X,X,X,X
+certificate,Edmonton,Northern Alberta Institute of Technology,X,X,,X,X,X,X,,X,X,X,,,X,X,X,,X,X,X,X,X
 certificate,Grouard ,Northern Lakes College ,,,,X,X,,,X,X,X,,,X,X,,,X,,,X,X,X
 certificate,Olds,Olds College ,,X,,X,X,,,,,,X,,X,X,,,X,,,X,X,X
 certificate,Lac La Biche ,Portage College ,X,,,X,X,,,X,,,X,X,X,X,,,X,,,,,X
 certificate,Red Deer ,Red Deer College ,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,,X,X,,X,X,X
-certificate,Calgary ,Southern Alberta Institute of Technology (SAIT ),X,,X,X,X,X,X,X,X,X,X,X,,X,X,X,X,X,,X,X,X
+certificate,Calgary ,Southern Alberta Institute of Technology,X,,X,X,X,X,X,X,X,X,X,X,,X,X,X,X,X,,X,X,X
 certificate,Edmonton,University of Alberta,X,X,,X,,X,X,X,X,X,X,X,X,X,,,X,X,,,,
 certificate,Calgary ,University of Calgary ,X,X,,X,X,X,X,X,X,X,X,X,X,,,,,,,,,
 certificate,Lethbridge ,University of Lethbridge ,X,X,,X,,X,X,X,X,X,X,X,X,,,,,,,,,
@@ -54,12 +54,12 @@ diploma,Edmonton,MacEwan University,X,,X,X,X,X,X,X,X,X,,X,X,X,X,X,,,X,X,X,
 diploma,Medicine Hat ,Medicine Hat College ,X,X,,X,X,X,X,X,X,,X,X,X,X,,X,X,,,X,X,
 diploma,Calgary ,Mount Royal University ,X,,X,X,X,X,X,X,,,X,X,X,X,X,,,,X,X,X,X
 diploma,Edmonton,NorQuest College,X,,,X,X,,,,X,,,,X,X,,,X,X,,,,
-diploma,Edmonton,Northern Alberta Institute of Technology (NAIT),X,X,,X,X,X,X,,X,X,X,,,X,X,X,X,X,X,X,X,X
+diploma,Edmonton,Northern Alberta Institute of Technology,X,X,,X,X,X,X,,X,X,X,,,X,X,X,X,X,X,X,X,X
 diploma,Grouard ,Northern Lakes College ,,,,X,X,,,X,X,X,,,X,,X,,X,,,,,
 diploma,Olds,Olds College ,,X,,X,X,,,,,,X,,X,,X,,,,X,X,X,
 diploma,Lac La Biche ,Portage College ,X,,,X,X,,,X,,,X,X,X,X,X,,X,X,,X,X,X
 diploma,Red Deer ,Red Deer College ,X,X,X,X,X,X,X,X,X,X,X,X,X,X,,,X,,,,X,
-diploma,Calgary ,Southern Alberta Institute of Technology (SAIT ),X,,X,X,X,X,X,X,X,X,X,X,,,X,,,,X,X,X,
+diploma,Calgary ,Southern Alberta Institute of Technology,X,,X,X,X,X,X,X,X,X,X,X,,,X,,,,X,X,X,
 diploma,Edmonton,University of Alberta,X,X,,X,,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X,X
 diploma,Calgary ,University of Calgary ,X,X,,X,X,X,X,X,X,X,X,X,X,X,X,X,,X,X,X,X,X
 diploma,Lethbridge ,University of Lethbridge ,X,X,,X,,X,X,X,X,X,X,X,X,,X,,,X,X,X,X,X

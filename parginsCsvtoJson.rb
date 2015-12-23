@@ -35,6 +35,14 @@ offerings = {
 	}
 }
 
+csv_universities = CSV.read('universities.csv', headers: true)
+universities = csv_universities.map {|row| 
+	row['name'].rstrip!
+	row['web'].rstrip!
+	row['logo'].rstrip!
+	row.to_hash 
+}
+
 csv = CSV.read('offerings.csv', headers: true)
 headers = csv.headers
 
@@ -42,16 +50,20 @@ csv.map do |row|
 
 	# Ciudades del grado
 	cities = offerings[row['Degree'].to_sym][:cities]
-
-	unless cities[row['City']]
-		cities[row['City']] = {}
+	
+	unless cities[row['City'].strip]
+		cities[row['City'].strip] = {}
 	end
-
+	
 	# Especialidades de la ciudad
-	specialties = cities[row['City']]
+	specialties = cities[row['City'].strip]
 		
 
-	university = {"name": row['University'], "web": "algo", "logo": "algo"}
+	university = universities.find{|u|
+
+		u['name'] == row['University'].strip
+	}#{"name": row['University'], "web": "algo", "logo": "algo"}
+	#p row['University'].strip
 
 	(3..22).each { |n|
 		unless row[n].nil?
@@ -63,7 +75,7 @@ csv.map do |row|
 	}	
 end
 
-puts JSON.pretty_generate(offerings)
+#puts JSON.pretty_generate(offerings)
 
 File.open('src/json/academic-offerings.json', 'w') do |file|
   file.puts JSON.pretty_generate(offerings)
