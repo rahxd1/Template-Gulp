@@ -329,7 +329,7 @@ $(document).ready(function() {
 					var img = $('<img>', {src: value.logo})
 					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
 
-					var a = $('<a>', {class: 'school', href: value.web});
+					var a = $('<a>', {class: 'school', href: 'http://'+value.web, target: '_blank'});
 
 					a.append(img);
 					a.append(p);
@@ -443,7 +443,7 @@ $(document).ready(function() {
 					var img = $('<img>', {src: value.logo})
 					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
 
-					var a = $('<a>', {class: 'school', href: value.web});
+					var a = $('<a>', {class: 'school', href: 'http://'+value.web, target: '_blank'});
 
 					a.append(img);
 					a.append(p);
