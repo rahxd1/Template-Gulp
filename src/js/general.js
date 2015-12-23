@@ -274,12 +274,10 @@ $(document).ready(function() {
 		$.getJSON("json/academic-offerings.json", function(data){
 			var vals_cities = data[key].cities;
 			var cities = Object.keys(vals_cities);
-
 			var spans = $('.column-map a > span');
 			spans.parent().hide();
 
 			$.each(spans, function(index, span){
-				
 				if ($.inArray($(span).text(), cities) > -1){
 					$(span).parent().show();
 				};
