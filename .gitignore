@@ -3,3 +3,6 @@ dist
 .tmp
 bower_components
 .sass-cache
+.htaccess
+robots.txt
+sitemap.xml
