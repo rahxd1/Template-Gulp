@@ -119,8 +119,8 @@ gulp.task('watch', function(){
 	});
 	gulp.watch('src/js/**/*.js', ['scripts','vendor-scripts']);
 	gulp.watch('src/scss/**/*.{scss,sass}', ['compass']);
-	gulp.watch('src/templates/**/*.jade',['jade-watch']).on('change', browserSync.reload);
+	gulp.watch('src/templates/**/*.jade',['jade-watch']);
+	gulp.watch('build/development/**/*.html').on('change', browserSync.reload);
 });
 
-//gulp.task('default', ['scripts', 'compass', 'jade-compile' ,'watch', 'connect']);
-gulp.task('default', ['scripts', 'vendor-scripts','compass', 'jade-compile' ,'watch']);
+gulp.task('default', ['scripts', 'vendor-scripts', 'copyfonts', 'copyimgs', 'copyjson', 'copyvideos', 'compass', 'jade-compile' ,'watch']);

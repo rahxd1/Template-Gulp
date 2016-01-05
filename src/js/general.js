@@ -477,4 +477,13 @@ $(document).ready(function() {
 		});
 	};
 
+	var fr = new FilmRoll(
+		{
+			configure_load: true, 
+			container: '#film-roll',
+			next: false,
+			prev: false,
+		}
+	);
+
 });
