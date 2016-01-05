@@ -119,6 +119,7 @@ gulp.task('watch', function(){
 	});
 	gulp.watch('src/js/**/*.js', ['scripts','vendor-scripts']);
 	gulp.watch('src/scss/**/*.{scss,sass}', ['compass']);
+	gulp.watch('src/templates/**/*.jade',['jade-watch']);
 	gulp.watch('build/development/**/*.html').on('change', browserSync.reload);
 });
 
