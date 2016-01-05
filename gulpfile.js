@@ -123,5 +123,4 @@ gulp.task('watch', function(){
 	gulp.watch('build/development/**/*.html').on('change', browserSync.reload);
 });
 
-//gulp.task('default', ['scripts', 'compass', 'jade-compile' ,'watch', 'connect']);
-gulp.task('default', ['scripts', 'copyfonts', 'copyimgs', 'copyjson', 'copyvideos', 'compass', 'jade-compile' ,'watch']);
+gulp.task('default', ['scripts', 'vendor-scripts', 'copyfonts', 'copyimgs', 'copyjson', 'copyvideos', 'compass', 'jade-compile' ,'watch']);
