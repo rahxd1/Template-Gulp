@@ -278,6 +278,7 @@ $(document).ready(function() {
 			var cities = Object.keys(vals_cities);
 			var spans = $('.column-map a > span');
 			spans.parent().hide();
+			spans.parent().removeClass('active');
 
 			$.each(spans, function(index, span){
 				if ($.inArray($(span).text(), cities) > -1){
@@ -298,7 +299,7 @@ $(document).ready(function() {
 		var school_wrapper = $('.school-wrapper');
 
 		select_specialty.empty();
-		select_specialty.append("<option value=''>Elige la especialidad</option>");
+		select_specialty.append("<option value=''>Elige la especialidad en "+key_city+"</option>");
 
 		school_wrapper.empty();
 
@@ -475,6 +476,9 @@ $(document).ready(function() {
 				$(cities_links).removeClass('active');
 				$(this).addClass('active');
 				display_specialties(el);
+				$('.text-hide').hide();
+				$('#offering-specialty').text('');
+				$('.results-schools').hide();
 			});
 		});
 	};
