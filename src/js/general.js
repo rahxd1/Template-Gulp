@@ -73,6 +73,7 @@ $(document).ready(function() {
 			return $(header).outerHeight();
 		};
 
+
 		$('.btn-menu').click(function(){
 			if(count==1){
 				$('.header-menu').animate({
@@ -89,6 +90,22 @@ $(document).ready(function() {
 				$(header).removeClass('mobile-white-header');
 				$(icon_menu).removeClass('icon-close')
 			}
+		});
+
+		var clickHandler = function(e) {
+			
+			if(count==0){
+				count=1
+				$('.header-menu').animate({
+					top: '-200%'
+				},500);
+				$(header).removeClass('mobile-white-header');
+				$(icon_menu).removeClass('icon-close')
+			};
+		};
+
+		$('main.content').on('click', function(e){
+			clickHandler(e);
 		});
 	};
 
