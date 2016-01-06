@@ -142,10 +142,17 @@
 			main
 				width: 64.58333%	
 
-	.ui-accordion-header-active
-		margin-bottom: em-calc(15)
-	
-		&, .fa
-			color: $ligh-blue			
-			
 				
+			
+	.ui-accordion-header
+		
+
+		&.ui-accordion-header-active
+			margin-bottom: em-calc(15)
+	
+			//&, .fa
+			//	color: $ligh-blue
+
+		&.ui-state-hover, &.ui-accordion-header-active
+			&, .fa
+				color: $ligh-blue			
