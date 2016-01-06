@@ -317,7 +317,7 @@ a
 		background-color: $ligh-gray
 		box-shadow: 0 em-calc(2) em-calc(3) 0 rgba($strong-gray, 0.5)
 		padding: em-calc(10) em-calc(20) 0 em-calc(10)
-		height: em-calc(270)
+		max-height: em-calc(270)
 		border-radius: em-calc(4)
 		overflow-x: hidden
 		overflow-y: scroll					
@@ -394,6 +394,7 @@ a
 		a
 			position: absolute
 			display: none
+			cursor: pointer
 
 			.icon-city
 				position: absolute
@@ -401,7 +402,7 @@ a
 				background-repeat: no-repeat
 				width: em-calc(15)
 				height: em-calc(25)
-			&.active
+			&.active, &:hover
 				.icon-city
 					background-image: url($icon-path + "puntero_activo.png")
 					background-size: em-calc(32) em-calc(51)
