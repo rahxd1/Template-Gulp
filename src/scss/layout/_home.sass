@@ -1,39 +1,24 @@
 .why-alberta
-	
-
-	#film-roll
-		padding: 0 em-calc(10)
-		overflow: auto
-
-		+bp(min, em-calc(960))
-			padding: 0
-
-		.film_roll_child
-			vertical-align: top
-
-		.film_roll_pager
-			a
-				background-color: #e1e1e1
-				border: 0
-				width: em-calc(10)
-				height: em-calc(10)
-
-				&.active
-					background-color: $ligh-blue	
+	#slider
+		margin: 0 auto
+		+bp(max, em-calc(959))
+			//width: em-calc(640)
+		+bp(max, em-calc(480))
+			//width: em-calc(320)
 
 	article
 		text-align: center
-		width: 30%
+		//width: 30%
 		overflow: auto
 
 		h3
 			padding: 0 em-calc(10)
 
 		+bp(max, em-calc(959))
-			width: 50%
+			//width: 50%
 
 		+bp(xsmall)
-			width: 100%
+			//width: 100%
 
 	.row-flex
 		@extend %flex-wrap-nowrap

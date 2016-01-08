@@ -501,14 +501,14 @@ $(document).ready(function() {
 		});
 	};
 
-	var fr = new FilmRoll(
+	/*var fr = new FilmRoll(
 		{
 			configure_load: true, 
 			container: '#film-roll',
 			next: false,
 			prev: false,
 		}
-	);
+	);*/
 
 	$(function() {
 
@@ -524,11 +524,34 @@ $(document).ready(function() {
 		});
 
 		if(window.location.href.match(/preguntas.html/)) {
-			//console.log('algo');
 			window.setTimeout(function() {
 			    $(window).scrollTop(0); 
 			}, 0);
 		};
+
+		$('#slider').owlCarousel(
+			{
+				center: true, 
+				loop:true,
+				//autoplay:true,
+				responsiveRefreshRate: 100,
+				margin:10,
+				responsiveClass:true,
+				responsive:{
+			        960:{
+			            items:3,
+			    	},
+			    	640:{
+			            items:2,
+			            margin: 10,
+			    	},
+			    	0:{
+			            items:1,
+			            margin: 10,
+			    	}
+    			}
+			}
+		);
 	});
 
 });
