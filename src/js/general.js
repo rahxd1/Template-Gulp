@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 	var fullsize_video = $('.fullsize-video');
 
-	if(fullsize_video.length > 0 && $('html.video').length > 0){
+	if(fullsize_video.length > 0 && $('html.video').length > 0  && $("html.no-touch").length > 0){
 		var video = $(fullsize_video).find('video')
 
 		if(video.length > 0){
@@ -108,6 +108,11 @@ $(document).ready(function() {
 		$('main.content').on('click', function(e){
 			clickHandler(e);
 		});
+
+		$('.header-menu a').on('click', function(e){
+			clickHandler(e);
+		});
+
 	};
 
 	$('.fancybox-video').fancybox({
