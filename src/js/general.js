@@ -525,9 +525,8 @@ $(document).ready(function() {
 			{
 				center: true, 
 				loop:true,
-				//autoplay:true,
+				autoplay:true,
 				responsiveRefreshRate: 100,
-				margin:10,
 				responsiveClass:true,
 				responsive:{
 			        960:{
@@ -535,11 +534,9 @@ $(document).ready(function() {
 			    	},
 			    	640:{
 			            items:2,
-			            //margin: 10,
 			    	},
 			    	0:{
 			            items:1,
-			            //margin: 10,
 			    	}
     			}
 			}
