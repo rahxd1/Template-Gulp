@@ -42,7 +42,7 @@ $(document).ready(function() {
 
 	var fullsize_video = $('.fullsize-video');
 
-	if(fullsize_video.length > 0 && $('html.video').length > 0  && $("html.no-touch").length > 0){
+	if(fullsize_video.length > 0 && $('html.video').length > 0  && $("html.no-touchevents").length > 0){
 		var video = $(fullsize_video).find('video')
 
 		if(video.length > 0){
