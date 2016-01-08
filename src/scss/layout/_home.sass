@@ -1,56 +1,17 @@
 .why-alberta
-	#film-roll
+	#slider
 		padding: 0 em-calc(10)
-
+		
 		+bp(min, em-calc(960))
 			padding: 0
 
-		.film_roll_child
-			vertical-align: top
-
-		.film_roll_pager
-			a
-				background-color: #e1e1e1
-				border: 0
-				width: em-calc(10)
-				height: em-calc(10)
-
-				&.active
-					background-color: $ligh-blue	
-
 	article
 		text-align: center
-		width: 30%
+		//width: 30%
+		overflow: auto
 
 		h3
-			padding: 0 em-calc(10)
-
-		+bp(max, em-calc(959))
-			width: 50%
-
-		+bp(xsmall)
-			width: 100%
-
-	.row-flex
-		@extend %flex-wrap-nowrap
-
-		+bp(max, em-calc(900))
-			-webkit-flex-wrap: wrap
-			-moz-flex-wrap: wrap
-			-ms-flex-wrap: wrap
-			flex-wrap: wrap
-
-			article.col-4
-				width: 100%
-
-				&:not(:first-of-type)
-					margin-top: em-calc(10)
-
-				&:not(:last-of-type)
-					margin-bottom: em-calc(10)
-
-		p
-			padding: 0 em-calc(12)									
+			padding: 0 em-calc(10)								
 
 .section-working-studying
 	
@@ -70,10 +31,10 @@
 		h2
 			margin-top: em-calc(15)	!important
 
-	@include bp(small)
+	//@include bp(small)
 
-		img
-			min-width: em-calc(320)
+	//	img
+	//		min-width: em-calc(320)
 
 .section-studies
 	h2
@@ -313,7 +274,7 @@ a
 		background-color: $ligh-gray
 		box-shadow: 0 em-calc(2) em-calc(3) 0 rgba($strong-gray, 0.5)
 		padding: em-calc(10) em-calc(20) 0 em-calc(10)
-		height: em-calc(270)
+		max-height: em-calc(270)
 		border-radius: em-calc(4)
 		overflow-x: hidden
 		overflow-y: scroll					
@@ -347,6 +308,7 @@ a
 					width: em-calc(295)
 					overflow: hidden
 					white-space: nowrap
+					text-overflow: ellipsis
 
 					span
 						&:first-of-type
@@ -357,7 +319,12 @@ a
 							color: $font-color-base
 
 	.text-hide, .mobile-text-hide		
-		display: none				
+		display: none
+
+	#mobile-select-specialty option
+		overflow: hidden
+		white-space: nowrap
+		text-overflow: ellipsis				
 
 .map-wrapper
 	height: em-calc(615)
@@ -390,6 +357,7 @@ a
 		a
 			position: absolute
 			display: none
+			cursor: pointer
 
 			.icon-city
 				position: absolute
@@ -397,7 +365,7 @@ a
 				background-repeat: no-repeat
 				width: em-calc(15)
 				height: em-calc(25)
-			&.active
+			&.active, &:hover
 				.icon-city
 					background-image: url($icon-path + "puntero_activo.png")
 					background-size: em-calc(32) em-calc(51)

@@ -1,4 +1,5 @@
 $(document).ready(function() {
+
 	var getCustomSize = function(){
 		var screen;
 		screen = {
@@ -19,16 +20,18 @@ $(document).ready(function() {
 		$(filled).imagefill();
 	};
 
-	$('main section:nth-child(2)').waypoint(function(direction){
+	$('.secondarycontainer').css("top", $('#header').outerHeight())*2;
+
+	$('.secondarycontainer').waypoint(function(direction){
 		if(direction=="down"){
 			$('#header').addClass('white-header');
 		}else {
 			$('#header').removeClass('white-header');
 		}
 	},{
-	offset: '40px'
+	offset: 0
 	});
-
+	
 	$(window).resize(function() {
 		resizeContainerVideo();
 	});
@@ -39,7 +42,7 @@ $(document).ready(function() {
 
 	var fullsize_video = $('.fullsize-video');
 
-	if(fullsize_video.length > 0 && $('html.video').length > 0){
+	if(fullsize_video.length > 0 && $('html.video').length > 0  && $("html.no-touch").length > 0){
 		var video = $(fullsize_video).find('video')
 
 		if(video.length > 0){
@@ -71,6 +74,7 @@ $(document).ready(function() {
 			return $(header).outerHeight();
 		};
 
+
 		$('.btn-menu').click(function(){
 			if(count==1){
 				$('.header-menu').animate({
@@ -88,6 +92,27 @@ $(document).ready(function() {
 				$(icon_menu).removeClass('icon-close')
 			}
 		});
+
+		var clickHandler = function(e) {
+			
+			if(count==0){
+				count=1
+				$('.header-menu').animate({
+					top: '-200%'
+				},500);
+				$(header).removeClass('mobile-white-header');
+				$(icon_menu).removeClass('icon-close')
+			};
+		};
+
+		$('main.content').on('click', function(e){
+			clickHandler(e);
+		});
+
+		$('.header-menu a').on('click', function(e){
+			clickHandler(e);
+		});
+
 	};
 
 	$('.fancybox-video').fancybox({
@@ -276,6 +301,7 @@ $(document).ready(function() {
 			var cities = Object.keys(vals_cities);
 			var spans = $('.column-map a > span');
 			spans.parent().hide();
+			spans.parent().removeClass('active');
 
 			$.each(spans, function(index, span){
 				if ($.inArray($(span).text(), cities) > -1){
@@ -296,7 +322,7 @@ $(document).ready(function() {
 		var school_wrapper = $('.school-wrapper');
 
 		select_specialty.empty();
-		select_specialty.append("<option value=''>Elige la especialidad</option>");
+		select_specialty.append("<option value=''>Elige la especialidad en "+key_city+"</option>");
 
 		school_wrapper.empty();
 
@@ -473,17 +499,53 @@ $(document).ready(function() {
 				$(cities_links).removeClass('active');
 				$(this).addClass('active');
 				display_specialties(el);
+				$('.text-hide').hide();
+				$('#offering-specialty').text('');
+				$('.results-schools').hide();
 			});
 		});
 	};
 
-	var fr = new FilmRoll(
-		{
-			configure_load: true, 
-			container: '#film-roll',
-			next: false,
-			prev: false,
-		}
-	);
+
+	$(function() {
+
+		$('a[href*=#]:not([href=#])').click(function(e){	
+			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+				var target = $(this.hash);
+				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+				if (target.length) {
+					$('html,body').animate({ scrollTop: target.offset().top - $('#header').outerHeight() }, 1000);
+				return false;
+				}
+			}
+		});
+
+		if(window.location.href.match(/preguntas.html/)) {
+			window.setTimeout(function() {
+			    $(window).scrollTop(0); 
+			}, 0);
+		};
+
+		$('#slider').owlCarousel(
+			{
+				center: true, 
+				loop:true,
+				autoplay:true,
+				responsiveRefreshRate: 100,
+				responsiveClass:true,
+				responsive:{
+			        960:{
+			            items:3,
+			    	},
+			    	640:{
+			            items:2,
+			    	},
+			    	0:{
+			            items:1,
+			    	}
+    			}
+			}
+		);
+	});
 
 });

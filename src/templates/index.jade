@@ -19,47 +19,47 @@ block content
 	section#why-alberta.why-alberta
 		.container
 			h2 ¿Por qué Alberta?
-			#film-roll
-				article
+			#slider.owl-carousel.owl-theme
+				article.item
 					figure
 						img(src='imgs/porque1.jpg', alt='Abundancia de recursos', height="250" width="250")
 					h3 Abundancia de recursos
-				article
+				article.item
 					figure
 						img(src='imgs/porque2.jpg', alt='No impuestos provinciales', height="250" width="250")
 					h3 No impuestos	provinciales
-				article
+				article.item
 					figure
 						img(src='imgs/porque3.jpg', alt= 'Mejores ingresos', height="250" width="250")
 					h3 Mejores ingresos
-				article
+				article.item
 					figure
 						img(src='imgs/porque4.jpg', alt='Investigación de vanguardia', height="250" width="250")
 					h3 Investigación de vanguardia
-				article
+				article.item
 					figure
 						img(src='imgs/porque5.jpg', alt='Excelente atención médica', height="250" width="250")
 					h3 Excelente atención médica
-				article
+				article.item
 					figure
 						img(src='imgs/porque6.jpg', alt= 'Comunidades receptivas', height="250" width="250")
 					h3 Comunidades receptivas
-				article
+				article.item
 					figure
 						img(src='imgs/porque7.jpg', alt='Provincia más soleada', height="250" width="250")
 					h3 Provincia más soleada
-				article
+				article.item
 					figure
 						img(src='imgs/porque8.jpg', alt='Innovación y talento', height="250" width="250")
 					h3 Innovación y talento
-				article
+				article.item
 					figure
 						img(src='imgs/porque9.jpg', alt= 'Educación de clase mundial', height="250" width="250")
 					h3 Educación de clase mundial
-				article
+				article.item
 					figure
 						img(src='imgs/porque10.jpg', alt= 'Fondo para investigación', height="250" width="250")
-					h3 Fondo de $800 millones para investigación		
+					h3 Fondo de $800 millones para investigación										
 	section.full-width-blue.section-working-studying
 		.container
 			.row-flex
@@ -78,7 +78,7 @@ block content
 				article.col-6.studies
 					h2.title-small-up Estudios de inglés en Alberta
 					p La mayoría de las instituciones de educación superior en Alberta ofrecen programas de inglés que ayudan a mejorar las habilidades y dominio del idioma.
-					a(href='contactanos.html') más información
+					a.text-underline(href='contactanos.html') más información
 						span &nbsp;&gt;
 				figure.col-6
 					img(src='imgs/estudios_ingles.png', alt= 'Estudios de inglés en Alberta')
@@ -91,7 +91,7 @@ block content
 				article.col-6.studies
 					h2.title-small-up Primaria, secundaria y preparatoria en Alberta
 					p Si eres mayor de edad y te interesa cursar un idioma, un verano, un semestre o un año académico; puedes estudiar en nuestros distritos escolares.
-					a(href='contactanos.html') más información
+					a.text-underline(href='contactanos.html') más información
 						span &nbsp;&gt;
 	section#briefings.full-width-blue.section-briefings
 		.container
@@ -101,19 +101,19 @@ block content
 			.row-flex
 				h2.no-briefings Por el momento no hay sesiones informativas
 				article.col-6
-					h4 N
-					p.title-session S
-					p.date-session M
-					span 8
+					h4
+					p.title-session
+					p.date-session
+					span
 					form(action="asistencia.html", method="get")
 						input(type='hidden', name='session', value='')
 						input(type='hidden', name='date-time', value='')
 						input.button.button-blue(type='submit', value='Confirmar asistencia')
 				article.col-6
-					h4 D
-					p.title-session S
-					p.date-session M
-					span 8
+					h4
+					p.title-session
+					p.date-session
+					span
 					form(action="asistencia.html", method="get")
 						input(type='hidden', name='session', value='')
 						input(type='hidden', name='date-time', value='')

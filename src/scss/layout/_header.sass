@@ -68,7 +68,7 @@
 			padding: em-calc(20) 0
 
 			&:first-of-type
-				border-right: $super-ligh-gray solid em-calc(2)
+				border-right: $super-ligh-gray solid em-calc(1.5)
 
 	+bp(min, em-calc(920))
 		margin-left: em-calc(15)
@@ -134,7 +134,7 @@
 			.icon-fb
 				background-image: url($icon-path + "icono_facebook_azul.png")
 			.icon-yt
-				background-image: url($icon-path + "icono_youtube_rojo.png")		
+				background-image: url($icon-path + "icono_youtube_rojo.png")
 
 .header-menu
 	@extend %display-flex
@@ -171,17 +171,18 @@
 		width: 100%
 		background-color: rgba(#fff, .9)
 		padding: 0
+		box-shadow: 0 em-calc(1.5) em-calc(1.5) 0 rgba($super-ligh-gray, .9)
 
 		> a
 			color: $strong-gray
 			margin: 0 !important
 			padding: em-calc(20) 0
-			border-bottom: $super-ligh-gray solid em-calc(2)
+			border-bottom: $super-ligh-gray solid em-calc(1.5)
 
 			&:hover
 				color: #fff !important
 				background-color: $ligh-blue !important
 
 			&:first-of-type
-				border-top: $super-ligh-gray solid em-calc(2)
+				border-top: $super-ligh-gray solid em-calc(1.5)
 

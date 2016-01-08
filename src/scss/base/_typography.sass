@@ -15,8 +15,14 @@ h1
 		size: em-calc(40)
 	@extend %text-uppeercase
 	letter-spacing: em-calc(1)
+	padding: 0 em-calc(5)
+	line-height: 1.1
+
 	+bp(xsmall)
-		padding: 0 em-calc(20)
+		line-height: 1.2
+
+	+bp(max, 380px)
+		font-size: em-calc(38)
 
 h2
 	font:
@@ -53,6 +59,3 @@ h5
 
 p
 	line-height: 1.4
-
-.text-bold
-	font-family: "ProximaNovaSemiBold"			
