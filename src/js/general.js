@@ -501,14 +501,6 @@ $(document).ready(function() {
 		});
 	};
 
-	/*var fr = new FilmRoll(
-		{
-			configure_load: true, 
-			container: '#film-roll',
-			next: false,
-			prev: false,
-		}
-	);*/
 
 	$(function() {
 
@@ -543,11 +535,11 @@ $(document).ready(function() {
 			    	},
 			    	640:{
 			            items:2,
-			            margin: 10,
+			            //margin: 10,
 			    	},
 			    	0:{
 			            items:1,
-			            margin: 10,
+			            //margin: 10,
 			    	}
     			}
 			}

@@ -1,10 +1,9 @@
 .why-alberta
 	#slider
-		margin: 0 auto
-		+bp(max, em-calc(959))
-			//width: em-calc(640)
-		+bp(max, em-calc(480))
-			//width: em-calc(320)
+		padding: 0 em-calc(10)
+		
+		+bp(min, em-calc(960))
+			padding: 0
 
 	article
 		text-align: center
@@ -12,34 +11,7 @@
 		overflow: auto
 
 		h3
-			padding: 0 em-calc(10)
-
-		+bp(max, em-calc(959))
-			//width: 50%
-
-		+bp(xsmall)
-			//width: 100%
-
-	.row-flex
-		@extend %flex-wrap-nowrap
-
-		+bp(max, em-calc(900))
-			-webkit-flex-wrap: wrap
-			-moz-flex-wrap: wrap
-			-ms-flex-wrap: wrap
-			flex-wrap: wrap
-
-			article.col-4
-				width: 100%
-
-				&:not(:first-of-type)
-					margin-top: em-calc(10)
-
-				&:not(:last-of-type)
-					margin-bottom: em-calc(10)
-
-		p
-			padding: 0 em-calc(12)									
+			padding: 0 em-calc(10)								
 
 .section-working-studying
 	
