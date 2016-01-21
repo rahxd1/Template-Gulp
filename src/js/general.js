@@ -31,19 +31,19 @@ $(document).ready(function() {
 	},{
 	offset: 0
 	});
-	
+
 	$(window).resize(function() {
 		resizeContainerVideo();
 	});
 
 	if($('.filled').length > 0){
-		resizeContainerVideo()
+		resizeContainerVideo();
 	};
 
 	var fullsize_video = $('.fullsize-video');
 
 	if(fullsize_video.length > 0 && $('html.video').length > 0  && $("html.no-touchevents").length > 0){
-		var video = $(fullsize_video).find('video')
+		var video = $(fullsize_video).find('video');
 
 		if(video.length > 0){
 			if(video.get(0).canPlayType){
