@@ -30,7 +30,7 @@ g}})(jQuery);
   $.fn.imagefill = function(options) {
 
     var $container = this,
-        $elements = "> img, .video img, video, .full-slider img"
+        $elements = "> img, .fullsize-video img, video, .fullsize-image img"
         $img = $container.find($elements).addClass('loading').css({'position':'absolute'}),
         imageAspect = 1/1,
         containersH = 0,
