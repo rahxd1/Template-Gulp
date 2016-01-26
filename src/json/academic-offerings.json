@@ -2087,7 +2087,11 @@
     "cities": {
       "Calgary": {
         "Communications, Journalism, and Related Studies": [
-          null,
+          {
+            "name": "Alberta College of Art & Design (ACAD)",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "imgs/icons/01_school_ACAD.jpg"
+          },
           {
             "name": "Mount Royal University",
             "web": "mtroyal.ca/InternationalStudents",
@@ -2100,7 +2104,11 @@
           }
         ],
         "Fine Arts and Performing Arts": [
-          null,
+          {
+            "name": "Alberta College of Art & Design (ACAD)",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "imgs/icons/01_school_ACAD.jpg"
+          },
           {
             "name": "University of Calgary",
             "web": "ucalgary.ca/uci",
@@ -2108,7 +2116,11 @@
           }
         ],
         "Humanities and Languages": [
-          null,
+          {
+            "name": "Alberta College of Art & Design (ACAD)",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "imgs/icons/01_school_ACAD.jpg"
+          },
           {
             "name": "Ambrose University",
             "web": "ambrose.edu/enrolment/international-students",
@@ -2984,7 +2996,11 @@
     "cities": {
       "Calgary": {
         "Fine Arts and Performing Arts": [
-          null,
+          {
+            "name": "Alberta College of Art & Design (ACAD)",
+            "web": "acad.ca/future-students/international-students",
+            "logo": "imgs/icons/01_school_ACAD.jpg"
+          },
           {
             "name": "University of Calgary",
             "web": "ucalgary.ca/uci",
