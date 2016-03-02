@@ -228,7 +228,8 @@ $(document).ready(function() {
 		'showDeleted': false,
 		'singleEvents': true,
 		'maxResults': 2,
-		'orderBy': 'updated',
+		'orderBy': 'startTime',
+		'timeMin': moment($.now()).toISOString(),
 		'key': API_KEY
 	};
 
@@ -236,6 +237,7 @@ $(document).ready(function() {
 
 	
 	if($('#briefings').length > 0){
+
 		$.get(url ,options)
 			.done(function(data){
 				var events = data.items;
