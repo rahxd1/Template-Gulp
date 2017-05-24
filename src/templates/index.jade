@@ -24,7 +24,7 @@ block content
 				article.item
 					figure
 						img(src='imgs/porque0.jpg', alt='Fondos para investigación', height="250" width="250")
-					h3 Fondo de $800 millones para investigación
+					h3 Fondo para investigación
 				article.item
 					figure
 						img(src='imgs/porque0x.jpg', alt='Provincia más soleada', height="250" width="250")
@@ -102,7 +102,7 @@ block content
 			.row-flex
 				h2.no-briefings Por el momento no hay sesiones informativas
 				p.no-briefings
-					a(href='contactanos.html') Ponte en contacto con nosotros
+					a#session-interested(href='#do-contact') Ponte en contacto con nosotros
 					|  para recibir información de las sesiones informativas
 					
 				article.col-6
@@ -147,5 +147,6 @@ block content
 	section.full-width-ligh-gray.border-top-grey
 		.container
 			header.row
-				h2 ¿En qué podemos ayudarte?
+				a(name='do-contact')
+					h2 ¿En qué podemos ayudarte?
 			include ./partials/contact-form.jade
