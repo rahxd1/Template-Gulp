@@ -1,5 +1,8 @@
 .row
 	form.contact-form(action="send-message.php", method="post")
+		input#session-name.form-control(type='hidden', name='session', value='')
+		input#session-date.form-control(type='hidden', name='date', value='--')
+		input#session-time.form-control(type='hidden', name='time', value='--')
 		.form-group.required
 			input#nombre.form-control(type='text', name='nombre')
 			label.label(for="nombre") Nombre
@@ -14,6 +17,8 @@
 		.form-group		
 			textarea#comentario.form-control(rows=4, name='comentario')
 			label.label(for='comentario') ¿Qué te interesa estudiar en Alberta?
+		.form-group
+			.g-recaptcha(data-sitekey='6LebuyIUAAAAAFJnhAes6x9Y_bE_EQs-UXw1Dumj')
 		.form-group-submit
 			.checkbox			
 				label

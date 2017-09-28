@@ -1,9 +1,9 @@
 doctype html
 html(lang="es")
 	head
-		title Alberta
+		title Estudia en Alberta
 		meta(charset='utf-8')
-		meta(name='description', content='Oficina del gobierno de Alberta, Canadá, que brinda información y contactos para estudiar en nuestras instituciones de educación en Alberta.')
+		meta(name='description', content='Portal de educación internacional que brinda orientación para estudiar en Alberta, Canadá y el mundo.')
 		meta(name='keywords', content='canada, estudios en canada, quiero ir a canada, ir a estudiar a canada, ir a canada, canada estudiar ingles, canada universidades, canada estudios, canada universidad, Alberta, estudia en Alberta, Alberta estudios, estudiar en el extranjero, estudios en el extranjero, estudios superiores en Canada, estudios superiores en Alberta, innovación en Canada, tecnologia en Canada, relación entre Mexico y Canada')
 		meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1')
 		link(href="imgs/favicon.ico", rel="shortcut icon")
@@ -11,7 +11,7 @@ html(lang="es")
 		script(src="js/modernizr.js")
 		block scripts
 	body
-		.general-wrapper
+		.general-wrappers
 			include ./partials/header.jade
 			.secondarycontainer
 			main.content
@@ -19,6 +19,7 @@ html(lang="es")
 			include ./partials/footer.jade
 		script(src="js/vendor/all.js")
 		script(src="js/general.js")
+		script(src="https://www.google.com/recaptcha/api.js")
 		script(type="text/javascript").
 			var _gaq = _gaq || [];
 			_gaq.push(['_setAccount', 'UA-30261600-1']);

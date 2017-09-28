@@ -548,6 +548,10 @@ $(document).ready(function() {
     			}
 			}
 		);
+
+		$('#session-interested').click(function(e){
+			$('.contact-form #session-name').val('Interesado en sesion');
+		});
 	});
 
 });
