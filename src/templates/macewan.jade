@@ -1,0 +1,47 @@
+extends ./base.jade
+
+block content
+	section.section-hero.section-hero-faqs
+		.semi-filled
+			.fullsize-filter
+			header
+				.container
+					h1 MacEwan Day
+					p.content-480-up Sábado 11 de Noviembre <br>10:00 AM - 6:00 PM<br> Hotel NH Collection <br> Guadalajara Providencia (São Paulo 2334)
+
+			.fullsize-image.semi-filled
+				div(style="background-image: url(imgs/hero_macewan.jpg)")
+		.container.content-480-down
+			p  Encuentra respuestas a las dudas generales que los aspirantes a estudiar en Alberta tienen usualmente
+	
+	section.section-studies.border-bottom-grey
+		.container
+			h2.title-small-down MacEway Day,<br> evento exclusivo
+			.row-flex
+				article.col-6.studies
+					h2.title-small-up Estudios de inglés en Alberta
+					p La Universidad de MacEwan ubicada en Edmonton Alberta Canadá te invita a su evento exclusivo para darte a conocer directamente del staff de su área internacional sobre sus oportunidades de estudios en todas sus modalidades:
+					ul
+						li - Programa de Verano para jóvenes (4 semanas)
+						li - Programas de carreras (4 años)
+						li - Programas de Certificados (1 año) y Diplomas (2 años)
+						li - Especialidades (Professional Development Programs)
+				figure.col-6
+					img(src='imgs/estudios-macewan.jpg', alt= 'Estudios de inglés en Alberta', class="img-responsive")
+	
+	section.section-studies.border-bottom-grey
+		.container
+			h2.title-small-down MacEway Day,<br> evento exclusivo
+			.row-flex
+				figure.col-6
+					img(src='imgs/sesiones-macewan.jpg', alt= 'Sesiones interactivas en Alberta', class="img-responsive")
+				article.col-6.studies
+					h2.title-small-up Sesiones <br> interactivas
+					p Podrás participar en nuestras sesiones interactivas que se llevarán a cabo cada hora, iniciando con la primera a las 10.30am. También este mismo día podrás solicitar admisión.
+					
+	section.full-width-ligh-gray.border-top-grey
+		.container
+			header.row
+				a(name='do-contact')
+					h2 ¿En qué podemos ayudarte?
+			include ./partials/contact-form.jade
