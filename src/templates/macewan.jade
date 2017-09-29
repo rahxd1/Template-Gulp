@@ -8,7 +8,7 @@ block content
 				.container
 					h1 MacEwan Day
 					p.content-480-up Sábado 11 de Noviembre <br>10:00 AM - 6:00 PM<br> Hotel NH Collection <br> Guadalajara Providencia (São Paulo 2334)
-
+					h3.free ÚNICO DÍA, EVENTO GRATUITO
 			.fullsize-image.semi-filled
 				div(style="background-image: url(imgs/hero_macewan.jpg)")
 		.container.content-480-down
@@ -16,10 +16,9 @@ block content
 	
 	section.section-studies.border-bottom-grey
 		.container
-			h2.title-small-down MacEway Day,<br> evento exclusivo
 			.row-flex
-				article.col-6.studies
-					h2.title-small-up Estudios de inglés en Alberta
+				article.col-6.studies.exclusive
+					h2.title-small-up MacEway Day,<br> evento exclusivo
 					p La Universidad de MacEwan ubicada en Edmonton Alberta Canadá te invita a su evento exclusivo para darte a conocer directamente del staff de su área internacional sobre sus oportunidades de estudios en todas sus modalidades:
 					ul
 						li - Programa de Verano para jóvenes (4 semanas)
@@ -29,7 +28,7 @@ block content
 				figure.col-6
 					img(src='imgs/estudios-macewan.jpg', alt= 'Estudios de inglés en Alberta', class="img-responsive")
 	
-	section.section-studies.border-bottom-grey
+	section.section-studies
 		.container
 			h2.title-small-down MacEway Day,<br> evento exclusivo
 			.row-flex
@@ -39,9 +38,10 @@ block content
 					h2.title-small-up Sesiones <br> interactivas
 					p Podrás participar en nuestras sesiones interactivas que se llevarán a cabo cada hora, iniciando con la primera a las 10.30am. También este mismo día podrás solicitar admisión.
 					
-	section.full-width-ligh-gray.border-top-grey
+	section.full-width-ligh-gray.preregister
 		.container
 			header.row
 				a(name='do-contact')
-					h2 ¿En qué podemos ayudarte?
-			include ./partials/contact-form.jade
+					h2 PRE-REGÍSTRATE 
+					p Pre regístrate enviándonos los siguientes datos <br> o hazlo directamente el día del evento.
+			include ./partials/pre-contact-form.jade

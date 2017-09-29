@@ -1,4 +1,21 @@
 $(document).ready(function() {
+	$('a.redirect').click(function (event) {
+		$.fancybox.close();
+		event.preventDefault();
+	  parent.document.location.href='macewan.html';
+	});
+
+	$(".lights").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '460px',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	}).trigger('click');
 
 	var getCustomSize = function(){
 		var screen;
@@ -63,7 +80,7 @@ $(document).ready(function() {
 		};
 
 	};
-	
+
 	var display_menu= function(){
 
 		var count = 1;
@@ -94,7 +111,7 @@ $(document).ready(function() {
 		});
 
 		var clickHandler = function(e) {
-			
+
 			if(count==0){
 				count=1
 				$('.header-menu').animate({
@@ -135,7 +152,7 @@ $(document).ready(function() {
 		return re.test(email);
 	};
 
-	
+
 	$('#email').focusout(function(){
 		if (!validateEmail($(this).val())){
 			$(this).addClass('error');
@@ -156,7 +173,7 @@ $(document).ready(function() {
 			if (input.val() === '') {
 				input.addClass('error');
 				input.siblings('span.error').show()
-				e.preventDefault(); 
+				e.preventDefault();
 			}else {
 				input.siblings('span.error').hide()
 			}
@@ -175,7 +192,7 @@ $(document).ready(function() {
 		input.blur(function(){
 			if ($(this).val() <= 0){
 				$(this).siblings('label.label').removeClass('active');
-			}	
+			}
 		});
 	});
 
@@ -235,7 +252,7 @@ $(document).ready(function() {
 
 	var url = 'https://www.googleapis.com/calendar/v3/calendars/'+CLIENT_ID+'/events';
 
-	
+
 	if($('#briefings').length > 0){
 
 		$.get(url ,options)
@@ -314,7 +331,7 @@ $(document).ready(function() {
 			$('#offering-type').text(data[key].name);
 			$('#offering-summary').text(data[key].copy);
 			$('.text-hide').hide();
-		});	
+		});
 	};
 
 	var display_specialties = function(element){
@@ -328,7 +345,7 @@ $(document).ready(function() {
 
 		school_wrapper.empty();
 
-		$.getJSON("json/academic-offerings.json", function(data){	
+		$.getJSON("json/academic-offerings.json", function(data){
 			var val_specialties = data[key_offering].cities[key_city];
 			var specialties = Object.keys(val_specialties);
 
@@ -353,7 +370,7 @@ $(document).ready(function() {
 				var val_schools = data[key_offering].cities[key_city][key_specialty];
 
 				$.each(val_schools, function(index, value){
-	
+
 					var img = $('<img>', {src: value.logo})
 					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
 
@@ -394,7 +411,7 @@ $(document).ready(function() {
 		var key = dropdown.val();
 
 		if(key !== '') {
-			$.getJSON("json/academic-offerings.json", function(data){	
+			$.getJSON("json/academic-offerings.json", function(data){
 				var vals = data[key];
 				var cities = Object.keys(vals.cities);
 
@@ -429,10 +446,10 @@ $(document).ready(function() {
 		var key_city = dropdown_city.val();
 
 		if(key_city !== '') {
-			$.getJSON("json/academic-offerings.json", function(data){	
+			$.getJSON("json/academic-offerings.json", function(data){
 				var val_specialties = data[key_offering].cities[key_city];
 				var specialties = Object.keys(val_specialties);
-			
+
 				var select_specialty = $('#mobile-select-specialty');
 
 				select_specialty.empty();
@@ -457,7 +474,7 @@ $(document).ready(function() {
 		var key_offering = $('#mobile-select-offering').val();
 		var key_city = $('#mobile-select-city').val();
 		var dropdown_specialty = $(this);
-		var key_specialty = dropdown_specialty.val().replace(/_/g, ' ');		
+		var key_specialty = dropdown_specialty.val().replace(/_/g, ' ');
 
 		if(key_specialty !== '') {
 			$.getJSON("json/academic-offerings.json", function(data){
@@ -465,9 +482,9 @@ $(document).ready(function() {
 
 				var school_wrapper = $('.school-wrapper');
 				school_wrapper.empty();
-				
+
 				$.each(val_schools, function(index, value){
-	
+
 					var img = $('<img>', {src: value.logo})
 					var p = "<p class='p-mobile'><span>" + value.name + "</span><br><span>" + value.web + "</span></p>"
 
@@ -511,7 +528,7 @@ $(document).ready(function() {
 
 	$(function() {
 
-		$('a[href*=#]:not([href=#])').click(function(e){	
+		$('a[href*=#]:not([href=#])').click(function(e){
 			if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
 				var target = $(this.hash);
 				target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
@@ -524,13 +541,13 @@ $(document).ready(function() {
 
 		if(window.location.href.match(/preguntas.html/)) {
 			window.setTimeout(function() {
-			    $(window).scrollTop(0); 
+			    $(window).scrollTop(0);
 			}, 0);
 		};
 
 		$('#slider').owlCarousel(
 			{
-				center: true, 
+				center: true,
 				loop:true,
 				autoplay:true,
 				responsiveRefreshRate: 100,
