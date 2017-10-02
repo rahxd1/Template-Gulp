@@ -66,38 +66,34 @@
 	color: #000
 	z-index: 9999
 	font-size: 30px
-	right: 1%
+	right: 5%
 
 
-@media screen and (min-width: 0px)
+@media screen and (min-width: 0px) and (max-width: 768px)
 	.lighbox .studies h2
-		color: #3a3b3c
+		margin-top: 26px
 		text-align: center
-		font-size: 22px
-	.lighbox .studies h6
-		font-size: 18px
-	.lighbox .studies h3
-		font-size: 28px
 	.lighbox .studies
 		margin-bottom: 60px
 	.lighbox figure
 		margin-left: 10px
-
+	.fancybox-wrap
+		width: 95% !important
+		left: 9px !important
+	.imageslight
+		display: none
+	.fancybox-type-iframe .fancybox-inner
+		width: 100% !important
+		height: 433px !important
 @media screen and (min-width: 768px)
 	.lighbox .studies
 		margin-bottom: 0px
 
 @media screen and (min-width: 992px)
+
+	.imageslight
+		display: block
 	.lighbox
 		.studies
 			text-align: center
 			padding-top: 7%
-		h2
-			color: #3a3b3c
-			font-size: 36px
-		h6
-			font-size: 20px
-		h3
-			font-size: 36px
-		p
-			font-size: 20px
