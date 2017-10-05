@@ -1,21 +1,5 @@
 $(document).ready(function() {
-	$('a.redirect').click(function (event) {
-		$.fancybox.close();
-		event.preventDefault();
-	  parent.document.location.href='macewan.html';
-	});
 
-	$(".lights").fancybox({
-		maxWidth	: 800,
-		maxHeight	: 600,
-		fitToView	: false,
-		width		: '70%',
-		height		: '460px',
-		autoSize	: false,
-		closeClick	: false,
-		openEffect	: 'none',
-		closeEffect	: 'none'
-	}).trigger('click');
 
 	var getCustomSize = function(){
 		var screen;
@@ -569,6 +553,26 @@ $(document).ready(function() {
 		$('#session-interested').click(function(e){
 			$('.contact-form #session-name').val('Interesado en sesion');
 		});
+
 	});
+
+	$('a.redirect').click(function (event) {
+		$.fancybox.close();
+		event.preventDefault();
+		parent.document.location.href='macewan.html';
+	});
+
+	$(".lights").fancybox({
+		maxWidth	: 800,
+		maxHeight	: 600,
+		fitToView	: false,
+		width		: '70%',
+		height		: '460px',
+		autoSize	: false,
+		closeClick	: false,
+		openEffect	: 'none',
+		closeEffect	: 'none'
+	}).trigger('click');
+
 
 });

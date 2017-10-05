@@ -19,7 +19,7 @@ block content
 			p Jóvenes de todo el mundo deciden estudiar en Alberta por su espectacular belleza natural, medio ambiente agradable, diversidad cultural, comunidades alegres y un sólido sistema de educación superior e innovación.
 	section#why-alberta.why-alberta
 		.container
-			a.lights(data-fancybox-type='iframe', href='/lightbox.html', style="display:none")
+			a.lights(href='#lightbox', style="display:none")
 			h2 ¿Por qué Alberta?
 			#slider.owl-carousel.owl-theme
 				article.item
@@ -146,4 +146,15 @@ block content
 				a(name='do-contact')
 					h2 ¿En qué podemos ayudarte?
 			include ./partials/contact-form.jade
-			
+	section(style="display:none")
+		.section-studies.lighbox#lightbox
+			.container.background-white
+				.row-flex
+					figure.col-6.imageslight
+						img(src='imgs/Logobonito.jpg', alt= 'Sesiones interactivas en Alberta', class="img-responsive")
+					article.col-6.studies
+						h2.title-small-up ¡ACOMPÁÑANOS!
+						h6 Feria de estudios
+						h3 MacEwan Day
+						p Sábado 11 de Noviembre <br> 10:00 AM - 6:00 PM<br>Hotel NH Collection Guadalajara Providencia (São Paulo 2334)
+						a.button.button-blue.redirect.closeBtn Mas información
