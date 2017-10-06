@@ -1,7 +1,23 @@
+.mcewancontain
+	h5
+		font-size: 22px
+		color: #fff
+		text-transform: inherit
+	p
+		display: block
+		font-size: 18px
+		line-height: initial
+		margin: 28px 0
+	.button
+		background-color: #fff
+		color: #00afdb
+		top: 25px
+		position: relative
+
 .why-alberta
 	#slider
 		padding: 0 em-calc(10)
-		
+
 		+bp(min, em-calc(960))
 			padding: 0
 		img
@@ -13,10 +29,10 @@
 		overflow: auto
 
 		h3
-			padding: 0 em-calc(10)								
+			padding: 0 em-calc(10)
 
 .section-working-studying
-	
+
 	img
 		width: 100%
 
@@ -52,7 +68,7 @@
 
 		@include bp(small)
 			text-align: left
-			margin-bottom: em-calc(10)	
+			margin-bottom: em-calc(10)
 
 	.row-flex
 		@extend %flex-wrap-nowrap
@@ -73,7 +89,7 @@
 			article
 				order: 2
 			figure
-				order: 1																		
+				order: 1
 .section-briefings
 	header
 		margin-bottom: em-calc(40)
@@ -106,14 +122,14 @@
 		.date-session
 			margin-bottom: em-calc(5)
 
-		span	
+		span
 			font:
 				family: "ProximaNovaSemiBold"
 				size: em-calc(24)
-			display: block	
-			margin-bottom: em-calc(15)	
+			display: block
+			margin-bottom: em-calc(15)
 
-		@include bp(max, em-calc(959))		
+		@include bp(max, em-calc(959))
 			&:not(:last-of-type)
 				margin-bottom: em-calc(40)
 
@@ -165,7 +181,7 @@
 		.fancybox-video
 			left: 40%
 			position: absolute
-			top: 40%	
+			top: 40%
 
 article.working-studying
 	@extend %text-align-left
@@ -195,7 +211,7 @@ a
 		display: block
 
 	> ul
-		display: flex 
+		display: flex
 		justify-content: center
 		height: em-calc(40)
 
@@ -217,7 +233,7 @@ a
 					left: 50%
 					width: 0%
 					+transition(all .25s ease-in-out)
-				
+
 				&.active
 					color: $ligh-blue
 					font-family: 'ProximaNovaSemiBold'
@@ -226,11 +242,11 @@ a
 						width: 100%
 						left: 0
 
-			&:hover		
+			&:hover
 				> a
 					color: $ligh-blue
 					font-family: 'ProximaNovaSemiBold'
-					
+
 					&:after
 						width: 100%
 						left: 0
@@ -257,7 +273,7 @@ a
 		font-family: 'ProximaNovaSemiBold'
 
 	#mobile-offering-city, #offering-city
-		font-family: "ProximaNovaSemiBold"	
+		font-family: "ProximaNovaSemiBold"
 
 	p
 		text-align: left
@@ -274,7 +290,7 @@ a
 
 		+bp(min, em-calc(960))
 			display: block
-	
+
 	.school-wrapper
 		background-color: $ligh-gray
 		box-shadow: 0 em-calc(2) em-calc(3) 0 rgba($strong-gray, 0.5)
@@ -282,7 +298,7 @@ a
 		max-height: em-calc(270)
 		border-radius: em-calc(4)
 		overflow-x: hidden
-		overflow-y: scroll					
+		overflow-y: scroll
 
 	.results-schools
 		margin: 0 auto
@@ -323,13 +339,13 @@ a
 							font-size: em-calc(14)
 							color: $font-color-base
 
-	.text-hide, .mobile-text-hide		
+	.text-hide, .mobile-text-hide
 		display: none
 
 	#mobile-select-specialty option
 		overflow: hidden
 		white-space: nowrap
-		text-overflow: ellipsis				
+		text-overflow: ellipsis
 
 .map-wrapper
 	height: em-calc(615)
@@ -343,10 +359,10 @@ a
 
 	#offering-type
 		text-align: left
-		margin-bottom: em-calc(5)		
+		margin-bottom: em-calc(5)
 
 	.container
-		position: relative		
+		position: relative
 
 	.column-map, .column-results
 		width: 50%
@@ -382,7 +398,7 @@ a
 			span
 				font:
 					family: "ProximaNovaRegular"
-					size: em-calc(14) 
+					size: em-calc(14)
 				color: $font-color-base
 				position: relative
 				top: em-calc(30)
@@ -428,7 +444,7 @@ a
 				bottom: em-calc(185)
 				right: em-calc(180)
 
-			&[data-city='olds']	
+			&[data-city='olds']
 				bottom: em-calc(155)
 				left: em-calc(195)
 
