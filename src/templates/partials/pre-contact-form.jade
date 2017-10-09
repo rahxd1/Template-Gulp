@@ -1,8 +1,6 @@
 .row
-	form.contact-form(action="send-preregister.php", method="post")
-		input#session-name.form-control(type='hidden', name='session', value='')
-		input#session-date.form-control(type='hidden', name='date', value='--')
-		input#session-time.form-control(type='hidden', name='time', value='--')
+	form.contact-form(action="send-message.php", method="post")
+		input#session-name.form-control(type='hidden', name='macewan', value='MacEwan Day')
 		.form-group.required
 			input#nombre.form-control(type='text', name='nombre')
 			label.label(for="nombre") Nombre completo
@@ -11,5 +9,7 @@
 			input#email.form-control(type='email', name='email')
 			label.label(for="email") Correo electronico
 			span.error *campo obligatorio
+		.form-group
+			.g-recaptcha(data-sitekey='6LebuyIUAAAAAFJnhAes6x9Y_bE_EQs-UXw1Dumj')
 		.form-group-submit
 			input.button.button-blue(type='submit', value='Enviar', name='submit')
