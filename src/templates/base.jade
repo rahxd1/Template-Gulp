@@ -1,31 +1,18 @@
 doctype html
 html(lang="es")
 	head
-		title Estudia en Alberta
+		title Test DIM
 		meta(charset='utf-8')
-		meta(name='description', content='Portal de educación internacional que brinda orientación para estudiar en Alberta, Canadá y el mundo.')
-		meta(name='keywords', content='canada, estudios en canada, quiero ir a canada, ir a estudiar a canada, ir a canada, canada estudiar ingles, canada universidades, canada estudios, canada universidad, Alberta, estudia en Alberta, Alberta estudios, estudiar en el extranjero, estudios en el extranjero, estudios superiores en Canada, estudios superiores en Alberta, innovación en Canada, tecnologia en Canada, relación entre Mexico y Canada')
-		meta(name='viewport', content='width=device-width, user-scalable=no, initial-scale=1')
-		link(href="imgs/favicon.ico", rel="shortcut icon")
+		meta(name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no")
 		link(rel="stylesheet", href="css/general.css")
-		script(src="js/modernizr.js")
-		block scripts
+
 	body
 		.general-wrappers
 			include ./partials/header.jade
-			.secondarycontainer
 			main.content
-				block content
+			block content
 			include ./partials/footer.jade
-		script(src="js/vendor/all.js")
 		script(src="js/general.js")
-		script(src="https://www.google.com/recaptcha/api.js")
-		script(type="text/javascript").
-			var _gaq = _gaq || [];
-			_gaq.push(['_setAccount', 'UA-30261600-1']);
-			_gaq.push(['_trackPageview']);
-			(function () {
-				var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-				ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-				var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-			})();
+		script(src='js/vendor/jquery-3.2.1.slim.min.js')
+		script(src='js/vendor/popper.js/1.11.0/umd/popper.min.js')
+		script(src='js/vendor/js/bootstrap.min.js')

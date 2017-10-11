@@ -8,9 +8,15 @@
     "gulp-connect": "^2.2.0",
     "gulp-gzip": "^1.2.0",
     "gulp-imagemin": "^2.4.0",
+    "gulp-inject-partials": "^1.0.3",
     "gulp-jade": "^1.1.0",
     "gulp-plumber": "^1.0.1",
     "gulp-sass": "^2.1.0",
     "gulp-uglify": "^1.5.1"
+  },
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "bootstrap-sass": "^3.3.7",
+    "gulp-haml": "^0.2.0"
   }
 }

@@ -58,7 +58,7 @@ gulp.task('compass', function() {
     }))
     .pipe(prefix('last 2 version', 'safari 5', 'ie 7', 'ie 8', 'ie 9', 'opera 12.1', 'ios 6', 'android 4'))
     /*.on('error', function(error) {
-      // Would like to catch the error here 
+      // Would like to catch the error here
       console.log(error);
       this.emit('end');
     })*/
@@ -70,7 +70,7 @@ gulp.task('compass', function() {
 gulp.task('image', function(){
 	gulp.src('src/img/*')
 		.pipe(imagemin())
-		.pipe(gulp.dest(outputDir+'/img')); // Comprimir las imagenes en la misma carpeta	
+		.pipe(gulp.dest(outputDir+'/img')); // Comprimir las imagenes en la misma carpeta
 });
 
 gulp.task('jade-compile', function(){
@@ -89,7 +89,7 @@ gulp.task('jade-watch', ['jade-compile'])
 gulp.task('connect', function(){
 	connect.server({
 		root: outputDir,
-		livereolad: true 
+		livereolad: true
 	});
 });
 
@@ -98,9 +98,9 @@ gulp.task('copyfonts', function() {
 	.pipe(gulp.dest(outputDir+'/fonts'));
 });
 
-gulp.task('copyimgs', function() {
-	gulp.src('src/imgs/**/*.{png,jpg}')
-	.pipe(gulp.dest(outputDir+'/imgs'));
+gulp.task('copyimages', function() {
+	gulp.src('src/images/**/*.{png,jpg}')
+	.pipe(gulp.dest(outputDir+'/images'));
 });
 
 gulp.task('copyjson', function() {
@@ -123,4 +123,4 @@ gulp.task('watch', function(){
 	gulp.watch('build/development/**/*.html').on('change', browserSync.reload);
 });
 
-gulp.task('default', ['scripts', 'vendor-scripts', 'copyfonts', 'copyimgs', 'copyjson', 'copyvideos', 'compass', 'jade-compile' ,'watch']);
+gulp.task('default', ['scripts', 'vendor-scripts', 'copyfonts', 'copyimages', 'copyjson', 'copyvideos', 'compass', 'jade-compile' ,'watch']);

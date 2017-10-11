@@ -1,4 +1,4 @@
-# Alberta
+# Template Gulp
 
 ## Instalar gemas
 
