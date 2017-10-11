@@ -1,4 +1,24 @@
-# Template Gulp
+# Template Gulp, SASS y JADE
+
+### Comandos para crear la aplicación
+
+Crear el directorio de la aplicación
+```sh
+$ mkdir miaplicacion
+$ cd miaplicacion
+```
+Instalar gulp de manera global
+
+```sh
+$ npm install -g gulp
+```
+
+Inicializar el proyecto con node
+
+```sh
+$ npm init
+```
+
 
 ## Instalar gemas
 
