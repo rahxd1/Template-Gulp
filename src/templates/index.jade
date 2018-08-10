@@ -1,39 +1,184 @@
 extends ./base.jade
 
 block content
-	section.section-hero
-		h1 Jade - node template engine
+	.jumbotron.jumbotron-fluid.bg-info
+		.container.text-sm-center.p-t-3
+			h1.display-2 Full Stack Conf
+			p.lead A One-day Conference About All Things JavaScript!
+			.btn-group.m-t-2(role='group', aria-label='Basic example')
+				button.btn.btn-primary.btn-lg(type='button', data-toggle='modal', data-target='#register') Register Now
+				a.btn.btn-secondary.btn-lg(href='#speakers') See Speakers
+	.container.p-t-2
+		#about.row
+			.col-lg-4.col-lg-push-4
+				h3.m-b-2 About Full Stack Conf
+				img.m-b-1.img-fluid.img-rounded.hidden-xs-down(src='http://lilianabrissos.com/img/projects/pdx.jpg', alt='Portland')
+				p
+				| The beautiful city of Portland, Oregon will be the host city for Full Stack Conf!
+				p
+				| Explore the future of JavaScript with a lineup of industry professionals. Discover new techniques to advance your career as a web developer.
+			.col-lg-4.col-lg-pull-4
+				h3.m-b-2 Expert Speakers
+				p
+				| Our expert speaker lineup was just announced, so don't wait too long before grabbing your tickets!
+				p
+				| Want to meet the international JavaScript community and share skills with some of the world's top experts, hackers, and makers? Be the first to know what to expect for the future of JavaScript.
+				p
+				| Full Stack Conf is committed to being inclusive and welcoming for everyone. We look forward to another intensive day of learning and sharing.
+			.col-lg-4
+				h3.m-b-2 What You'll Learn
+				.list-group
+				a.list-group-item(href='#')
+					strong MongoDB
+					| : NoSQL database
+				a.list-group-item(href='#')
+					strong Angular
+					| : JavaScript framework
+				a.list-group-item(href='#')
+					strong Express
+					| : Framework for Node
+				a.list-group-item(href='#')
+					strong Node.js
+					| : JavaScript environment
+				a.list-group-item(href='#')
+					strong ES2015
+					| : Latest version of JavaScript
+				a.list-group-item(href='#')
+					strong Babel
+					| : JavaScript compiler
+		h1#speakers.display-4.text-xs-center.m-y-3.text-muted Speakers
+		.row
+			.col-md-6.col-lg-4
+				.card
+				img.card-img-top.img-fluid(src='http://lilianabrissos.com/img/projects/angie.png', alt='Card image cap')
+				.card-block
+					h4.card-title Angie McAngular
+					p.card-text
+					| Angie is a web developer and teacher who is passionate about building scalable, data driven web apps, especially ones that address old problems with new tech!
+			.col-md-6.col-lg-4
+				.card
+				img.card-img-top.img-fluid(src='http://lilianabrissos.com/img/projects/nodestradamus.png', alt='Card image cap')
+				.card-block
+					h4.card-title NodeStradamus
+					p.card-text
+					| "NodeStra" is a software engineer and philosopher trying to leave the world better than he found it. He codes for non-profits, eCommerce, and large-scale web apps.
+			.col-md-6.col-lg-4
+				.card
+				img.card-img-top.img-fluid(src='http://lilianabrissos.com/img/projects/geo.png', alt='Card image cap')
+				.card-block
+					h4.card-title Geo "Lo" Cation
+					p.card-text
+					| Geo is a JavaScript developer working on large-scale applications. He's also a teacher who strives to support students in removing all barriers to learning code.
+			.col-md-6.col-lg-4
+				.card
+				img.card-img-top.img-fluid(src='http://lilianabrissos.com/img/projects/ecma.png', alt='Card image cap')
+				.card-block
+					h4.card-title Ecma Scriptnstuff
+					p.card-text
+					| Ecma found her passion for computers and programming over 15 years ago. She is excited to introduce people to the wonderful world of JavaScript.
+			.col-md-6.col-lg-4
+				.card
+				img.card-img-top.img-fluid(src='http://lilianabrissos.com/img/projects/jay.png', alt='Card image cap')
+				.card-block
+					h4.card-title Jay Query
+					p.card-text
+					| Jay is a developer, author of CSS: The Missing Manual, JavaScript & jQuery: The Missing Manual, and web development teacher.
+			.col-md-6.col-lg-4
+				.card
+				img.card-img-top.img-fluid(src='http://lilianabrissos.com/img/projects/json.png', alt='Card image cap')
+				.card-block
+					h4.card-title Json Babel
+					p.card-text
+					| All of his professional life, Json has worked with computers online; he is a polyglot programmer and likes using the right tools for the job.
+			
+		h1#schedule.display-4.text-xs-center.m-y-3.text-muted Schedule
+		ul.list-group
+			li.list-group-item
+				h4.list-group-item-heading
+				| Keynote: Internet of Things 
+				span.label.label-info.label-pill.pull-xs-right 9:00am
+				| 					NodeStradamus
+			li.list-group-item
+				h4.list-group-item-heading
+				| Angular Basics 
+				span.label.label-info.label-pill.pull-xs-right 10:00am
+				| 					Angie McAngular
+			li.list-group-item
+				h4.list-group-item-heading
+				| Hey, Mongo! 
+				span.label.label-info.label-pill.pull-xs-right 11:00am
+				| 					Jay Query
+			li.list-group-item.list-group-item-success
+				h4.list-group-item-heading
+				| Lunch 
+				span.label.label-info.label-pill.pull-xs-right 12:00pm
+				| 					Free pizza for everyone!
+			li.list-group-item
+				h4.list-group-item-heading
+				| Introducing ES2015 
+				span.label.label-info.label-pill.pull-xs-right 1:00pm
+				| 			  	Ecma Scriptnstuff
+			li.list-group-item
+				h4.list-group-item-heading
+				| Gettin' MEAN 
+				span.label.label-info.label-pill.pull-xs-right 2:00pm
+				| 			    Geo "Lo" Cation
+			li.list-group-item
+				h4.list-group-item-heading
+				| What's Babel? 
+				span.label.label-info.label-pill.pull-xs-right 3:00pm
+				| 			    Json Babel
+			
+		button.btn.btn-info-outline.btn-lg.center-block.m-y-3(type='button', data-toggle='modal', data-target='#register') Don't Miss Out, Register Now
 
-		.jumbotron
-			.container
-				img(src="images/logo.jpg", alt="logo", class="img-resposive")
-				h1.display-3 
-					i.fa.fa-wpexplorer
+		hr
+		.row.p-y-2.text-muted
+			.col-md-6.col-xl-5
 				p
-					| This is a template for a simple marketing or informational website. It includes a large callout called a jumbotron and three supporting pieces of content. Use it as a starting point to create something more unique.
+				strong About Treehouse
 				p
-					a.btn.btn-primary.btn-lg(href='#', role='button') Learn more »
-		.container
-			// Example row of columns
-			.row
-				.col-md-4
-					h2 Heading
-					p
-						| Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-					p
-						a.btn.btn-secondary(href='#', role='button') View details »
-				.col-md-4
-					h2 Heading
-					p
-						| Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui.
-					p
-						a.btn.btn-secondary(href='#', role='button') View details »
-				.col-md-4
-					h2 Heading
-					p
-						| Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.
-					p
-						a.btn.btn-secondary(href='#', role='button') View details »
-			hr
-			footer
-				p © Company 2017
+				| Treehouse brings affordable technology education to people everywhere to help them achieve their dreams and change the world.
+			.col-md-6.col-xl-5.col-xl-offset-2
+				p
+				strong Stay up-to-date on Full Stack Conf
+				.input-group
+				input.form-control(type='text', placeholder='Email')
+				span.input-group-btn
+					button.btn.btn-primary(type='button') Sign up
+		hr
+		.row.p-y-1
+			.col-md-7
+				ul.nav.nav-inline
+				li.nav-item
+					a.nav-link(href='#') Community
+				li.nav-item
+					a.nav-link(href='#') Tracks
+				li.nav-item
+					// Split button
+					.btn-group.dropup
+					button.btn.btn-secondary(type='button') Other Confs
+					button.btn.btn-secondary.dropdown-toggle(type='button', data-toggle='dropdown', aria-haspopup='true', aria-expanded='false')
+						span.sr-only Toggle Dropdown
+					.dropdown-menu
+						a.dropdown-item(href='#') CSS Conf
+						a.dropdown-item(href='#') Python Conf
+						a.dropdown-item(href='#') Java Conf
+						a.dropdown-item(href='#') Swift Conf
+			.col-md-5.text-md-right
+				small © 2016 Full Stack Conf & Treehouse
+		// /footer
+	
+	#register.modal.fade
+		.modal-dialog.modal-lg(role='document')
+		.modal-content
+			.modal-header
+			button.close(type='button', data-dismiss='modal', aria-label='Close')
+				span(aria-hidden='true') ×
+			h4.modal-title Register for Full Stack Conf
+			.modal-body
+			p Form goes here...
+			.modal-footer
+			button.btn.btn-secondary(type='button', data-dismiss='modal') Close
+			button.btn.btn-primary(type='button') Save changes
+		// /.modal-content
+		// /.modal-dialog

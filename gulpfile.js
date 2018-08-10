@@ -30,7 +30,7 @@ function errorlog(error){
 // Tasks
 
 gulp.task('scripts', function(){
-	gulp.src(['src/js/general.js','src/js/modernizr.js'])
+	gulp.src(['node_modules/bootstrap/dist/js/bootstrap.min.js','src/js/general.js','src/js/modernizr.js'])
 		.pipe(plumber({errorHandler:errorlog}))
 		.pipe(uglify())
 		.pipe(gulp.dest(outputDir+'/js'))
@@ -47,7 +47,7 @@ gulp.task('vendor-scripts', function(){
 });
 
 gulp.task('compass', function() {
-  gulp.src('src/scss/**/*.{scss,sass}')
+  gulp.src(['node_modules/bootstrap/scss/bootstrap.scss', ,'src/scss/**/*.{scss,sass}'])
   	.pipe(plumber({errorHandler:errorlog}))
     .pipe(compass({
     	style: 'compressed',
