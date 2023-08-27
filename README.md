@@ -1,3 +1,5 @@
+# DEPRECATED
+
 # Template Gulp, SASS y JADE
 
 ### Comandos para crear la aplicación
